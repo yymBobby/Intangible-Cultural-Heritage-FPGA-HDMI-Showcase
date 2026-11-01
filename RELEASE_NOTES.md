@@ -1,8 +1,10 @@
+本次v1.0.1修复跨平台工程引用校验并更新CI工具；生产工程、RTL、BIT和IMG不变。
+
 正式版本整理自团队开发仓库 `the-second-stage` 提交 `4b0f5f677f5e04a115c8462dd7f8670ccc821645`，保留旋钮点按切换主题的实际控制方式。
 
 ## 下载
 
-- `Intangible_Cultural_Heritage_FPGA_HDMI_Showcase_v1.0.0.zip`：完整工程、软件、素材、BIT、IMG、文档和验证记录，首次使用推荐。
+- `Intangible_Cultural_Heritage_FPGA_HDMI_Showcase_v1.0.1.zip`：完整工程、软件、素材、BIT、IMG、文档和验证记录，首次使用推荐。
 - `media_assets.zip`：将素材解压到源码仓库根目录，用于裁切和从零打包。
 - `showcase_font176.img`：匹配Font176的原始TF镜像。
 - `MediaAV_ReedAlarm_Font176_20261026.bit`：配套FPGA配置文件。

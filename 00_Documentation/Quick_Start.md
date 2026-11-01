@@ -2,7 +2,7 @@
 
 ## 下载与打开
 
-完整文件位于 [v1.0.0](https://github.com/yymBobby/Intangible-Cultural-Heritage-FPGA-HDMI-Showcase/releases/tag/v1.0.0)。建议首次使用下载全称ZIP，解压到英文目录。用安路 Tang Dynasty 6.2.1 Engineer 打开：
+完整文件位于 [v1.0.1](https://github.com/yymBobby/Intangible-Cultural-Heritage-FPGA-HDMI-Showcase/releases/tag/v1.0.1)。建议首次使用下载全称ZIP，解压到英文目录。用安路 Tang Dynasty 6.2.1 Engineer 打开：
 
 `01_FPGA_Project/src/td_project/Media_AV_Visualizer_Ultimate.al`
 

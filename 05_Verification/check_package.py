@@ -8,6 +8,17 @@ import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 
+def resolve_td_reference(base,reference):
+    """Resolve TD's Windows project spelling on case-sensitive CI hosts."""
+    current=base
+    for part in reference.replace('\\','/').split('/'):
+        if part in ('','.'):continue
+        if part=='..':current=current.parent;continue
+        matches=[p for p in current.iterdir() if p.name.casefold()==part.casefold()] if current.is_dir() else []
+        if len(matches)!=1:return None
+        current=matches[0]
+    return current.resolve()
+
 def semantic_sha(path):
     root=ET.fromstring(path.read_bytes().replace(b'UsedInP&R',b'UsedInP&amp;R'))
     root.attrib.pop('Path',None)
@@ -34,8 +45,8 @@ def main():
     refs=doc.findall('.//Source_Files//File')
     for item in refs:
         if 'Path' not in item.attrib:continue
-        p=(project.parent/item.get('Path')).resolve()
-        if not p.is_relative_to((ROOT/'01_FPGA_Project').resolve()) or not p.is_file():failures.append('Invalid project reference: '+item.get('Path'))
+        p=resolve_td_reference(project.parent,item.get('Path'))
+        if p is None or not p.is_relative_to((ROOT/'01_FPGA_Project').resolve()) or not p.is_file():failures.append('Invalid project reference: '+item.get('Path'))
     for p in ROOT.rglob('*'):
         if '.git' in p.relative_to(ROOT).parts:continue
         if not p.relative_to(ROOT).as_posix().isascii():failures.append('Non-English path: '+str(p))

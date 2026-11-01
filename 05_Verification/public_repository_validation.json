@@ -14,5 +14,7 @@
   "new_full_place_and_route": false,
   "bit_sha256": "a9342657b061af4a1010a02f079b9ff10d42aff9f91fd280084f354adccb4ae6",
   "complete_package_location": "Intangible_Cultural_Heritage_FPGA_HDMI_Showcase_Release_20261101",
-  "source_repository_location": "Intangible_Cultural_Heritage_FPGA_HDMI_Showcase"
+  "source_repository_location": "Intangible_Cultural_Heritage_FPGA_HDMI_Showcase",
+  "public_release_version": "v1.0.1",
+  "td_project_reference_case_resolution": "Windows case-insensitive lookup on all hosts; production project unchanged"
 }

@@ -8,7 +8,7 @@
 
 ## 快速开始
 
-1. 在 [v1.0.0 发布页](https://github.com/yymBobby/Intangible-Cultural-Heritage-FPGA-HDMI-Showcase/releases/tag/v1.0.0) 下载完整发布包 `Intangible_Cultural_Heritage_FPGA_HDMI_Showcase_v1.0.0.zip`，解压到英文路径。
+1. 在 [v1.0.1 发布页](https://github.com/yymBobby/Intangible-Cultural-Heritage-FPGA-HDMI-Showcase/releases/tag/v1.0.1) 下载完整发布包 `Intangible_Cultural_Heritage_FPGA_HDMI_Showcase_v1.0.1.zip`，解压到英文路径。
 2. 安装安路 Tang Dynasty 6.2.1 Engineer（原签核版本 6.2.168.116），在“文件 → 打开工程”选择：
 
    `01_FPGA_Project/src/td_project/Media_AV_Visualizer_Ultimate.al`
