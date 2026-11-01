@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "count": 12,
+  "all_files_byte_identical_to_github": true,
+  "files": [
+    {
+      "file": "alarm_text_lut.vh",
+      "sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "file": "font_contract.json",
+      "sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084"
+    },
+    {
+      "file": "font_rom.bin",
+      "sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83"
+    },
+    {
+      "file": "font_rom.hex",
+      "sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62"
+    },
+    {
+      "file": "font_rom.mem",
+      "sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3"
+    },
+    {
+      "file": "font_rom.mif",
+      "sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7"
+    },
+    {
+      "file": "font_rom_16.mif",
+      "sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711"
+    },
+    {
+      "file": "glyph_map.json",
+      "sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de"
+    },
+    {
+      "file": "manifest.json",
+      "sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7"
+    },
+    {
+      "file": "mapping_migration.json",
+      "sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39"
+    },
+    {
+      "file": "menu_extension.json",
+      "sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f"
+    },
+    {
+      "file": "menu_text_lut.vh",
+      "sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    }
+  ]
+}

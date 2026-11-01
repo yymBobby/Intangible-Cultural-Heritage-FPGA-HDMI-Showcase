@@ -1,0 +1,7 @@
+{
+  "python_used_for_checks": "3.12.14",
+  "Pillow": "12.3.0",
+  "fonttools": "4.66.0",
+  "font_file_for_generic_font_smoke_test": "C:/Windows/Fonts/msyh.ttc",
+  "fixed_release_font_builder_requires_external_font": false
+}

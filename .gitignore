@@ -1,0 +1,29 @@
+# Local editor/OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Simulation/build outputs (published evidence stays in 05_Verification)
+06_Simulation/output/
+03_Software/output/
+01_FPGA_Project/Reports/
+01_FPGA_Project/src/td_project/work/
+01_FPGA_Project/src/td_project/*.vcd
+01_FPGA_Project/src/td_project/*.wlf
+01_FPGA_Project/src/td_project/*.vvp
+01_FPGA_Project/src/td_project/*.ppm
+01_FPGA_Project/src/td_project/*.csv
+01_FPGA_Project/src/td_project/*.db
+01_FPGA_Project/src/td_project/*.log
+01_FPGA_Project/src/td_project/transcript
+01_FPGA_Project/src/td_project/modelsim.ini
+*.asv
+*.bak
+
+# Large media distributed as release attachments
+04_Media/Pack_Input/assets/
+04_Media/Image_Sources/
+04_Media/Ready_To_Flash/*.img

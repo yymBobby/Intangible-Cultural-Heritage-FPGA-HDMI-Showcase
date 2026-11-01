@@ -1,0 +1,2 @@
+PASS: six-frame cache, cold miss/partial-theme HIT forbid animation, all-four HIT permits it, neighbour covers, pinned slots, stable stalled request and cancellation drain
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\cache\tb_image_cache_scheduler.sv:100: $finish called at 1190000 (1ps)

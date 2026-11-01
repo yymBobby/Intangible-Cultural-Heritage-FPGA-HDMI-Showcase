@@ -1,0 +1,3 @@
+VCD info: dumpfile alarm_controls.vcd opened for output.
+PASS: actual debounced encoder + joystick mute consumed, SW0 not replayed, menu/image/theme controls resume while warning persists
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\alarm\tb_alarm_controls.sv:45: $finish called at 20700000 (1ps)

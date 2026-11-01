@@ -1,0 +1,3 @@
+VCD info: dumpfile contrast_ui.vcd opened for output.
+PASS: contrast UI checks=19; four levels, encoder/joystick endpoint saturation and immediate reversal, seven-item wrap, accept and restore
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\image\tb_contrast_ui.sv:42: $finish called at 5050000 (1ps)

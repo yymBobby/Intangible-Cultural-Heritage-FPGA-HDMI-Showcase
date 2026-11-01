@@ -1,0 +1,886 @@
+{
+  "used": 176,
+  "character_count": 175,
+  "glyphs": [
+    {
+      "glyph_id": 0,
+      "old_id": 0,
+      "char": " "
+    },
+    {
+      "glyph_id": 1,
+      "old_id": 1,
+      "char": "%"
+    },
+    {
+      "glyph_id": 2,
+      "old_id": 2,
+      "char": "+"
+    },
+    {
+      "glyph_id": 3,
+      "old_id": 3,
+      "char": "-"
+    },
+    {
+      "glyph_id": 4,
+      "old_id": 4,
+      "char": "/"
+    },
+    {
+      "glyph_id": 5,
+      "old_id": 5,
+      "char": "0"
+    },
+    {
+      "glyph_id": 6,
+      "old_id": 6,
+      "char": "1"
+    },
+    {
+      "glyph_id": 7,
+      "old_id": 7,
+      "char": "2"
+    },
+    {
+      "glyph_id": 8,
+      "old_id": 8,
+      "char": "3"
+    },
+    {
+      "glyph_id": 9,
+      "old_id": 9,
+      "char": "4"
+    },
+    {
+      "glyph_id": 10,
+      "old_id": 10,
+      "char": "5"
+    },
+    {
+      "glyph_id": 11,
+      "old_id": 11,
+      "char": "6"
+    },
+    {
+      "glyph_id": 12,
+      "old_id": 12,
+      "char": "7"
+    },
+    {
+      "glyph_id": 13,
+      "old_id": 13,
+      "char": "8"
+    },
+    {
+      "glyph_id": 14,
+      "old_id": 14,
+      "char": "9"
+    },
+    {
+      "glyph_id": 15,
+      "old_id": 15,
+      "char": "N"
+    },
+    {
+      "glyph_id": 16,
+      "old_id": 16,
+      "char": "O"
+    },
+    {
+      "glyph_id": 17,
+      "old_id": 17,
+      "char": "S"
+    },
+    {
+      "glyph_id": 18,
+      "old_id": 18,
+      "char": "W"
+    },
+    {
+      "glyph_id": 19,
+      "old_id": 19,
+      "char": "·"
+    },
+    {
+      "glyph_id": 20,
+      "old_id": 20,
+      "char": "。"
+    },
+    {
+      "glyph_id": 21,
+      "old_id": 21,
+      "char": "七"
+    },
+    {
+      "glyph_id": 22,
+      "old_id": 22,
+      "char": "万"
+    },
+    {
+      "glyph_id": 23,
+      "old_id": 23,
+      "char": "上"
+    },
+    {
+      "glyph_id": 24,
+      "old_id": 24,
+      "char": "下"
+    },
+    {
+      "glyph_id": 25,
+      "old_id": 25,
+      "char": "与"
+    },
+    {
+      "glyph_id": 26,
+      "old_id": 26,
+      "char": "中"
+    },
+    {
+      "glyph_id": 27,
+      "old_id": 27,
+      "char": "之"
+    },
+    {
+      "glyph_id": 28,
+      "old_id": 28,
+      "char": "京"
+    },
+    {
+      "glyph_id": 29,
+      "old_id": 29,
+      "char": "亮"
+    },
+    {
+      "glyph_id": 30,
+      "old_id": 30,
+      "char": "人"
+    },
+    {
+      "glyph_id": 31,
+      "old_id": 31,
+      "char": "传"
+    },
+    {
+      "glyph_id": 32,
+      "old_id": 32,
+      "char": "位"
+    },
+    {
+      "glyph_id": 33,
+      "old_id": 33,
+      "char": "作"
+    },
+    {
+      "glyph_id": 34,
+      "old_id": 34,
+      "char": "做"
+    },
+    {
+      "glyph_id": 35,
+      "old_id": 36,
+      "char": "入"
+    },
+    {
+      "glyph_id": 36,
+      "old_id": 37,
+      "char": "关"
+    },
+    {
+      "glyph_id": 37,
+      "old_id": 38,
+      "char": "凌"
+    },
+    {
+      "glyph_id": 38,
+      "old_id": 39,
+      "char": "出"
+    },
+    {
+      "glyph_id": 39,
+      "old_id": 40,
+      "char": "剧"
+    },
+    {
+      "glyph_id": 40,
+      "old_id": 42,
+      "char": "动"
+    },
+    {
+      "glyph_id": 41,
+      "old_id": 43,
+      "char": "化"
+    },
+    {
+      "glyph_id": 42,
+      "old_id": 44,
+      "char": "千"
+    },
+    {
+      "glyph_id": 43,
+      "old_id": 45,
+      "char": "华"
+    },
+    {
+      "glyph_id": 44,
+      "old_id": 46,
+      "char": "单"
+    },
+    {
+      "glyph_id": 45,
+      "old_id": 47,
+      "char": "原"
+    },
+    {
+      "glyph_id": 46,
+      "old_id": 48,
+      "char": "取"
+    },
+    {
+      "glyph_id": 47,
+      "old_id": 49,
+      "char": "受"
+    },
+    {
+      "glyph_id": 48,
+      "old_id": 50,
+      "char": "古"
+    },
+    {
+      "glyph_id": 49,
+      "old_id": 51,
+      "char": "吉"
+    },
+    {
+      "glyph_id": 50,
+      "old_id": 52,
+      "char": "吟"
+    },
+    {
+      "glyph_id": 51,
+      "old_id": 53,
+      "char": "唱"
+    },
+    {
+      "glyph_id": 52,
+      "old_id": 54,
+      "char": "回"
+    },
+    {
+      "glyph_id": 53,
+      "old_id": 55,
+      "char": "图"
+    },
+    {
+      "glyph_id": 54,
+      "old_id": 56,
+      "char": "在"
+    },
+    {
+      "glyph_id": 55,
+      "old_id": 57,
+      "char": "场"
+    },
+    {
+      "glyph_id": 56,
+      "old_id": 58,
+      "char": "垂"
+    },
+    {
+      "glyph_id": 57,
+      "old_id": 59,
+      "char": "声"
+    },
+    {
+      "glyph_id": 58,
+      "old_id": 61,
+      "char": "复"
+    },
+    {
+      "glyph_id": 59,
+      "old_id": 62,
+      "char": "夜"
+    },
+    {
+      "glyph_id": 60,
+      "old_id": 64,
+      "char": "奏"
+    },
+    {
+      "glyph_id": 61,
+      "old_id": 65,
+      "char": "威"
+    },
+    {
+      "glyph_id": 62,
+      "old_id": 66,
+      "char": "字"
+    },
+    {
+      "glyph_id": 63,
+      "old_id": 67,
+      "char": "宁"
+    },
+    {
+      "glyph_id": 64,
+      "old_id": 68,
+      "char": "寄"
+    },
+    {
+      "glyph_id": 65,
+      "old_id": 69,
+      "char": "就"
+    },
+    {
+      "glyph_id": 66,
+      "old_id": 70,
+      "char": "居"
+    },
+    {
+      "glyph_id": 67,
+      "old_id": 71,
+      "char": "展"
+    },
+    {
+      "glyph_id": 68,
+      "old_id": 72,
+      "char": "幕"
+    },
+    {
+      "glyph_id": 69,
+      "old_id": 73,
+      "char": "平"
+    },
+    {
+      "glyph_id": 70,
+      "old_id": 74,
+      "char": "度"
+    },
+    {
+      "glyph_id": 71,
+      "old_id": 75,
+      "char": "开"
+    },
+    {
+      "glyph_id": 72,
+      "old_id": 76,
+      "char": "弦"
+    },
+    {
+      "glyph_id": 73,
+      "old_id": 77,
+      "char": "念"
+    },
+    {
+      "glyph_id": 74,
+      "old_id": 78,
+      "char": "态"
+    },
+    {
+      "glyph_id": 75,
+      "old_id": 79,
+      "char": "恢"
+    },
+    {
+      "glyph_id": 76,
+      "old_id": 80,
+      "char": "悠"
+    },
+    {
+      "glyph_id": 77,
+      "old_id": 81,
+      "char": "感"
+    },
+    {
+      "glyph_id": 78,
+      "old_id": 82,
+      "char": "愿"
+    },
+    {
+      "glyph_id": 79,
+      "old_id": 83,
+      "char": "慢"
+    },
+    {
+      "glyph_id": 80,
+      "old_id": 84,
+      "char": "戏"
+    },
+    {
+      "glyph_id": 81,
+      "old_id": 85,
+      "char": "打"
+    },
+    {
+      "glyph_id": 82,
+      "old_id": 86,
+      "char": "托"
+    },
+    {
+      "glyph_id": 83,
+      "old_id": 87,
+      "char": "技"
+    },
+    {
+      "glyph_id": 84,
+      "old_id": 88,
+      "char": "择"
+    },
+    {
+      "glyph_id": 85,
+      "old_id": 89,
+      "char": "按"
+    },
+    {
+      "glyph_id": 86,
+      "old_id": 90,
+      "char": "播"
+    },
+    {
+      "glyph_id": 87,
+      "old_id": 91,
+      "char": "放"
+    },
+    {
+      "glyph_id": 88,
+      "old_id": 92,
+      "char": "效"
+    },
+    {
+      "glyph_id": 89,
+      "old_id": 94,
+      "char": "整"
+    },
+    {
+      "glyph_id": 90,
+      "old_id": 95,
+      "char": "旋"
+    },
+    {
+      "glyph_id": 91,
+      "old_id": 96,
+      "char": "无"
+    },
+    {
+      "glyph_id": 92,
+      "old_id": 99,
+      "char": "曲"
+    },
+    {
+      "glyph_id": 93,
+      "old_id": 100,
+      "char": "服"
+    },
+    {
+      "glyph_id": 94,
+      "old_id": 101,
+      "char": "未"
+    },
+    {
+      "glyph_id": 95,
+      "old_id": 102,
+      "char": "果"
+    },
+    {
+      "glyph_id": 96,
+      "old_id": 103,
+      "char": "武"
+    },
+    {
+      "glyph_id": 97,
+      "old_id": 104,
+      "char": "水"
+    },
+    {
+      "glyph_id": 98,
+      "old_id": 105,
+      "char": "流"
+    },
+    {
+      "glyph_id": 99,
+      "old_id": 106,
+      "char": "消"
+    },
+    {
+      "glyph_id": 100,
+      "old_id": 107,
+      "char": "淌"
+    },
+    {
+      "glyph_id": 101,
+      "old_id": 108,
+      "char": "淡"
+    },
+    {
+      "glyph_id": 102,
+      "old_id": 110,
+      "char": "滑"
+    },
+    {
+      "glyph_id": 103,
+      "old_id": 111,
+      "char": "滤"
+    },
+    {
+      "glyph_id": 104,
+      "old_id": 112,
+      "char": "演"
+    },
+    {
+      "glyph_id": 105,
+      "old_id": 113,
+      "char": "灰"
+    },
+    {
+      "glyph_id": 106,
+      "old_id": 114,
+      "char": "点"
+    },
+    {
+      "glyph_id": 107,
+      "old_id": 115,
+      "char": "片"
+    },
+    {
+      "glyph_id": 108,
+      "old_id": 116,
+      "char": "狮"
+    },
+    {
+      "glyph_id": 109,
+      "old_id": 117,
+      "char": "现"
+    },
+    {
+      "glyph_id": 110,
+      "old_id": 119,
+      "char": "琴"
+    },
+    {
+      "glyph_id": 111,
+      "old_id": 120,
+      "char": "生"
+    },
+    {
+      "glyph_id": 112,
+      "old_id": 121,
+      "char": "画"
+    },
+    {
+      "glyph_id": 113,
+      "old_id": 122,
+      "char": "百"
+    },
+    {
+      "glyph_id": 114,
+      "old_id": 123,
+      "char": "直"
+    },
+    {
+      "glyph_id": 115,
+      "old_id": 124,
+      "char": "确"
+    },
+    {
+      "glyph_id": 116,
+      "old_id": 125,
+      "char": "祝"
+    },
+    {
+      "glyph_id": 117,
+      "old_id": 126,
+      "char": "神"
+    },
+    {
+      "glyph_id": 118,
+      "old_id": 127,
+      "char": "祥"
+    },
+    {
+      "glyph_id": 119,
+      "old_id": 128,
+      "char": "空"
+    },
+    {
+      "glyph_id": 120,
+      "old_id": 129,
+      "char": "系"
+    },
+    {
+      "glyph_id": 121,
+      "old_id": 130,
+      "char": "级"
+    },
+    {
+      "glyph_id": 122,
+      "old_id": 131,
+      "char": "绎"
+    },
+    {
+      "glyph_id": 123,
+      "old_id": 132,
+      "char": "统"
+    },
+    {
+      "glyph_id": 124,
+      "old_id": 134,
+      "char": "绪"
+    },
+    {
+      "glyph_id": 125,
+      "old_id": 136,
+      "char": "缝"
+    },
+    {
+      "glyph_id": 126,
+      "old_id": 137,
+      "char": "缩"
+    },
+    {
+      "glyph_id": 127,
+      "old_id": 138,
+      "char": "置"
+    },
+    {
+      "glyph_id": 128,
+      "old_id": 139,
+      "char": "美"
+    },
+    {
+      "glyph_id": 129,
+      "old_id": 140,
+      "char": "脸"
+    },
+    {
+      "glyph_id": 130,
+      "old_id": 141,
+      "char": "腾"
+    },
+    {
+      "glyph_id": 131,
+      "old_id": 142,
+      "char": "自"
+    },
+    {
+      "glyph_id": 132,
+      "old_id": 143,
+      "char": "致"
+    },
+    {
+      "glyph_id": 133,
+      "old_id": 144,
+      "char": "舞"
+    },
+    {
+      "glyph_id": 134,
+      "old_id": 146,
+      "char": "艺"
+    },
+    {
+      "glyph_id": 135,
+      "old_id": 147,
+      "char": "花"
+    },
+    {
+      "glyph_id": 136,
+      "old_id": 148,
+      "char": "菜"
+    },
+    {
+      "glyph_id": 137,
+      "old_id": 149,
+      "char": "认"
+    },
+    {
+      "glyph_id": 138,
+      "old_id": 150,
+      "char": "设"
+    },
+    {
+      "glyph_id": 139,
+      "old_id": 153,
+      "char": "调"
+    },
+    {
+      "glyph_id": 140,
+      "old_id": 154,
+      "char": "谱"
+    },
+    {
+      "glyph_id": 141,
+      "old_id": 157,
+      "char": "跃"
+    },
+    {
+      "glyph_id": 142,
+      "old_id": 158,
+      "char": "转"
+    },
+    {
+      "glyph_id": 143,
+      "old_id": 159,
+      "char": "轮"
+    },
+    {
+      "glyph_id": 144,
+      "old_id": 160,
+      "char": "轻"
+    },
+    {
+      "glyph_id": 145,
+      "old_id": 162,
+      "char": "返"
+    },
+    {
+      "glyph_id": 146,
+      "old_id": 163,
+      "char": "进"
+    },
+    {
+      "glyph_id": 147,
+      "old_id": 164,
+      "char": "远"
+    },
+    {
+      "glyph_id": 148,
+      "old_id": 165,
+      "char": "选"
+    },
+    {
+      "glyph_id": 149,
+      "old_id": 167,
+      "char": "醒"
+    },
+    {
+      "glyph_id": 150,
+      "old_id": 168,
+      "char": "采"
+    },
+    {
+      "glyph_id": 151,
+      "old_id": 169,
+      "char": "金"
+    },
+    {
+      "glyph_id": 152,
+      "old_id": 170,
+      "char": "铁"
+    },
+    {
+      "glyph_id": 153,
+      "old_id": 172,
+      "char": "锣"
+    },
+    {
+      "glyph_id": 154,
+      "old_id": 173,
+      "char": "镜"
+    },
+    {
+      "glyph_id": 155,
+      "old_id": 174,
+      "char": "闭"
+    },
+    {
+      "glyph_id": 156,
+      "old_id": 175,
+      "char": "雅"
+    },
+    {
+      "glyph_id": 157,
+      "old_id": 176,
+      "char": "青"
+    },
+    {
+      "glyph_id": 158,
+      "old_id": 177,
+      "char": "静"
+    },
+    {
+      "glyph_id": 159,
+      "old_id": 179,
+      "char": "音"
+    },
+    {
+      "glyph_id": 160,
+      "old_id": 181,
+      "char": "默"
+    },
+    {
+      "glyph_id": 161,
+      "old_id": 182,
+      "char": "鼓"
+    },
+    {
+      "glyph_id": 162,
+      "old_id": 183,
+      "char": "，"
+    },
+    {
+      "glyph_id": 163,
+      "old_id": 184,
+      "char": "怀"
+    },
+    {
+      "glyph_id": 164,
+      "old_id": 185,
+      "char": "旧"
+    },
+    {
+      "glyph_id": 165,
+      "old_id": 186,
+      "char": "右"
+    },
+    {
+      "glyph_id": 166,
+      "old_id": 187,
+      "char": "左"
+    },
+    {
+      "glyph_id": 167,
+      "old_id": 188,
+      "char": "量"
+    },
+    {
+      "glyph_id": 168,
+      "old_id": 189,
+      "char": "间"
+    },
+    {
+      "glyph_id": 169,
+      "old_id": 190,
+      "char": "隔"
+    },
+    {
+      "glyph_id": 170,
+      "old_id": 191,
+      "char": "秒"
+    },
+    {
+      "glyph_id": 171,
+      "old_id": 192,
+      "char": "对"
+    },
+    {
+      "glyph_id": 172,
+      "old_id": 193,
+      "char": "比"
+    },
+    {
+      "glyph_id": 173,
+      "old_id": 195,
+      "char": "品"
+    },
+    {
+      "glyph_id": 174,
+      "old_id": 197,
+      "char": "离"
+    },
+    {
+      "glyph_id": 175,
+      "old_id": 200,
+      "char": null
+    }
+  ]
+}

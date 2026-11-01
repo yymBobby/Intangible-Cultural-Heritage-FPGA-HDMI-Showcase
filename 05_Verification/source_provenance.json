@@ -1,0 +1,1707 @@
+{
+  "repository": "https://github.com/yymBobby/Intangible_Cultural_Heritage_Digital_HDMI_Showcase_System",
+  "branch": "the-second-stage",
+  "commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+  "date": "2026-11-01",
+  "records": [
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/AUDIO_SAMPLE_ROM.ipc",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/AUDIO_SAMPLE_ROM.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "6cabddcf137fc2f2844f4a1126bd58c9cb65e861b9a4cee6f8da55f38391cbd5",
+      "destination_sha256": "6cabddcf137fc2f2844f4a1126bd58c9cb65e861b9a4cee6f8da55f38391cbd5"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/AUDIO_SAMPLE_ROM.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/AUDIO_SAMPLE_ROM.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "0bc4a18dfd8d598103faea82e9f02a85beaba5a3e21047a4e6baab063ca005bd",
+      "destination_sha256": "0bc4a18dfd8d598103faea82e9f02a85beaba5a3e21047a4e6baab063ca005bd"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/AUDIO_SAMPLE_ROM.vhd",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/AUDIO_SAMPLE_ROM.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "4c3d4ea17939b4d07a8d95c006174f94ced027b91daae5fd065e094d1e8071af",
+      "destination_sha256": "4c3d4ea17939b4d07a8d95c006174f94ced027b91daae5fd065e094d1e8071af"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/CATALOG_INDEX_RAM.ipc",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/CATALOG_INDEX_RAM.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "56319deea894a31c30c5f93e20413e864de18651efd4b34b62e06c46e01f9c5d",
+      "destination_sha256": "56319deea894a31c30c5f93e20413e864de18651efd4b34b62e06c46e01f9c5d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/CATALOG_INDEX_RAM.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/CATALOG_INDEX_RAM.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "b0bde6cff9ad3f18953b9173c0d47a1d68956244753ad31fe8722daf37b91074",
+      "destination_sha256": "b0bde6cff9ad3f18953b9173c0d47a1d68956244753ad31fe8722daf37b91074"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/CATALOG_INDEX_RAM.vhd",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/CATALOG_INDEX_RAM.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "953f356e8120b066212c48e9d1d5a19bb11566f4b9fce21d0a3b65a9989a8b7f",
+      "destination_sha256": "953f356e8120b066212c48e9d1d5a19bb11566f4b9fce21d0a3b65a9989a8b7f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/CATALOG_RANGE_RAM.ipc",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/CATALOG_RANGE_RAM.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "9950db328eb10388c305864319c1765396f32f6bcf3acc07c2971641c511e26e",
+      "destination_sha256": "9950db328eb10388c305864319c1765396f32f6bcf3acc07c2971641c511e26e"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/CATALOG_RANGE_RAM.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/CATALOG_RANGE_RAM.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "20ee9be96efe6777c11cdd69f8503cc730b7a1dde2af85eeb71ca0fd206f787f",
+      "destination_sha256": "20ee9be96efe6777c11cdd69f8503cc730b7a1dde2af85eeb71ca0fd206f787f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/CATALOG_RANGE_RAM.vhd",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/CATALOG_RANGE_RAM.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "191ddac989b6135ba7879ae6cc6b598d17378dbd5beb07362dfb20b66050c6bf",
+      "destination_sha256": "191ddac989b6135ba7879ae6cc6b598d17378dbd5beb07362dfb20b66050c6bf"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/OSD_FONT_BITS.json",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_BITS.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "714bc15e3611dcc0a09c04134cfb2ba4c44d041efb9e6c1c5d2a5ecfe752c5de",
+      "destination_sha256": "714bc15e3611dcc0a09c04134cfb2ba4c44d041efb9e6c1c5d2a5ecfe752c5de"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/OSD_FONT_BITS.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_BITS.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "763b12782f472d15508388404e73ec9f8a6609ec2a748daa4310055b6b36eaa2",
+      "destination_sha256": "763b12782f472d15508388404e73ec9f8a6609ec2a748daa4310055b6b36eaa2"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/OSD_FONT_ROM.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_ROM.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "31647a479021a97ceaa4244da4e533c5a17292fdbbbdcd76bea53e936c39a62e",
+      "destination_sha256": "31647a479021a97ceaa4244da4e533c5a17292fdbbbdcd76bea53e936c39a62e"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/OSD_FONT_ROM.vhd",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_ROM.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "e8c8de3a47e8bbbde6d747a5384275f44b0eb82c82e75450a78fdeaebaddd6f4",
+      "destination_sha256": "e8c8de3a47e8bbbde6d747a5384275f44b0eb82c82e75450a78fdeaebaddd6f4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/PLL.ipc",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/PLL.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "6e443706c9f2a6afb894675fd9f5c5968d2c75b67b203aae0713f4286aceba92",
+      "destination_sha256": "6e443706c9f2a6afb894675fd9f5c5968d2c75b67b203aae0713f4286aceba92"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/PLL.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/PLL.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa",
+      "destination_sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/PLL.vhd",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/PLL.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494",
+      "destination_sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/PLL_HDMI_AUDIO.ipc",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/PLL_HDMI_AUDIO.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "4e023b3fb35af9e8d5d8e672bf302f3c56f51f4b2c31c876a2543fbabbbfe8c2",
+      "destination_sha256": "4e023b3fb35af9e8d5d8e672bf302f3c56f51f4b2c31c876a2543fbabbbfe8c2"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/PLL_HDMI_AUDIO.v",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/PLL_HDMI_AUDIO.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867",
+      "destination_sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/al_ip/PLL_HDMI_AUDIO.vhd",
+      "destination": "01_FPGA_Project/src/td_project/al_ip/PLL_HDMI_AUDIO.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "1b5025b3fe29d4428c6aa58ef99e7c5d7c5d697e74dacd8ac8f2d068290e0e2f",
+      "destination_sha256": "1b5025b3fe29d4428c6aa58ef99e7c5d7c5d697e74dacd8ac8f2d068290e0e2f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/fft_band.hex",
+      "destination": "01_FPGA_Project/src/td_project/fft_band.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "1563a7255a5fed7bb6e76977225f448addc3d820c72126e0b7f7e2bc4f9b843f",
+      "destination_sha256": "1563a7255a5fed7bb6e76977225f448addc3d820c72126e0b7f7e2bc4f9b843f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/fft_twiddle.hex",
+      "destination": "01_FPGA_Project/src/td_project/fft_twiddle.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "6a96b26d04b0bc63ab5663dd5af0de8d8972be643e97af81c1043c9419b21748",
+      "destination_sha256": "6a96b26d04b0bc63ab5663dd5af0de8d8972be643e97af81c1043c9419b21748"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/fft_window.hex",
+      "destination": "01_FPGA_Project/src/td_project/fft_window.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "2afebd92063be44b6e4c41e3fc9dbf5a269a03e0e4aed66bcdae7d4edc7c40a9",
+      "destination_sha256": "2afebd92063be44b6e4c41e3fc9dbf5a269a03e0e4aed66bcdae7d4edc7c40a9"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/fft_work_bank.mif",
+      "destination": "01_FPGA_Project/src/td_project/fft_work_bank.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "9820a698ddc809114d8af55450ba0219943e03fb03a144f54a68768b5023c491",
+      "destination_sha256": "9820a698ddc809114d8af55450ba0219943e03fb03a144f54a68768b5023c491"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/Media_AV_Visualizer_Ultimate.al",
+      "destination": "01_FPGA_Project/src/td_project/Media_AV_Visualizer_Ultimate.al",
+      "kind": "project_location_and_TD_compile_order_only",
+      "source_sha256": "97dfba6f81027d0ab71e2c3ed9cd3c71ca5f7485f8b6c368529dce233d0a20ac",
+      "destination_sha256": "7388c630a398483a8b581e616f2de349a058c8936e401b25a0b30d890cb3133f",
+      "project_semantic_sha256": "b7e54498cfe651edc23c8fe62d9209623ff07ad2cc659233bc7c8dcd62bde290"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/sidebar_font.hex",
+      "destination": "01_FPGA_Project/src/td_project/sidebar_font.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "e0999a96e1f347215afeca8e255e5dc8b1912d5581d97a3ce1f30e307b5fe91b",
+      "destination_sha256": "e0999a96e1f347215afeca8e255e5dc8b1912d5581d97a3ce1f30e307b5fe91b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/sidebar_ring_geometry.hex",
+      "destination": "01_FPGA_Project/src/td_project/sidebar_ring_geometry.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "63fbaf7cc19a9e15a1c0730911710df24a123e16408adf370818e4ab80afa6c4",
+      "destination_sha256": "63fbaf7cc19a9e15a1c0730911710df24a123e16408adf370818e4ab80afa6c4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/sidebar_ring_geometry.mif",
+      "destination": "01_FPGA_Project/src/td_project/sidebar_ring_geometry.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "3e4588a3c6dcfcd4cbd42b463db9b93f3dca3fbcbccaa8a2d218c0b481266408",
+      "destination_sha256": "3e4588a3c6dcfcd4cbd42b463db9b93f3dca3fbcbccaa8a2d218c0b481266408"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/td_project/timing_overlay.sdc",
+      "destination": "01_FPGA_Project/src/td_project/timing_overlay.sdc",
+      "kind": "exact_github_copy",
+      "source_sha256": "dbfda72501023d55d7e0cc03661bb1c44186d0208aaf99c60b3e713a000351a1",
+      "destination_sha256": "dbfda72501023d55d7e0cc03661bb1c44186d0208aaf99c60b3e713a000351a1"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/constraints_source/edid_debug.cwc",
+      "destination": "01_FPGA_Project/src/user_source/constraints_source/edid_debug.cwc",
+      "kind": "exact_github_copy",
+      "source_sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95",
+      "destination_sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/constraints_source/pin.adc",
+      "destination": "01_FPGA_Project/src/user_source/constraints_source/pin.adc",
+      "kind": "exact_github_copy",
+      "source_sha256": "56d8561d53c05a9d9fcd16674627fde142ba48c72f202439e55313d8709cb075",
+      "destination_sha256": "56d8561d53c05a9d9fcd16674627fde142ba48c72f202439e55313d8709cb075"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/constraints_source/timing.sdc",
+      "destination": "01_FPGA_Project/src/user_source/constraints_source/timing.sdc",
+      "kind": "exact_github_copy",
+      "source_sha256": "464c889cb608a00ae0ee982634cdb82104cfed0506fb7ad0168e77ca99c59900",
+      "destination_sha256": "464c889cb608a00ae0ee982634cdb82104cfed0506fb7ad0168e77ca99c59900"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/audio/pcm_async_fifo.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/audio/pcm_async_fifo.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "210b4ea789e1c7f7a53d3af367df2e4934645b64ef44c2c1030b9a48f4cf3ee4",
+      "destination_sha256": "210b4ea789e1c7f7a53d3af367df2e4934645b64ef44c2c1030b9a48f4cf3ee4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/audio/wav_pcm_parser.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/audio/wav_pcm_parser.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "a573b336a430a4454e80bae758901b3e9016a21aed6bd302a29945f56ff814b8",
+      "destination_sha256": "a573b336a430a4454e80bae758901b3e9016a21aed6bd302a29945f56ff814b8"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/audio/wav_pcm_player.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/audio/wav_pcm_player.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "6b66509c7d09b15b9a27e6a5439cb4db735e66ff016bec792f4a3e1cb5828bbf",
+      "destination_sha256": "6b66509c7d09b15b9a27e6a5439cb4db735e66ff016bec792f4a3e1cb5828bbf"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/audio_arc_calculate.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/audio_arc_calculate.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc",
+      "destination_sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/alarm_buzzer.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/alarm_buzzer.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "ad27e3094543329af107e1c6791fa41709849b06d2d384488547a7d9e959d76e",
+      "destination_sha256": "ad27e3094543329af107e1c6791fa41709849b06d2d384488547a7d9e959d76e"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/board_menu_input.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/board_menu_input.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "97dfc01722ab92a466557c43ad05c0b1c96dd246a4ab01dd3b011206222cf76c",
+      "destination_sha256": "97dfc01722ab92a466557c43ad05c0b1c96dd246a4ab01dd3b011206222cf76c"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/console_input_filter.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/console_input_filter.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "eabb1fa286549eb9772aeb55a97f424da5bb90a4e47e857efc01e7dc3203c0a1",
+      "destination_sha256": "eabb1fa286549eb9772aeb55a97f424da5bb90a4e47e857efc01e7dc3203c0a1"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/exhibit_alarm_control.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/exhibit_alarm_control.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "fbc1a2160e106b72acc74dcd3dbc6cf24a6d196203da4e0b35386d3e510cc460",
+      "destination_sha256": "fbc1a2160e106b72acc74dcd3dbc6cf24a6d196203da4e0b35386d3e510cc460"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/joystick_adc_pair.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_adc_pair.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "7f109cd5e12aac0bf923cb1a3a9b5a026c57d26804f7e1fce1d6fb61d3ee3414",
+      "destination_sha256": "7f109cd5e12aac0bf923cb1a3a9b5a026c57d26804f7e1fce1d6fb61d3ee3414"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/joystick_button.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_button.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "bd8994d56f96f461236b5c4365ca2ef39c73a6924319788b737cbec476bae04f",
+      "destination_sha256": "bd8994d56f96f461236b5c4365ca2ef39c73a6924319788b737cbec476bae04f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/joystick_condition.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_condition.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f61842c1b9e0ad4e2027a7fa52ed1b0a2803e24c965ad31349eb2008df07ee05",
+      "destination_sha256": "f61842c1b9e0ad4e2027a7fa52ed1b0a2803e24c965ad31349eb2008df07ee05"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/joystick_menu_input.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_menu_input.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "8d7edc657292ae490ee83a64c12600a2b58eec82ae0d380e9923edbcd9776931",
+      "destination_sha256": "8d7edc657292ae490ee83a64c12600a2b58eec82ae0d380e9923edbcd9776931"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/joystick_reset.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_reset.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f6e6a297a7e36d4aa91a80159c26466fdc14565b9c38df5266daf7a9b8aab0af",
+      "destination_sha256": "f6e6a297a7e36d4aa91a80159c26466fdc14565b9c38df5266daf7a9b8aab0af"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/menu_snapshot_cdc.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/menu_snapshot_cdc.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f583e836905102ba4506017dd11806d8143a2f7ae82b20e2ff3a7b85c83dd740",
+      "destination_sha256": "f583e836905102ba4506017dd11806d8143a2f7ae82b20e2ff3a7b85c83dd740"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/menu_ui_state.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "3662cb9f245bc6a28b0ea86922053495f59726f65a0dd89f5338168fa19823fc",
+      "destination_sha256": "3662cb9f245bc6a28b0ea86922053495f59726f65a0dd89f5338168fa19823fc"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/menu_ui_state_v2.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state_v2.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "ca70629173571cce0522ac14451fc9375fcc7110d32af648ae2619ec0c059bc6",
+      "destination_sha256": "ca70629173571cce0522ac14451fc9375fcc7110d32af648ae2619ec0c059bc6"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/control/rotary_console_input.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/control/rotary_console_input.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f5c4af38b68f1b157246905793a8e7ecd11456c4602d92286a092206e4dc6280",
+      "destination_sha256": "f5c4af38b68f1b157246905793a8e7ecd11456c4602d92286a092206e4dc6280"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "destination_sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/hdmi_audio_tone_i2s_64fs.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/hdmi_audio_tone_i2s_64fs.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "729cb1635091b7630e5b68306e9f51fff4e3e06bae8ce08cc3d7323b3fb9d5cf",
+      "destination_sha256": "729cb1635091b7630e5b68306e9f51fff4e3e06bae8ce08cc3d7323b3fb9d5cf"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/hdmi_audio_tone_pcm_scale.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/hdmi_audio_tone_pcm_scale.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "38a58d55836467c4c449f195f4235d57da9cb02b2d0ea27171871e65398df1da",
+      "destination_sha256": "38a58d55836467c4c449f195f4235d57da9cb02b2d0ea27171871e65398df1da"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "destination_sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/I2S_receiver.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/I2S_receiver.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b",
+      "destination_sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/include/global_def.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/include/global_def.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "e97985170de496192535a86ba370abf78364eb2784b509a34ae215f463b64bb8",
+      "destination_sha256": "e97985170de496192535a86ba370abf78364eb2784b509a34ae215f463b64bb8"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "destination_sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+      "destination_sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "destination_sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/integration/i2s_frame_receiver.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/integration/i2s_frame_receiver.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "ee4d054cdd038848636573bb9a76fb593c00eb0f35ed2733d14288ef5ef317d4",
+      "destination_sha256": "ee4d054cdd038848636573bb9a76fb593c00eb0f35ed2733d14288ef5ef317d4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/integration/media_av_pipeline.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/integration/media_av_pipeline.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "8c12c051dbeedbfe08b88708513d71bac2c1ad308897febf9d22abdcf155049f",
+      "destination_sha256": "8c12c051dbeedbfe08b88708513d71bac2c1ad308897febf9d22abdcf155049f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/integration/media_sys_pll.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/integration/media_sys_pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "fa1cd6a29524c9d097b42f0735d3c161a9d6fd70dbde60a5a4522a80eea9e807",
+      "destination_sha256": "fa1cd6a29524c9d097b42f0735d3c161a9d6fd70dbde60a5a4522a80eea9e807"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/integration/media_video_pll.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/integration/media_video_pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "8b91fa023ce73216a0bf52806571560551d23a91dbefc24ee39d4b986e38daf7",
+      "destination_sha256": "8b91fa023ce73216a0bf52806571560551d23a91dbefc24ee39d4b986e38daf7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/integration/theme_key_control.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/integration/theme_key_control.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "6a5bf45deb0b8e1d29d7abe3b05f4abd5bcd6dc269a2b48495bb5d4c24243007",
+      "destination_sha256": "6a5bf45deb0b8e1d29d7abe3b05f4abd5bcd6dc269a2b48495bb5d4c24243007"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "destination_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "c489408d2748d99c00a2e408ba8e1deff6f1fd8c43aa70a889466d57a20b0f70",
+      "destination_sha256": "c489408d2748d99c00a2e408ba8e1deff6f1fd8c43aa70a889466d57a20b0f70"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d",
+      "destination_sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+      "destination_sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "171b1a75793a800fbf25af75df300ad3aa53d923fe5b04fc91c266e0748d82dc",
+      "destination_sha256": "171b1a75793a800fbf25af75df300ad3aa53d923fe5b04fc91c266e0748d82dc"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "destination_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "32c86a05d74f05c19e38ad87d73040530f6430fee6acbf9b4d4df8900152b4ed",
+      "destination_sha256": "32c86a05d74f05c19e38ad87d73040530f6430fee6acbf9b4d4df8900152b4ed"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "30fcb348fd88914538e7398979dabeb0c9f5d2d950afdd298c73d95fbee3cc28",
+      "destination_sha256": "30fcb348fd88914538e7398979dabeb0c9f5d2d950afdd298c73d95fbee3cc28"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "destination_sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "3f0119e1b1bcecd5af05cdfdb3a56dc336efcbc2eea9f9dd3af8b98a205ded75",
+      "destination_sha256": "3f0119e1b1bcecd5af05cdfdb3a56dc336efcbc2eea9f9dd3af8b98a205ded75"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/sdram.ipc",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/sdram.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "b2156db94ab4b9dc81ced661b99544f2a2192c1f510c380d3ae201f9bbd1ad1a",
+      "destination_sha256": "b2156db94ab4b9dc81ced661b99544f2a2192c1f510c380d3ae201f9bbd1ad1a"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/sdram.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/sdram.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe",
+      "destination_sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/sdram.vhd",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/sdram.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705",
+      "destination_sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "6499fa9f5997894027183217cfc81123615262de3e59f6b3c8fe9551f6259719",
+      "destination_sha256": "6499fa9f5997894027183217cfc81123615262de3e59f6b3c8fe9551f6259719"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/sys_pll.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/sys_pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "ea4ed09b2ff026b7b31eb76f51ef5afa388aa552e538e02d013cc8e7464ba563",
+      "destination_sha256": "ea4ed09b2ff026b7b31eb76f51ef5afa388aa552e538e02d013cc8e7464ba563"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2",
+      "destination_sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/video_pll.ipc",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/video_pll.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "822b266d3f43591828466bbd74f2bc18d6264e396258d7f0698747dba6c0b37d",
+      "destination_sha256": "822b266d3f43591828466bbd74f2bc18d6264e396258d7f0698747dba6c0b37d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/video_pll.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/video_pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "d5a2b3d3d0618d19619c36af0143f8bf9338415eef2eadd22456510ade9c6092",
+      "destination_sha256": "d5a2b3d3d0618d19619c36af0143f8bf9338415eef2eadd22456510ade9c6092"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/IP/video_pll.vhd",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/IP/video_pll.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4",
+      "destination_sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/key_remove_shakes.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/key_remove_shakes.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+      "destination_sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+      "destination_sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/alarm_text_lut.vh",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/alarm_text_lut.vh",
+      "kind": "exact_github_copy",
+      "source_sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357",
+      "destination_sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/bmp_resource_loader.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/bmp_resource_loader.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "5d69daaa3f2a56403ff6d62a28e478276c210ed289d73fd03d3057e36153805b",
+      "destination_sha256": "5d69daaa3f2a56403ff6d62a28e478276c210ed289d73fd03d3057e36153805b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/caption_typewriter.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/caption_typewriter.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "2e12f4ddaab1a37bd656cc333c084a8507b451992702351ff49e40ebd61d1e4d",
+      "destination_sha256": "2e12f4ddaab1a37bd656cc333c084a8507b451992702351ff49e40ebd61d1e4d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/image_read_adapter.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_read_adapter.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "a2dc4a255135ea47b5450598bf195e3cff7488ee1dd8cb7455e15824ffa37278",
+      "destination_sha256": "a2dc4a255135ea47b5450598bf195e3cff7488ee1dd8cb7455e15824ffa37278"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/image_sdram_video_pipeline.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_sdram_video_pipeline.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "1e593efa2259803563de59c17d18fc68b547b11330df19c5a79c66d2c40cb957",
+      "destination_sha256": "1e593efa2259803563de59c17d18fc68b547b11330df19c5a79c66d2c40cb957"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/image_text_loader.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_text_loader.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "19c5d2c7a1042bb628118ee0cd03e1b31fd7b9f6e0ac982cf41fa264b3aad018",
+      "destination_sha256": "19c5d2c7a1042bb628118ee0cd03e1b31fd7b9f6e0ac982cf41fa264b3aad018"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/image_transition_commit.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_transition_commit.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "d36830d120ddaa4d1163139fc882aa9815f15b0d75da359599332c54541ca7ab",
+      "destination_sha256": "d36830d120ddaa4d1163139fc882aa9815f15b0d75da359599332c54541ca7ab"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/image_video_axis_640x480.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_video_axis_640x480.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "6422236484de0458c581dfd41c6e4755f26aa0aa6cacdbadd7e34828826f0dd4",
+      "destination_sha256": "6422236484de0458c581dfd41c6e4755f26aa0aa6cacdbadd7e34828826f0dd4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/menu_osd_preview.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/menu_osd_preview.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "eb9d81cee0a9fddfe4258e4be665538df27e56c21e4fefd709a8a9babbf1f502",
+      "destination_sha256": "eb9d81cee0a9fddfe4258e4be665538df27e56c21e4fefd709a8a9babbf1f502"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/menu_text_lut.vh",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/menu_text_lut.vh",
+      "kind": "exact_github_copy",
+      "source_sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b",
+      "destination_sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/osd_dynamic.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_dynamic.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "76900376a0b34d0e9aa78c9923cd92a4da28ef7b0f0420ab688ee4a09dbefdcd",
+      "destination_sha256": "76900376a0b34d0e9aa78c9923cd92a4da28ef7b0f0420ab688ee4a09dbefdcd"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/osd_dynamic_with_font_rom.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_dynamic_with_font_rom.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "736f473ff572945ad8129b7bd773c84249be22fb7b9b6d7099cd2d9990b95619",
+      "destination_sha256": "736f473ff572945ad8129b7bd773c84249be22fb7b9b6d7099cd2d9990b95619"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/osd_menu_layer.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_menu_layer.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "616050394cfc1862498b933ac1e543e65ce5d52f500ac7a04e9f70ea3507b6ac",
+      "destination_sha256": "616050394cfc1862498b933ac1e543e65ce5d52f500ac7a04e9f70ea3507b6ac"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/osd_menu_with_subtitles.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_menu_with_subtitles.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "fa9c0d5beac0cea904edac0ef0db5ec505af06f380ca09a02dc326dd0895e569",
+      "destination_sha256": "fa9c0d5beac0cea904edac0ef0db5ec505af06f380ca09a02dc326dd0895e569"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/osd_text_loader.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_text_loader.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "226df08fec4ffa6aa5d04e7421209cf33c0faac08789383b7507d75cb65225c9",
+      "destination_sha256": "226df08fec4ffa6aa5d04e7421209cf33c0faac08789383b7507d75cb65225c9"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/sdram_image_backend.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/sdram_image_backend.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "330e6cc64df3ae8028ba3a34e26bec0c2b420cc2aeef549c540471e6f41a7799",
+      "destination_sha256": "330e6cc64df3ae8028ba3a34e26bec0c2b420cc2aeef549c540471e6f41a7799"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/text_bank_cdc.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/text_bank_cdc.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "19e3b475a5d13b9e8415401c32ed1c019cad564b132b1ec39f3296263b253a7c",
+      "destination_sha256": "19e3b475a5d13b9e8415401c32ed1c019cad564b132b1ec39f3296263b253a7c"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/video_commit_window.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/video_commit_window.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "72aa600f90289ebca4017d59bb0725171a02f9066086acee419b06c851252d20",
+      "destination_sha256": "72aa600f90289ebca4017d59bb0725171a02f9066086acee419b06c851252d20"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/OSD/video_frame_commit.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/OSD/video_frame_commit.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "13a6e29b83ccc3e9dcdb5330bf620e525047bb20ad59d9454c570392e3be1601",
+      "destination_sha256": "13a6e29b83ccc3e9dcdb5330bf620e525047bb20ad59d9454c570392e3be1601"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "693ac02526dd2d2abe9ed04b7e0076551694e63d213d6aa509f530247c374c76",
+      "destination_sha256": "693ac02526dd2d2abe9ed04b7e0076551694e63d213d6aa509f530247c374c76"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif.dath",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif.dath",
+      "kind": "exact_github_copy",
+      "source_sha256": "e0f242a837b58f810813e1d6da5495473c4fa16dd6b283c30ec91b608b05ab85",
+      "destination_sha256": "e0f242a837b58f810813e1d6da5495473c4fa16dd6b283c30ec91b608b05ab85"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "8582752f38c4727a46d9f70ca2f730f4f1210a7529646726b9710fba51d957af",
+      "destination_sha256": "8582752f38c4727a46d9f70ca2f730f4f1210a7529646726b9710fba51d957af"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif.dath",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif.dath",
+      "kind": "exact_github_copy",
+      "source_sha256": "04a6ea5a31be7ffebfdef11a6afb06de17ef367b4b6600ec29c248246d639f02",
+      "destination_sha256": "04a6ea5a31be7ffebfdef11a6afb06de17ef367b4b6600ec29c248246d639f02"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/song_48k.mif",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/song_48k.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "bfde965d14ca6ab9a907b92fe7ff6d7f23c8ff1aacb59add0bef1504a32ca1c1",
+      "destination_sha256": "bfde965d14ca6ab9a907b92fe7ff6d7f23c8ff1aacb59add0bef1504a32ca1c1"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/song_48k.mif.dath",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/song_48k.mif.dath",
+      "kind": "exact_github_copy",
+      "source_sha256": "062b281fafdf9e8682dd0df17447738b2f5a65cab930d090a07d072415297003",
+      "destination_sha256": "062b281fafdf9e8682dd0df17447738b2f5a65cab930d090a07d072415297003"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/python/wav_to_mif.py",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/python/wav_to_mif.py",
+      "kind": "exact_github_copy",
+      "source_sha256": "70c06ae300bdaaa840f009af002805558fc4f309136db1d46e68285d2bcbd750",
+      "destination_sha256": "70c06ae300bdaaa840f009af002805558fc4f309136db1d46e68285d2bcbd750"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/rom/i2s_rom_player_single_pll_fix64_rom_ip.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/rom/i2s_rom_player_single_pll_fix64_rom_ip.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f8e7c9c56c6a21154580e030dada604572d89a1e75e8945125b2ea0dd4b3094b",
+      "destination_sha256": "f8e7c9c56c6a21154580e030dada604572d89a1e75e8945125b2ea0dd4b3094b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/av_recovery_manager.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/av_recovery_manager.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "abace8973f87197c030a309d831c2e6124bb86aacbcbc1be20eba18f33b61890",
+      "destination_sha256": "abace8973f87197c030a309d831c2e6124bb86aacbcbc1be20eba18f33b61890"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/ax_debounce.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/ax_debounce.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+      "destination_sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/bmp_read.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/bmp_read.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "8b81edee7e1ac61e02652c9416c05f6a32768acd5a9639365bc7bf87fa4febaa",
+      "destination_sha256": "8b81edee7e1ac61e02652c9416c05f6a32768acd5a9639365bc7bf87fa4febaa"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/color_bar.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/color_bar.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "eb795d2e41e356a35d0fc223c1c597803c0b4b12c72847d1078279f8763f709c",
+      "destination_sha256": "eb795d2e41e356a35d0fc223c1c597803c0b4b12c72847d1078279f8763f709c"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac",
+      "destination_sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540",
+      "destination_sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/frame_read_write.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/frame_read_write.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd",
+      "destination_sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/image_cache_scheduler.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/image_cache_scheduler.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "c2d745985e2901c220650b1ee330f85ae2bac294710a71fd57b0704feea8ee68",
+      "destination_sha256": "c2d745985e2901c220650b1ee330f85ae2bac294710a71fd57b0704feea8ee68"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_catalog_loader.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_catalog_loader.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "400d74863e4e1737f277f374c590508e2c4a604cab5fd5ff1c81c5c40c21222d",
+      "destination_sha256": "400d74863e4e1737f277f374c590508e2c4a604cab5fd5ff1c81c5c40c21222d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_sd_service.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_sd_service.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "b39a681c1f1aa9db6fcce31f7567949386ad6d0caba449c98a007e82ef2fa1b1",
+      "destination_sha256": "b39a681c1f1aa9db6fcce31f7567949386ad6d0caba449c98a007e82ef2fa1b1"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_sd_system.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_sd_system.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "46d687face82c4dfb85b32cbe53a5577aa49dc6a1ae53c12b1b93133e227d655",
+      "destination_sha256": "46d687face82c4dfb85b32cbe53a5577aa49dc6a1ae53c12b1b93133e227d655"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_v3_backend.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_backend.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "e3a829017d6640bbe09d6c4208f84fcb1bf0b2a5a81e0b2c39c4e89661f9ac29",
+      "destination_sha256": "e3a829017d6640bbe09d6c4208f84fcb1bf0b2a5a81e0b2c39c4e89661f9ac29"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_v3_catalog.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_catalog.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "4e507ac1d5c4decc39cdd6a67fb59e538b0119d4a918a564da1412d147951d7f",
+      "destination_sha256": "4e507ac1d5c4decc39cdd6a67fb59e538b0119d4a918a564da1412d147951d7f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_v3_picture_task.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_picture_task.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "cf6ad8edf783e9b6a3a8e4d7e98f14937d610d40aebcffd7fcba0fd0291962f7",
+      "destination_sha256": "cf6ad8edf783e9b6a3a8e4d7e98f14937d610d40aebcffd7fcba0fd0291962f7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_v3_runtime.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_runtime.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "0158359ca101c7ec4eebc2c887c77b98cef8f13b3d9ed7b7a1bf86e8211f59a3",
+      "destination_sha256": "0158359ca101c7ec4eebc2c887c77b98cef8f13b3d9ed7b7a1bf86e8211f59a3"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/resource_v3_service.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_service.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "7a00460df804346f858ac18cd669cb718b82f2fd3b831a53678dd0a1f3c84a2f",
+      "destination_sha256": "7a00460df804346f858ac18cd669cb718b82f2fd3b831a53678dd0a1f3c84a2f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "5319465074e1eb7da1f29d8454b81054bf7e633dd5cc6d7b40f232eeb9c1dadc",
+      "destination_sha256": "5319465074e1eb7da1f29d8454b81054bf7e633dd5cc6d7b40f232eeb9c1dadc"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "d27e9501d407e47e446d7cd4b2b11e51730150dea04e586eac817ab978a7f1aa",
+      "destination_sha256": "d27e9501d407e47e446d7cd4b2b11e51730150dea04e586eac817ab978a7f1aa"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "aff50b33c0b88ab46b49ec877bcd7543fc8eef6aa37f0446a757e157bbe6e4a3",
+      "destination_sha256": "aff50b33c0b88ab46b49ec877bcd7543fc8eef6aa37f0446a757e157bbe6e4a3"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/sd_card_top.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_top.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "efdb61e868dea094301dde2e9b12b2ee4c10ee871712808dfbd82385f2f64a71",
+      "destination_sha256": "efdb61e868dea094301dde2e9b12b2ee4c10ee871712808dfbd82385f2f64a71"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/sd_sector_adapter.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_sector_adapter.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "21a9c773a372e6307e0f25acae6295dd42f136e7bba8a08a9d0456162c0d26e0",
+      "destination_sha256": "21a9c773a372e6307e0f25acae6295dd42f136e7bba8a08a9d0456162c0d26e0"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/sdram.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/sdram.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "destination_sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/seg_decoder.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/seg_decoder.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "4592b6e4d2e9e8b7e4ab5266d850d30e43537ab9c4157d4221e3f8dfd342decd",
+      "destination_sha256": "4592b6e4d2e9e8b7e4ab5266d850d30e43537ab9c4157d4221e3f8dfd342decd"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/seg_scan.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/seg_scan.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "08759c329c33cdb7a6070e0b46773f0a6c9c8052b51652dec29406b9a9dac1e3",
+      "destination_sha256": "08759c329c33cdb7a6070e0b46773f0a6c9c8052b51652dec29406b9a9dac1e3"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/spi_master.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/spi_master.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "a8c1cce7d22a6bd32d2cf08d441723858085eb05424e462487844c571ec102f2",
+      "destination_sha256": "a8c1cce7d22a6bd32d2cf08d441723858085eb05424e462487844c571ec102f2"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/theme_controller.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/theme_controller.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "35622f6043ff15e2b84d40dfccec36882355eba3768a33be754983de63b718c6",
+      "destination_sha256": "35622f6043ff15e2b84d40dfccec36882355eba3768a33be754983de63b718c6"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/theme_controller_prefetch.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/theme_controller_prefetch.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "a363328abe5cfffb3d4cb58dc7aa41af2cc55b87172364c7df3615bd9ea371c0",
+      "destination_sha256": "a363328abe5cfffb3d4cb58dc7aa41af2cc55b87172364c7df3615bd9ea371c0"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/video_define.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/video_define.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "b3423c7512c4989af5b82ce12868e147df626cd08dac8ab186bd489d565b1523",
+      "destination_sha256": "b3423c7512c4989af5b82ce12868e147df626cd08dac8ab186bd489d565b1523"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/video_delay.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/video_delay.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "destination_sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/SD/video_timing_data.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/SD/video_timing_data.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "db80da6e3c4eb9797ee97f942d11ac79a443b3bc933ea95ec8c666a7dabd4710",
+      "destination_sha256": "db80da6e3c4eb9797ee97f942d11ac79a443b3bc933ea95ec8c666a7dabd4710"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/startup_pulse.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/startup_pulse.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "destination_sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/test/design_top_i2s_test_pll.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/test/design_top_i2s_test_pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "b6396c3e90c67d7e8aad8c83bfa8a1aa0b826db8f74a26936549cae57e86668c",
+      "destination_sha256": "b6396c3e90c67d7e8aad8c83bfa8a1aa0b826db8f74a26936549cae57e86668c"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/test/i2s_test_tone_gen_pll.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/test/i2s_test_tone_gen_pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "7614d4ca84c007a568e798b7c8cbc31eadd8a064bee53101194df13edb71e02f",
+      "destination_sha256": "7614d4ca84c007a568e798b7c8cbc31eadd8a064bee53101194df13edb71e02f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "e2ced044285590eae4c65f14bc5ed984089f22a54d9c816240bb1c98ad8fa128",
+      "destination_sha256": "e2ced044285590eae4c65f14bc5ed984089f22a54d9c816240bb1c98ad8fa128"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96",
+      "destination_sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/video_source_test.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/video_source_test.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+      "destination_sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/audio_fft512.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_fft512.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "207766892a78c6869a03f403ad3b604d51e91812432f64eed3960134a6dee2ab",
+      "destination_sha256": "207766892a78c6869a03f403ad3b604d51e91812432f64eed3960134a6dee2ab"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/audio_visualizer.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_visualizer.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "16d81710ac4fc95c84316a9efe81f25a465eadb4fc0642ff6f8af2f047e4b81a",
+      "destination_sha256": "16d81710ac4fc95c84316a9efe81f25a465eadb4fc0642ff6f8af2f047e4b81a"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/audio_visualizer_compact.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_visualizer_compact.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "2ef590ad1a56fa39b1bdc24ea2246d31940cb855fb70dac5789dc6d226d9e464",
+      "destination_sha256": "2ef590ad1a56fa39b1bdc24ea2246d31940cb855fb70dac5789dc6d226d9e464"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/audio_volume.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_volume.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "2dcfa28a77753965f7963afe412acf772cff87fb96d815ee47d9e9c9ec1c6955",
+      "destination_sha256": "2dcfa28a77753965f7963afe412acf772cff87fb96d815ee47d9e9c9ec1c6955"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/caption_square_tone.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/caption_square_tone.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "6a2e3dad296d1f4bd8961f9ef79c8170a81a9eec380b74f676568ec10d165e28",
+      "destination_sha256": "6a2e3dad296d1f4bd8961f9ef79c8170a81a9eec380b74f676568ec10d165e28"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/fft_band.hex",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_band.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "1563a7255a5fed7bb6e76977225f448addc3d820c72126e0b7f7e2bc4f9b843f",
+      "destination_sha256": "1563a7255a5fed7bb6e76977225f448addc3d820c72126e0b7f7e2bc4f9b843f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/fft_twiddle.hex",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_twiddle.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "6a96b26d04b0bc63ab5663dd5af0de8d8972be643e97af81c1043c9419b21748",
+      "destination_sha256": "6a96b26d04b0bc63ab5663dd5af0de8d8972be643e97af81c1043c9419b21748"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/fft_window.hex",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_window.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "2afebd92063be44b6e4c41e3fc9dbf5a269a03e0e4aed66bcdae7d4edc7c40a9",
+      "destination_sha256": "2afebd92063be44b6e4c41e3fc9dbf5a269a03e0e4aed66bcdae7d4edc7c40a9"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/fft_work_bank.mif",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_work_bank.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "9820a698ddc809114d8af55450ba0219943e03fb03a144f54a68768b5023c491",
+      "destination_sha256": "9820a698ddc809114d8af55450ba0219943e03fb03a144f54a68768b5023c491"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/image_contrast.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_contrast.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "db1b87796f53837d8cb3b8c9d487c275e595bd4048452d4a477a69435f46e6a5",
+      "destination_sha256": "db1b87796f53837d8cb3b8c9d487c275e595bd4048452d4a477a69435f46e6a5"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/image_crossfade.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_crossfade.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "8b77fd2fbb47e6db597adaf78e7087a31b71aeacedf56853cfda6218353348a8",
+      "destination_sha256": "8b77fd2fbb47e6db597adaf78e7087a31b71aeacedf56853cfda6218353348a8"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/image_filter.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_filter.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "2c0f8cea0ac34d854b8224f3182a40a07eb9e001b351b3c4fa685956ba33bd2e",
+      "destination_sha256": "2c0f8cea0ac34d854b8224f3182a40a07eb9e001b351b3c4fa685956ba33bd2e"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/image_line_scaler.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_line_scaler.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "7b47976f9a89a370742ac3f8faa4cbb73f34f85bd857dc1b770205a1f784aa90",
+      "destination_sha256": "7b47976f9a89a370742ac3f8faa4cbb73f34f85bd857dc1b770205a1f784aa90"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/image_viewport_scaler.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_viewport_scaler.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "9fd36ddaa146761ba0cb405bb0dd9499fe636404eddfd604e3a43a1dd44b20a7",
+      "destination_sha256": "9fd36ddaa146761ba0cb405bb0dd9499fe636404eddfd604e3a43a1dd44b20a7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/media_wide_renderer.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/media_wide_renderer.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "46a95e06ec89a11e2194ae921ad0c5b275f4a97e8d8af8a4e259d4f9ed7f253d",
+      "destination_sha256": "46a95e06ec89a11e2194ae921ad0c5b275f4a97e8d8af8a4e259d4f9ed7f253d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/sidebar_font.hex",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_font.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "e0999a96e1f347215afeca8e255e5dc8b1912d5581d97a3ce1f30e307b5fe91b",
+      "destination_sha256": "e0999a96e1f347215afeca8e255e5dc8b1912d5581d97a3ce1f30e307b5fe91b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/sidebar_layer.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_layer.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "0e44b01e1006a9cf7e65994327915eab83fc9744453a014b9db07730f931a3be",
+      "destination_sha256": "0e44b01e1006a9cf7e65994327915eab83fc9744453a014b9db07730f931a3be"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/sidebar_layer_pipelined.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_layer_pipelined.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "d87d893f6f1cb60db7a4a348538d6f98ba63ab9bfa3c6a14b34f28c0518735dd",
+      "destination_sha256": "d87d893f6f1cb60db7a4a348538d6f98ba63ab9bfa3c6a14b34f28c0518735dd"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/sidebar_ring_geometry.hex",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_ring_geometry.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "63fbaf7cc19a9e15a1c0730911710df24a123e16408adf370818e4ab80afa6c4",
+      "destination_sha256": "63fbaf7cc19a9e15a1c0730911710df24a123e16408adf370818e4ab80afa6c4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/sidebar_ring_geometry.mif",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_ring_geometry.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "3e4588a3c6dcfcd4cbd42b463db9b93f3dca3fbcbccaa8a2d218c0b481266408",
+      "destination_sha256": "3e4588a3c6dcfcd4cbd42b463db9b93f3dca3fbcbccaa8a2d218c0b481266408"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/video_brightness.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/video_brightness.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "e6795d6e5b6a378ba4d62364775c5a86c023f829be8bea24a889a8bdca656884",
+      "destination_sha256": "e6795d6e5b6a378ba4d62364775c5a86c023f829be8bea24a889a8bdca656884"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/hdl_source/visualizer/viewport_coordinates.v",
+      "destination": "01_FPGA_Project/src/user_source/hdl_source/visualizer/viewport_coordinates.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "bec5a8cca96ddda488de4fc791b7433211b1213d49f721ad9af84ded843b401e",
+      "destination_sha256": "bec5a8cca96ddda488de4fc791b7433211b1213d49f721ad9af84ded843b401e"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/ip_source/pll.ipc",
+      "destination": "01_FPGA_Project/src/user_source/ip_source/pll.ipc",
+      "kind": "exact_github_copy",
+      "source_sha256": "85ba92c312254bf19f5349e899d09df04e76348cf0060a45589e829d57cc1ecb",
+      "destination_sha256": "85ba92c312254bf19f5349e899d09df04e76348cf0060a45589e829d57cc1ecb"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/ip_source/pll.v",
+      "destination": "01_FPGA_Project/src/user_source/ip_source/pll.v",
+      "kind": "exact_github_copy",
+      "source_sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c",
+      "destination_sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/src/user_source/ip_source/pll.vhd",
+      "destination": "01_FPGA_Project/src/user_source/ip_source/pll.vhd",
+      "kind": "exact_github_copy",
+      "source_sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4",
+      "destination_sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/timing_closure/build_td.tcl",
+      "destination": "01_FPGA_Project/tools/timing_closure/build_td.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "ff037b7ba0a30bc7f623f35317818d12caf9fa124726ab67ce3525a4ace06ceb",
+      "destination_sha256": "ff037b7ba0a30bc7f623f35317818d12caf9fa124726ab67ce3525a4ace06ceb"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/timing_closure/certify_td.tcl",
+      "destination": "01_FPGA_Project/tools/timing_closure/certify_td.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "dd3064f99b1bbb24f6ce4c3bc79d088a55a4015149888fd35bd82ad13fe62e66",
+      "destination_sha256": "dd3064f99b1bbb24f6ce4c3bc79d088a55a4015149888fd35bd82ad13fe62e66"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/timing_closure/bitgen.tcl",
+      "destination": "01_FPGA_Project/tools/timing_closure/bitgen.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "c107c654bbde1371f59820e6aa46636c4543482d53e82418aec5e79ff1c235aa",
+      "destination_sha256": "c107c654bbde1371f59820e6aa46636c4543482d53e82418aec5e79ff1c235aa"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/alarm/build_td.tcl",
+      "destination": "01_FPGA_Project/tools/alarm/build_td.tcl",
+      "kind": "exact_github_copy",
+      "source_sha256": "f819fbd7fda5358b6afa5038a3a94db0233dad1cbba9284a13b176be9ff1cc9d",
+      "destination_sha256": "f819fbd7fda5358b6afa5038a3a94db0233dad1cbba9284a13b176be9ff1cc9d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/alarm_text_lut.vh",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/alarm_text_lut.vh",
+      "kind": "exact_github_copy",
+      "source_sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357",
+      "destination_sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_contract.json",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_contract.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084",
+      "destination_sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.bin",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.bin",
+      "kind": "exact_github_copy",
+      "source_sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83",
+      "destination_sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.hex",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62",
+      "destination_sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.mem",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.mem",
+      "kind": "exact_github_copy",
+      "source_sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3",
+      "destination_sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.mif",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7",
+      "destination_sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom_16.mif",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom_16.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711",
+      "destination_sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/glyph_map.json",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/glyph_map.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de",
+      "destination_sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/manifest.json",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/manifest.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7",
+      "destination_sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/mapping_migration.json",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/mapping_migration.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39",
+      "destination_sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/menu_extension.json",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/menu_extension.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f",
+      "destination_sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/menu_text_lut.vh",
+      "destination": "01_FPGA_Project/tools/font_rom/release_alarm_192/menu_text_lut.vh",
+      "kind": "exact_github_copy",
+      "source_sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b",
+      "destination_sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/MediaAV_ReedAlarm_Font176_20261026.bit",
+      "destination": "02_Bitstream/MediaAV_ReedAlarm_Font176_20261026.bit",
+      "kind": "exact_github_copy",
+      "source_sha256": "a9342657b061af4a1010a02f079b9ff10d42aff9f91fd280084f354adccb4ae6",
+      "destination_sha256": "a9342657b061af4a1010a02f079b9ff10d42aff9f91fd280084f354adccb4ae6"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/MediaAV_ReedAlarm_Font176_20261026.bit.sha256",
+      "destination": "02_Bitstream/MediaAV_ReedAlarm_Font176_20261026.bit.sha256",
+      "kind": "exact_github_copy",
+      "source_sha256": "35e3d54fe38cd199732459aa4f6690282dc696b139983640975c1ae8fb7e9fc0",
+      "destination_sha256": "35e3d54fe38cd199732459aa4f6690282dc696b139983640975c1ae8fb7e9fc0"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/showcase_font176.img",
+      "destination": "04_Media/Ready_To_Flash/showcase_font176.img",
+      "kind": "exact_github_copy",
+      "source_sha256": "ffad4af1597d69f2003d155b96150c66982ae6298492d255a3be9dca66ece929",
+      "destination_sha256": "ffad4af1597d69f2003d155b96150c66982ae6298492d255a3be9dca66ece929"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/showcase_font176.img.sha256",
+      "destination": "04_Media/Ready_To_Flash/showcase_font176.img.sha256",
+      "kind": "exact_github_copy",
+      "source_sha256": "9aee35f509d7bfbe14eca2032e689f804f7fee3fb9b5a3497e117853ecf2b626",
+      "destination_sha256": "9aee35f509d7bfbe14eca2032e689f804f7fee3fb9b5a3497e117853ecf2b626"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/showcase_font176.manifest.json",
+      "destination": "04_Media/Ready_To_Flash/showcase_font176.manifest.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "dec79aececac56041e39feb7f9787d22b24c30add9095db45e8f4a287bde8795",
+      "destination_sha256": "dec79aececac56041e39feb7f9787d22b24c30add9095db45e8f4a287bde8795"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/配套版本与校验.json",
+      "destination": "05_Verification/github_release_identity.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "57f2f6e0b0c5208485e57257357d74e94f3f105fadf75c00467742530bc619b5",
+      "destination_sha256": "57f2f6e0b0c5208485e57257357d74e94f3f105fadf75c00467742530bc619b5"
+    },
+    {
+      "origin": "releases/board_tests/reed_alarm_font176_20261026/independent_readback.json",
+      "destination": "05_Verification/github_image_readback.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "c1d96fd4a87af6e289d7897c83873ac88a302ca204f5a633c5323bfe286d0122",
+      "destination_sha256": "c1d96fd4a87af6e289d7897c83873ac88a302ca204f5a633c5323bfe286d0122"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/evidence/font176_qualification.json",
+      "destination": "05_Verification/github_font176_qualification.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "7e4c45b1cd52e287a0675a080f07a6e0a5a1bcc3520acf5f3a3078ce0b14f7df",
+      "destination_sha256": "7e4c45b1cd52e287a0675a080f07a6e0a5a1bcc3520acf5f3a3078ce0b14f7df"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/Reports/Rebuild_4b84a4da0c054a7caa9705323c806e9d/independent_timing.rpt",
+      "destination": "05_Verification/Github_Signoff/independent_timing.rpt",
+      "kind": "exact_github_copy",
+      "source_sha256": "28102c24df507ac05ea235a55a118e343244d6d585fbca20c32e6cefbad9139b",
+      "destination_sha256": "28102c24df507ac05ea235a55a118e343244d6d585fbca20c32e6cefbad9139b"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/Reports/Rebuild_4b84a4da0c054a7caa9705323c806e9d/independent_sta.json",
+      "destination": "05_Verification/Github_Signoff/independent_sta.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "c1c2514e1e5cf895902bc526af0d2a16ffc249f7c642c4fb0c8c966e8be172bd",
+      "destination_sha256": "c1c2514e1e5cf895902bc526af0d2a16ffc249f7c642c4fb0c8c966e8be172bd"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/Reports/Rebuild_4b84a4da0c054a7caa9705323c806e9d/route.area",
+      "destination": "05_Verification/Github_Signoff/route.area",
+      "kind": "exact_github_copy",
+      "source_sha256": "f8a8644192483634a60f6731199e7e5798220b111c98acb6145333d31ab6fe91",
+      "destination_sha256": "f8a8644192483634a60f6731199e7e5798220b111c98acb6145333d31ab6fe91"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/Reports/Rebuild_4b84a4da0c054a7caa9705323c806e9d/build_inputs_sha256.json",
+      "destination": "05_Verification/Github_Signoff/build_inputs_sha256.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "ada5d483b655d50673100a2d8a91d6b33407ef3378dc16244db1f109e168ad9a",
+      "destination_sha256": "ada5d483b655d50673100a2d8a91d6b33407ef3378dc16244db1f109e168ad9a"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/Reports/Rebuild_4b84a4da0c054a7caa9705323c806e9d/physical_parameters.txt",
+      "destination": "05_Verification/Github_Signoff/physical_parameters.txt",
+      "kind": "exact_github_copy",
+      "source_sha256": "c16bf0ed77782a05dc4f3f56f7ebe08684c678586c0905c7b4f2be971b649b03",
+      "destination_sha256": "c16bf0ed77782a05dc4f3f56f7ebe08684c678586c0905c7b4f2be971b649b03"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/Reports/Rebuild_4b84a4da0c054a7caa9705323c806e9d/route_parameters.txt",
+      "destination": "05_Verification/Github_Signoff/route_parameters.txt",
+      "kind": "exact_github_copy",
+      "source_sha256": "7f9e65831da86ec69616965ac476bf71fd1a450957a43722a004b08beb9a577a",
+      "destination_sha256": "7f9e65831da86ec69616965ac476bf71fd1a450957a43722a004b08beb9a577a"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/c_phase2/multi_image.py",
+      "destination": "03_Software/tools/c_phase2/multi_image.py",
+      "kind": "exact_github_copy",
+      "source_sha256": "546933a949506cc3f1a43fafc73d4fe315f371e0b7b51f9daf3ad738b3b78632",
+      "destination_sha256": "546933a949506cc3f1a43fafc73d4fe315f371e0b7b51f9daf3ad738b3b78632"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/media_pack/build_media_image.py",
+      "destination": "03_Software/tools/media_pack/build_media_image.py",
+      "kind": "exact_github_copy",
+      "source_sha256": "fe4a69c9145d4b99d75ab060e23e47271c713c32c009224c81257752d24ab7a4",
+      "destination_sha256": "fe4a69c9145d4b99d75ab060e23e47271c713c32c009224c81257752d24ab7a4"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/generate_font_rom.py",
+      "destination": "03_Software/tools/font_rom/generate_font_rom.py",
+      "kind": "exact_github_copy",
+      "source_sha256": "a9473585ef69caab7a436ea9ca147302854d664b850a64d9f462f4f952521a8e",
+      "destination_sha256": "a9473585ef69caab7a436ea9ca147302854d664b850a64d9f462f4f952521a8e"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/characters.txt",
+      "destination": "03_Software/tools/font_rom/characters.txt",
+      "kind": "exact_github_copy",
+      "source_sha256": "c0254264a51eea238eb8f4ea7595ab20798142516762dada5f9518cdd1ec12af",
+      "destination_sha256": "c0254264a51eea238eb8f4ea7595ab20798142516762dada5f9518cdd1ec12af"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/requirements.txt",
+      "destination": "03_Software/tools/font_rom/requirements.txt",
+      "kind": "exact_github_copy",
+      "source_sha256": "9900bc6d68fcb6d39d0f384319f6f7fc82c0e25e82310ee2804bb8fe96f29e14",
+      "destination_sha256": "9900bc6d68fcb6d39d0f384319f6f7fc82c0e25e82310ee2804bb8fe96f29e14"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_32x32_192/font_rom.hex",
+      "destination": "03_Software/tools/font_rom/release_32x32_192/font_rom.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "2a1b0544dc43c2182c15a0a1ede14581bc9f49ce27c671f1f539787cdfdb3d7d",
+      "destination_sha256": "2a1b0544dc43c2182c15a0a1ede14581bc9f49ce27c671f1f539787cdfdb3d7d"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_32x32_192/glyph_map.json",
+      "destination": "03_Software/tools/font_rom/release_32x32_192/glyph_map.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "163c02ec4ae1da2256677113394f193a95ee288c3d111e459d4f512199f266f1",
+      "destination_sha256": "163c02ec4ae1da2256677113394f193a95ee288c3d111e459d4f512199f266f1"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/alarm_text_lut.vh",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/alarm_text_lut.vh",
+      "kind": "exact_github_copy",
+      "source_sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357",
+      "destination_sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_contract.json",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/font_contract.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084",
+      "destination_sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.bin",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/font_rom.bin",
+      "kind": "exact_github_copy",
+      "source_sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83",
+      "destination_sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.hex",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/font_rom.hex",
+      "kind": "exact_github_copy",
+      "source_sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62",
+      "destination_sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.mem",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/font_rom.mem",
+      "kind": "exact_github_copy",
+      "source_sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3",
+      "destination_sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom.mif",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/font_rom.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7",
+      "destination_sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/font_rom_16.mif",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/font_rom_16.mif",
+      "kind": "exact_github_copy",
+      "source_sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711",
+      "destination_sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/glyph_map.json",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/glyph_map.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de",
+      "destination_sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/manifest.json",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/manifest.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7",
+      "destination_sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/mapping_migration.json",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/mapping_migration.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39",
+      "destination_sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/menu_extension.json",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/menu_extension.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f",
+      "destination_sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_rom/release_alarm_192/menu_text_lut.vh",
+      "destination": "03_Software/tools/font_rom/release_alarm_192/menu_text_lut.vh",
+      "kind": "exact_github_copy",
+      "source_sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b",
+      "destination_sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    },
+    {
+      "origin": "doc/convert/convert_images_to_bmp.py",
+      "destination": "03_Software/tools/image_processing/convert_images_to_bmp.py",
+      "kind": "exact_github_copy",
+      "source_sha256": "99b56e2bf63b1e24e3253b742f57be72af4dbdf35249d1f2d833cf31357250b1",
+      "destination_sha256": "99b56e2bf63b1e24e3253b742f57be72af4dbdf35249d1f2d833cf31357250b1"
+    },
+    {
+      "origin": "tools/media_stage2_fix4_test/tools/font_compact/build_assets.py",
+      "destination": "03_Software/tools/font_compact/build_assets.py",
+      "kind": "input_path_only_adaptation",
+      "source_sha256": "cfaba8707d7df9338084dd6b993bf5c40272d343e6416eb9b1eb9e0ee142c095",
+      "destination_sha256": "db079898ddb917e6ee6fabe0aca14b36c6eb363a71612ad5d1707b04cc555ed0",
+      "replacements": {
+        "P/'字库精简清单_20261026/二次核对_简短报警版/拟字形编号.json'": "P/'inputs/font176/glyph_selection.json'",
+        "P/'evidence/pre_font176_sources.zip'": "P/'inputs/font176/menu_template.zip'"
+      }
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\京剧\\J01_蓝白水袖_原图.jpg",
+      "destination": "04_Media/Image_Sources/theme_0_image_0.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "6fc672b8cf437ce98a78cb2c26fd9240ee25f92b380fdb85983116bbdc519f4e",
+      "destination_sha256": "6fc672b8cf437ce98a78cb2c26fd9240ee25f92b380fdb85983116bbdc519f4e"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\京剧\\微信图片_20261011222017_1304_368.jpg",
+      "destination": "04_Media/Image_Sources/theme_0_image_1.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "18885dc9168a2a547dd64b3d82864624a29f45af8dabd383153b434cc359b83a",
+      "destination_sha256": "18885dc9168a2a547dd64b3d82864624a29f45af8dabd383153b434cc359b83a"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\京剧\\微信图片_20261011222018_1305_368.jpg",
+      "destination": "04_Media/Image_Sources/theme_0_image_2.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "6b7e1671ed358fa6a6950fabe419eb8b863b8d054463aabc7202e58d7e9a576a",
+      "destination_sha256": "6b7e1671ed358fa6a6950fabe419eb8b863b8d054463aabc7202e58d7e9a576a"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\京剧\\微信图片_20261011222019_1306_368.jpg",
+      "destination": "04_Media/Image_Sources/theme_0_image_3.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "f1bab0ef1c7c42c8a6d1c2865067f94249d911506fae5f8a4e4fb3415d4b08f4",
+      "destination_sha256": "f1bab0ef1c7c42c8a6d1c2865067f94249d911506fae5f8a4e4fb3415d4b08f4"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\醒狮\\X07_新春登高·热闹场景.jpg",
+      "destination": "04_Media/Image_Sources/theme_1_image_0.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "3a4d6e0ca7c3ff07e9c738b7765a62b5aefbfac307c12421ca830d61bf24a639",
+      "destination_sha256": "3a4d6e0ca7c3ff07e9c738b7765a62b5aefbfac307c12421ca830d61bf24a639"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\醒狮\\微信图片_20261012025016_1338_368.jpg",
+      "destination": "04_Media/Image_Sources/theme_1_image_1.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "ee01ac1c5e22902e65b0006a276717e7e208617b44984ab1e163d92f0a313249",
+      "destination_sha256": "ee01ac1c5e22902e65b0006a276717e7e208617b44984ab1e163d92f0a313249"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\醒狮\\X15_非遗工坊·扎作示范.jpg",
+      "destination": "04_Media/Image_Sources/theme_1_image_2.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "fcaea27ae75918669898e49a9285babc4b333d60fb33f389fa471629020a20a4",
+      "destination_sha256": "fcaea27ae75918669898e49a9285babc4b333d60fb33f389fa471629020a20a4"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\醒狮\\X19_佛山狮坊·日常排练.jpg",
+      "destination": "04_Media/Image_Sources/theme_1_image_3.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "8056ca3531f403bd84262d7311033849accd3f01b81604efaa079fcb223c0c24",
+      "destination_sha256": "8056ca3531f403bd84262d7311033849accd3f01b81604efaa079fcb223c0c24"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\古琴\\Q07_雨夜雅集·古窗花木.jpg",
+      "destination": "04_Media/Image_Sources/theme_2_image_0.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "5e402fe8ef91f6ee2b689a68cc8e571da4a0c5b90cfa5458415acec505bd9e92",
+      "destination_sha256": "5e402fe8ef91f6ee2b689a68cc8e571da4a0c5b90cfa5458415acec505bd9e92"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\古琴\\Q09_拨弦特写·手与琴面.jpg",
+      "destination": "04_Media/Image_Sources/theme_2_image_1.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "6fc9c452cc5134ea1a776b87ee1f2fc13363a0190682a3cfeeb8df1186c8d4f8",
+      "destination_sha256": "6fc9c452cc5134ea1a776b87ee1f2fc13363a0190682a3cfeeb8df1186c8d4f8"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\古琴\\Q10_手工斫琴·接近4∶3.jpg",
+      "destination": "04_Media/Image_Sources/theme_2_image_2.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "0562331964170e739e733a55d2039941ae82d2ecbeaf54f6005d0f87d5000df2",
+      "destination_sha256": "0562331964170e739e733a55d2039941ae82d2ecbeaf54f6005d0f87d5000df2"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\古琴\\Q12_黑白斫琴·窗光与木屑.jpg",
+      "destination": "04_Media/Image_Sources/theme_2_image_3.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "840cc0ea42098f91d4b9b557f9e0b5a5d10f445e4c90ba6f7dc9f6871ae214e3",
+      "destination_sha256": "840cc0ea42098f91d4b9b557f9e0b5a5d10f445e4c90ba6f7dc9f6871ae214e3"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\打铁花\\T01_蔚县打树花·古墙火雨.jpg",
+      "destination": "04_Media/Image_Sources/theme_3_image_0.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "725a91eeb492c3a26788b1fe4556e33de84e9d13fd0557ce9e317256342bbbdb",
+      "destination_sha256": "725a91eeb492c3a26788b1fe4556e33de84e9d13fd0557ce9e317256342bbbdb"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\打铁花\\T04_铁花盛放·大幅火幕.jpg",
+      "destination": "04_Media/Image_Sources/theme_3_image_1.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "ca6bec256774e9d35a41ac98b09066aff8cb426e0418d9d8b0b73243a1769309",
+      "destination_sha256": "ca6bec256774e9d35a41ac98b09066aff8cb426e0418d9d8b0b73243a1769309"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\打铁花\\T11_古堡铁花·城墙肌理.jpg",
+      "destination": "04_Media/Image_Sources/theme_3_image_2.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "4cefd0f39fd88f9ab35fa7e6d9a62090270a156719444a7248f3e596b4de384a",
+      "destination_sha256": "4cefd0f39fd88f9ab35fa7e6d9a62090270a156719444a7248f3e596b4de384a"
+    },
+    {
+      "origin": "D:\\Anlogic\\已选主题图片_20261011\\打铁花\\T22_杨建军与江寻千·学艺报道配图C.jpg",
+      "destination": "04_Media/Image_Sources/theme_3_image_3.jpg",
+      "kind": "local_source_matched_to_github_crop_sha256",
+      "source_sha256": "206f35f6e951aef1460c6569306cf576e024885d9b04aadfcaa6fc21af602bfe",
+      "destination_sha256": "206f35f6e951aef1460c6569306cf576e024885d9b04aadfcaa6fc21af602bfe"
+    },
+    {
+      "origin": "doc/四主题图片_640x480_20261011/裁切验证_20261012.json",
+      "destination": "05_Verification/github_crop_verification.json",
+      "kind": "exact_github_copy",
+      "source_sha256": "8006bf8d59e47f1da9057bb6bf1ee6aa9abe3230672b055823501876f89eeff0",
+      "destination_sha256": "8006bf8d59e47f1da9057bb6bf1ee6aa9abe3230672b055823501876f89eeff0"
+    },
+    {
+      "origin": "doc/四主题图片_640x480_20261011/裁切预览_20261012.png",
+      "destination": "05_Verification/crop_overview.png",
+      "kind": "exact_github_copy",
+      "source_sha256": "3f316f90c509500d281260a52f0e0799cb1a439e2c48d5c957a4a0c03bbeabdc",
+      "destination_sha256": "3f316f90c509500d281260a52f0e0799cb1a439e2c48d5c957a4a0c03bbeabdc"
+    }
+  ],
+  "omitted_nonproduction_files": [
+    "01_FPGA_Project/src/td_project/contrast_samples.csv",
+    "01_FPGA_Project/src/td_project/final_timing.rpt"
+  ],
+  "added_entrypoints": [
+    "03_Software/rebuild_image.py",
+    "03_Software/tools/image_processing/batch_crop.py",
+    "05_Verification/check_package.py"
+  ],
+  "missing_font_inputs_reconstructed_from": [
+    "published mapping_migration.json",
+    "published menu_text_lut.vh normalized to LF for the original generator"
+  ],
+  "entry_method": "Open 01_FPGA_Project/src/td_project/Media_AV_Visualizer_Ultimate.al in Tang Dynasty"
+}

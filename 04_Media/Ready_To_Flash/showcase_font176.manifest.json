@@ -1,0 +1,584 @@
+{
+  "schema": "ICHSHOW3_MANIFEST_V1",
+  "version": 3,
+  "contract": "C-v0.1-draft",
+  "image_sha256": "ffad4af1597d69f2003d155b96150c66982ae6298492d255a3be9dca66ece929",
+  "image_total_sectors": 101520,
+  "directory_crc32": "0xAFDA0397",
+  "font_set_id": "0xCBE17BCF",
+  "glyph_count": 175,
+  "theme_count": 4,
+  "picture_count": 16,
+  "resource_count": 24,
+  "themes": [
+    {
+      "theme_id": 0,
+      "name": "京剧",
+      "image_dwell_ms": 30000,
+      "images": [
+        {
+          "resource_id": 0,
+          "theme_id": 0,
+          "image_index": 0,
+          "kind": "image",
+          "lba": 2048,
+          "bytes": 921654,
+          "sha256": "bc47f3db17a37b54fd18a8d84a5808101a93c63a74b62556be6bc821d6c09289",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_0.bmp"
+        },
+        {
+          "resource_id": 1,
+          "theme_id": 0,
+          "image_index": 1,
+          "kind": "image",
+          "lba": 3849,
+          "bytes": 921654,
+          "sha256": "d3795cfb386029e387099f2ab7e8749f8a4d787f2ffbfdbb5c10d0ac9ecce64f",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_1.bmp"
+        },
+        {
+          "resource_id": 2,
+          "theme_id": 0,
+          "image_index": 2,
+          "kind": "image",
+          "lba": 5650,
+          "bytes": 921654,
+          "sha256": "ae2e7ad243a4d5a34185731eaf47d6996967722684ec17df23baed30406f76e7",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_2.bmp"
+        },
+        {
+          "resource_id": 3,
+          "theme_id": 0,
+          "image_index": 3,
+          "kind": "image",
+          "lba": 7451,
+          "bytes": 921654,
+          "sha256": "63c99af38d747e5bacaf482912d93b6e2aae3e45098c4097993ef1a545102241",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_3.bmp"
+        }
+      ],
+      "audio": {
+        "resource_id": 64,
+        "theme_id": 0,
+        "image_index": null,
+        "kind": "audio",
+        "lba": 9252,
+        "bytes": 9043086,
+        "sha256": "083dbcdd3388713ed7b4bc37e32ea3a533f7a421683006c978579fd5f5229c5c",
+        "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0.wav"
+      },
+      "text": {
+        "resource_id": 128,
+        "theme_id": 0,
+        "image_index": null,
+        "kind": "text",
+        "lba": 26915,
+        "bytes": 134,
+        "sha256": "a8c5a2f82b82a2b3882f7aba92081067676b2d2b16758065c6b093f4d6c3d717",
+        "token_count": 55,
+        "decoded_rows": [
+          "京剧              ",
+          "唱念做打演绎百态人生，     ",
+          "脸谱与华服展现         ",
+          "传统戏曲之美。"
+        ],
+        "source_path": null
+      }
+    },
+    {
+      "theme_id": 1,
+      "name": "醒狮",
+      "image_dwell_ms": 30000,
+      "images": [
+        {
+          "resource_id": 4,
+          "theme_id": 1,
+          "image_index": 0,
+          "kind": "image",
+          "lba": 26916,
+          "bytes": 921654,
+          "sha256": "2b31e811a38c601a534b30c5b950746362b29923c80b70189d4a6543b67dde00",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_0.bmp"
+        },
+        {
+          "resource_id": 5,
+          "theme_id": 1,
+          "image_index": 1,
+          "kind": "image",
+          "lba": 28717,
+          "bytes": 921654,
+          "sha256": "15bd1f1e688bb63a977f020a391b2cc3f81d4d23444a003af3d47f26b9f59fa4",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_1.bmp"
+        },
+        {
+          "resource_id": 6,
+          "theme_id": 1,
+          "image_index": 2,
+          "kind": "image",
+          "lba": 30518,
+          "bytes": 921654,
+          "sha256": "72f4c9559cd1f42b87cf53305e2278cf4df8db9bce9461db6fbd11bdd76176e8",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_2.bmp"
+        },
+        {
+          "resource_id": 7,
+          "theme_id": 1,
+          "image_index": 3,
+          "kind": "image",
+          "lba": 32319,
+          "bytes": 921654,
+          "sha256": "37dede2947deb457452dc695a21645a2a2bcb91c92bdf53543654f1182ba03a3",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_3.bmp"
+        }
+      ],
+      "audio": {
+        "resource_id": 65,
+        "theme_id": 1,
+        "image_index": null,
+        "kind": "audio",
+        "lba": 34120,
+        "bytes": 9043086,
+        "sha256": "baa373da28b7105fe914dcb460de8c673560100b741f34b6797ebbcd8149394d",
+        "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1.wav"
+      },
+      "text": {
+        "resource_id": 129,
+        "theme_id": 1,
+        "image_index": null,
+        "kind": "text",
+        "lba": 51783,
+        "bytes": 134,
+        "sha256": "ccc9628881d49ec7b1453a54c30b8bd9c938c89287f73c43af35842a0f888537",
+        "token_count": 55,
+        "decoded_rows": [
+          "醒狮              ",
+          "锣鼓声中腾跃采青，       ",
+          "舞出威武神采，         ",
+          "寄托吉祥祝愿。"
+        ],
+        "source_path": null
+      }
+    },
+    {
+      "theme_id": 2,
+      "name": "古琴",
+      "image_dwell_ms": 30000,
+      "images": [
+        {
+          "resource_id": 8,
+          "theme_id": 2,
+          "image_index": 0,
+          "kind": "image",
+          "lba": 51784,
+          "bytes": 921654,
+          "sha256": "be31ffd90eae5bfcbb92da50a3f8ec070995967fe81fdcd4e3a95c4982cbb1c4",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_0.bmp"
+        },
+        {
+          "resource_id": 9,
+          "theme_id": 2,
+          "image_index": 1,
+          "kind": "image",
+          "lba": 53585,
+          "bytes": 921654,
+          "sha256": "37aa9971585f4b48f3f1fc8dbafd0c2b92501bee1b7bacd617acd8d488c8df84",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_1.bmp"
+        },
+        {
+          "resource_id": 10,
+          "theme_id": 2,
+          "image_index": 2,
+          "kind": "image",
+          "lba": 55386,
+          "bytes": 921654,
+          "sha256": "8d5a89346d31ef6e2d170ad71cc75b678c3644d8a3556c1a49993503a85bd581",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_2.bmp"
+        },
+        {
+          "resource_id": 11,
+          "theme_id": 2,
+          "image_index": 3,
+          "kind": "image",
+          "lba": 57187,
+          "bytes": 921654,
+          "sha256": "fc84e64c146e28bf3671a7881ad9498b0ac2e11ca991a453bdb084a0cc1bb3b9",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_3.bmp"
+        }
+      ],
+      "audio": {
+        "resource_id": 66,
+        "theme_id": 2,
+        "image_index": null,
+        "kind": "audio",
+        "lba": 58988,
+        "bytes": 9043086,
+        "sha256": "1f763bbd6c8cdbee314f7633c92ae164f8528b3b700bb682f0d1d0beb853f5f1",
+        "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2.wav"
+      },
+      "text": {
+        "resource_id": 130,
+        "theme_id": 2,
+        "image_index": null,
+        "kind": "text",
+        "lba": 76651,
+        "bytes": 136,
+        "sha256": "0b03a6c8eeb396375ed1cd8b6fa4cc4960326e0d45980e9050bbb878e7d5446a",
+        "token_count": 56,
+        "decoded_rows": [
+          "古琴              ",
+          "七弦流淌悠远琴音，       ",
+          "在轻吟慢奏中          ",
+          "感受宁静与雅致。"
+        ],
+        "source_path": null
+      }
+    },
+    {
+      "theme_id": 3,
+      "name": "打铁花",
+      "image_dwell_ms": 30000,
+      "images": [
+        {
+          "resource_id": 12,
+          "theme_id": 3,
+          "image_index": 0,
+          "kind": "image",
+          "lba": 76652,
+          "bytes": 921654,
+          "sha256": "01732f87dfedb316791e849a1a0b7c5408577252fda24a9354310dfb81e191db",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_0.bmp"
+        },
+        {
+          "resource_id": 13,
+          "theme_id": 3,
+          "image_index": 1,
+          "kind": "image",
+          "lba": 78453,
+          "bytes": 921654,
+          "sha256": "3f89259c9dc4343cf942d21ee2061b5857fb8df49abad57c35f63401a2fede11",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_1.bmp"
+        },
+        {
+          "resource_id": 14,
+          "theme_id": 3,
+          "image_index": 2,
+          "kind": "image",
+          "lba": 80254,
+          "bytes": 921654,
+          "sha256": "9fa746f55eb91144220e0dd7d3a90f8f1ece66aab8169fc9a6c80a47d116c734",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_2.bmp"
+        },
+        {
+          "resource_id": 15,
+          "theme_id": 3,
+          "image_index": 3,
+          "kind": "image",
+          "lba": 82055,
+          "bytes": 921654,
+          "sha256": "d8b111b36c68d316d156302546311252199154f5201203e71cb4c8f6e2e4ea86",
+          "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_3.bmp"
+        }
+      ],
+      "audio": {
+        "resource_id": 67,
+        "theme_id": 3,
+        "image_index": null,
+        "kind": "audio",
+        "lba": 83856,
+        "bytes": 9043086,
+        "sha256": "db7a742b391705c0035cd47239d8b119a5c5639895cb5d8641df6e021c551f0d",
+        "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3.wav"
+      },
+      "text": {
+        "resource_id": 131,
+        "theme_id": 3,
+        "image_index": null,
+        "kind": "text",
+        "lba": 101519,
+        "bytes": 134,
+        "sha256": "46c8f904028b44769e3abfe2f22d1626026067c573c521f5bc2e0df01f119bd2",
+        "token_count": 55,
+        "decoded_rows": [
+          "打铁花             ",
+          "铁水凌空化作万千金花，     ",
+          "点亮夜空，展现         ",
+          "传统技艺之美。"
+        ],
+        "source_path": null
+      }
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": 0,
+      "theme_id": 0,
+      "image_index": 0,
+      "kind": "image",
+      "lba": 2048,
+      "bytes": 921654,
+      "sha256": "bc47f3db17a37b54fd18a8d84a5808101a93c63a74b62556be6bc821d6c09289",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_0.bmp"
+    },
+    {
+      "resource_id": 1,
+      "theme_id": 0,
+      "image_index": 1,
+      "kind": "image",
+      "lba": 3849,
+      "bytes": 921654,
+      "sha256": "d3795cfb386029e387099f2ab7e8749f8a4d787f2ffbfdbb5c10d0ac9ecce64f",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_1.bmp"
+    },
+    {
+      "resource_id": 2,
+      "theme_id": 0,
+      "image_index": 2,
+      "kind": "image",
+      "lba": 5650,
+      "bytes": 921654,
+      "sha256": "ae2e7ad243a4d5a34185731eaf47d6996967722684ec17df23baed30406f76e7",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_2.bmp"
+    },
+    {
+      "resource_id": 3,
+      "theme_id": 0,
+      "image_index": 3,
+      "kind": "image",
+      "lba": 7451,
+      "bytes": 921654,
+      "sha256": "63c99af38d747e5bacaf482912d93b6e2aae3e45098c4097993ef1a545102241",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0_image_3.bmp"
+    },
+    {
+      "resource_id": 4,
+      "theme_id": 1,
+      "image_index": 0,
+      "kind": "image",
+      "lba": 26916,
+      "bytes": 921654,
+      "sha256": "2b31e811a38c601a534b30c5b950746362b29923c80b70189d4a6543b67dde00",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_0.bmp"
+    },
+    {
+      "resource_id": 5,
+      "theme_id": 1,
+      "image_index": 1,
+      "kind": "image",
+      "lba": 28717,
+      "bytes": 921654,
+      "sha256": "15bd1f1e688bb63a977f020a391b2cc3f81d4d23444a003af3d47f26b9f59fa4",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_1.bmp"
+    },
+    {
+      "resource_id": 6,
+      "theme_id": 1,
+      "image_index": 2,
+      "kind": "image",
+      "lba": 30518,
+      "bytes": 921654,
+      "sha256": "72f4c9559cd1f42b87cf53305e2278cf4df8db9bce9461db6fbd11bdd76176e8",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_2.bmp"
+    },
+    {
+      "resource_id": 7,
+      "theme_id": 1,
+      "image_index": 3,
+      "kind": "image",
+      "lba": 32319,
+      "bytes": 921654,
+      "sha256": "37dede2947deb457452dc695a21645a2a2bcb91c92bdf53543654f1182ba03a3",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1_image_3.bmp"
+    },
+    {
+      "resource_id": 8,
+      "theme_id": 2,
+      "image_index": 0,
+      "kind": "image",
+      "lba": 51784,
+      "bytes": 921654,
+      "sha256": "be31ffd90eae5bfcbb92da50a3f8ec070995967fe81fdcd4e3a95c4982cbb1c4",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_0.bmp"
+    },
+    {
+      "resource_id": 9,
+      "theme_id": 2,
+      "image_index": 1,
+      "kind": "image",
+      "lba": 53585,
+      "bytes": 921654,
+      "sha256": "37aa9971585f4b48f3f1fc8dbafd0c2b92501bee1b7bacd617acd8d488c8df84",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_1.bmp"
+    },
+    {
+      "resource_id": 10,
+      "theme_id": 2,
+      "image_index": 2,
+      "kind": "image",
+      "lba": 55386,
+      "bytes": 921654,
+      "sha256": "8d5a89346d31ef6e2d170ad71cc75b678c3644d8a3556c1a49993503a85bd581",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_2.bmp"
+    },
+    {
+      "resource_id": 11,
+      "theme_id": 2,
+      "image_index": 3,
+      "kind": "image",
+      "lba": 57187,
+      "bytes": 921654,
+      "sha256": "fc84e64c146e28bf3671a7881ad9498b0ac2e11ca991a453bdb084a0cc1bb3b9",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2_image_3.bmp"
+    },
+    {
+      "resource_id": 12,
+      "theme_id": 3,
+      "image_index": 0,
+      "kind": "image",
+      "lba": 76652,
+      "bytes": 921654,
+      "sha256": "01732f87dfedb316791e849a1a0b7c5408577252fda24a9354310dfb81e191db",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_0.bmp"
+    },
+    {
+      "resource_id": 13,
+      "theme_id": 3,
+      "image_index": 1,
+      "kind": "image",
+      "lba": 78453,
+      "bytes": 921654,
+      "sha256": "3f89259c9dc4343cf942d21ee2061b5857fb8df49abad57c35f63401a2fede11",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_1.bmp"
+    },
+    {
+      "resource_id": 14,
+      "theme_id": 3,
+      "image_index": 2,
+      "kind": "image",
+      "lba": 80254,
+      "bytes": 921654,
+      "sha256": "9fa746f55eb91144220e0dd7d3a90f8f1ece66aab8169fc9a6c80a47d116c734",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_2.bmp"
+    },
+    {
+      "resource_id": 15,
+      "theme_id": 3,
+      "image_index": 3,
+      "kind": "image",
+      "lba": 82055,
+      "bytes": 921654,
+      "sha256": "d8b111b36c68d316d156302546311252199154f5201203e71cb4c8f6e2e4ea86",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3_image_3.bmp"
+    },
+    {
+      "resource_id": 64,
+      "theme_id": 0,
+      "image_index": null,
+      "kind": "audio",
+      "lba": 9252,
+      "bytes": 9043086,
+      "sha256": "083dbcdd3388713ed7b4bc37e32ea3a533f7a421683006c978579fd5f5229c5c",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_0.wav"
+    },
+    {
+      "resource_id": 65,
+      "theme_id": 1,
+      "image_index": null,
+      "kind": "audio",
+      "lba": 34120,
+      "bytes": 9043086,
+      "sha256": "baa373da28b7105fe914dcb460de8c673560100b741f34b6797ebbcd8149394d",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_1.wav"
+    },
+    {
+      "resource_id": 66,
+      "theme_id": 2,
+      "image_index": null,
+      "kind": "audio",
+      "lba": 58988,
+      "bytes": 9043086,
+      "sha256": "1f763bbd6c8cdbee314f7633c92ae164f8528b3b700bb682f0d1d0beb853f5f1",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_2.wav"
+    },
+    {
+      "resource_id": 67,
+      "theme_id": 3,
+      "image_index": null,
+      "kind": "audio",
+      "lba": 83856,
+      "bytes": 9043086,
+      "sha256": "db7a742b391705c0035cd47239d8b119a5c5639895cb5d8641df6e021c551f0d",
+      "source_path": "D:\\Anlogic\\新镜像_Font176_20261026\\assets\\theme_3.wav"
+    },
+    {
+      "resource_id": 128,
+      "theme_id": 0,
+      "image_index": null,
+      "kind": "text",
+      "lba": 26915,
+      "bytes": 134,
+      "sha256": "a8c5a2f82b82a2b3882f7aba92081067676b2d2b16758065c6b093f4d6c3d717",
+      "token_count": 55,
+      "decoded_rows": [
+        "京剧              ",
+        "唱念做打演绎百态人生，     ",
+        "脸谱与华服展现         ",
+        "传统戏曲之美。"
+      ],
+      "source_path": null
+    },
+    {
+      "resource_id": 129,
+      "theme_id": 1,
+      "image_index": null,
+      "kind": "text",
+      "lba": 51783,
+      "bytes": 134,
+      "sha256": "ccc9628881d49ec7b1453a54c30b8bd9c938c89287f73c43af35842a0f888537",
+      "token_count": 55,
+      "decoded_rows": [
+        "醒狮              ",
+        "锣鼓声中腾跃采青，       ",
+        "舞出威武神采，         ",
+        "寄托吉祥祝愿。"
+      ],
+      "source_path": null
+    },
+    {
+      "resource_id": 130,
+      "theme_id": 2,
+      "image_index": null,
+      "kind": "text",
+      "lba": 76651,
+      "bytes": 136,
+      "sha256": "0b03a6c8eeb396375ed1cd8b6fa4cc4960326e0d45980e9050bbb878e7d5446a",
+      "token_count": 56,
+      "decoded_rows": [
+        "古琴              ",
+        "七弦流淌悠远琴音，       ",
+        "在轻吟慢奏中          ",
+        "感受宁静与雅致。"
+      ],
+      "source_path": null
+    },
+    {
+      "resource_id": 131,
+      "theme_id": 3,
+      "image_index": null,
+      "kind": "text",
+      "lba": 101519,
+      "bytes": 134,
+      "sha256": "46c8f904028b44769e3abfe2f22d1626026067c573c521f5bc2e0df01f119bd2",
+      "token_count": 55,
+      "decoded_rows": [
+        "打铁花             ",
+        "铁水凌空化作万千金花，     ",
+        "点亮夜空，展现         ",
+        "传统技艺之美。"
+      ],
+      "source_path": null
+    }
+  ],
+  "tool_sha256": "546933a949506cc3f1a43fafc73d4fe315f371e0b7b51f9daf3ad738b3b78632",
+  "config_sha256": "99e5b15972975a5b1cea33fd8f1aefff7a2fcc1b47fb038157ecfe9750a84c2e",
+  "glyph_map_sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de"
+}

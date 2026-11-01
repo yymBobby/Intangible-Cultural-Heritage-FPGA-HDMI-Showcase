@@ -1,0 +1,7 @@
+Print Route Property
+-------------------------------------------------
+  Parameters  |   Settings    |  Default Values  
+-------------------------------------------------
+    effort    |  routability  |      normal      
+    timing    |    greedy     |        on        
+-------------------------------------------------

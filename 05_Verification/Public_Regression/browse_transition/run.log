@@ -1,0 +1,7 @@
+VCD info: dumpfile browse_transition.vcd opened for output.
+PASS: slide speed=0 direction=0 exact_frames=32 endpoint=960/640, descriptor locked
+PASS: slide speed=1 direction=0 exact_frames=16 endpoint=960/640, descriptor locked
+PASS: slide speed=1 direction=1 exact_frames=16 endpoint=960/640, descriptor locked
+PASS: slide speed=0 direction=1 exact_frames=32 endpoint=960/640, descriptor locked
+PASS: stable-frame guard, two boundaries, asynchronous-domain level sync, activity revokes admission
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\browse\tb_browse_transition.sv:80: $finish called at 348475000 (1ps)

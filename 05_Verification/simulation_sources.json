@@ -1,0 +1,112 @@
+[
+  {
+    "source": "tools/media_stage2_fix4_test/tools/rapid_slide/tb_browse_queue.sv",
+    "destination": "06_Simulation/browse/tb_browse_queue.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "61b29e0f79b2f7da38e50fb5e696caf39983d83974bc7be7ecc970c0842f264c",
+    "sha256": "61b29e0f79b2f7da38e50fb5e696caf39983d83974bc7be7ecc970c0842f264c",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/rapid_slide/tb_browse_rate.sv",
+    "destination": "06_Simulation/browse/tb_browse_rate.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "ae1c9d2eb3c4322904c4aa62787d3b7c618abdc95e901caca897f4fc5713c282",
+    "sha256": "ae1c9d2eb3c4322904c4aa62787d3b7c618abdc95e901caca897f4fc5713c282",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/rapid_slide/tb_browse_transition.sv",
+    "destination": "06_Simulation/browse/tb_browse_transition.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "a4f2e6b22cff82d9138d4174202b28a0a7cbeae00287b3433f4550ae02ad7d17",
+    "sha256": "a4f2e6b22cff82d9138d4174202b28a0a7cbeae00287b3433f4550ae02ad7d17",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/rapid_slide/tb_browse_controls.sv",
+    "destination": "06_Simulation/browse/tb_browse_controls.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "b673bd32ea0c7cd7fd6c3f9cc09888d25dedb52c9c491c305d3ee0d15a3b8091",
+    "sha256": "b673bd32ea0c7cd7fd6c3f9cc09888d25dedb52c9c491c305d3ee0d15a3b8091",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/alarm/tb_alarm_control.sv",
+    "destination": "06_Simulation/alarm/tb_alarm_control.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "a0b12f0177b06945af52a96ccf34335374e156e44397827c8c1554ce4fb8fc70",
+    "sha256": "a0b12f0177b06945af52a96ccf34335374e156e44397827c8c1554ce4fb8fc70",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/alarm/tb_alarm_controls.sv",
+    "destination": "06_Simulation/alarm/tb_alarm_controls.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "f53100939e1f8d8e122541a46845ff08a2f11c6eb83ee841b9fd2d91b6d9fe78",
+    "sha256": "f53100939e1f8d8e122541a46845ff08a2f11c6eb83ee841b9fd2d91b6d9fe78",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/alarm/tb_alarm_osd.sv",
+    "destination": "06_Simulation/alarm/tb_alarm_osd.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "1d3974554c6f7bcdbf3de72d377f2dc7c34b9b8284a06d3bfe02f8652d40fd7e",
+    "sha256": "1d3974554c6f7bcdbf3de72d377f2dc7c34b9b8284a06d3bfe02f8652d40fd7e",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/contrast/tb_contrast_math.sv",
+    "destination": "06_Simulation/image/tb_contrast_math.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "6239c9c74ae5e02311ec71ad7d3df45af0bba52c571643b9d491da2c5007c01f",
+    "sha256": "6239c9c74ae5e02311ec71ad7d3df45af0bba52c571643b9d491da2c5007c01f",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/contrast/tb_contrast_ui.sv",
+    "destination": "06_Simulation/image/tb_contrast_ui.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "6c3659bbc65e857f5de03cd8103fe0fe9cfb8f478a05a4a9f5999bb836e8f6b4",
+    "sha256": "6c3659bbc65e857f5de03cd8103fe0fe9cfb8f478a05a4a9f5999bb836e8f6b4",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/tb_image_cache_scheduler.sv",
+    "destination": "06_Simulation/cache/tb_image_cache_scheduler.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "d23a759641a79a1a04d9c1e9cfa21f2d09aa8be1f4e89ac42cc20d43468933a2",
+    "sha256": "d23a759641a79a1a04d9c1e9cfa21f2d09aa8be1f4e89ac42cc20d43468933a2",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/tb_cached_image_loader.sv",
+    "destination": "06_Simulation/cache/tb_cached_image_loader.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "1d6356cf5ceeef959bbabaea33da6018fde587a608a1550ef752580b2c995e49",
+    "sha256": "242b92d03f463a22daa1ac0ef4b18a94eb259351c9dc3a14360181203e1c4f6e",
+    "adaptation": "Only test stimulus Font176 ID/count and serialized header ID bytes updated; payload, CRC tests and assertions unchanged."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/tb_fft_band_ram.sv",
+    "destination": "06_Simulation/audio/tb_fft_band_ram.sv",
+    "source_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+    "original_sha256": "cefb1fbd9af1ec4217fea8c69631815ba66270716e0e924ba3dd9222b06dd05e",
+    "sha256": "cefb1fbd9af1ec4217fea8c69631815ba66270716e0e924ba3dd9222b06dd05e",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/timing_closure/sim_bram.v",
+    "destination": "06_Simulation/sim_bram.v",
+    "original_sha256": "5f420f2bfa1df02456574b84c8b9745115ba3e361015be8190c4cd8f31f035a5",
+    "sha256": "5f420f2bfa1df02456574b84c8b9745115ba3e361015be8190c4cd8f31f035a5",
+    "adaptation": "Exact upstream testbench copy."
+  },
+  {
+    "source": "tools/media_stage2_fix4_test/tools/bmp_resource_loader/bmp_fixture.svh",
+    "destination": "06_Simulation/cache/bmp_fixture.svh",
+    "original_sha256": "a27a58ad8523d9bf6a21c56ef6aeac605350a7a4bde387beeb1ac66757356bbe",
+    "sha256": "a27a58ad8523d9bf6a21c56ef6aeac605350a7a4bde387beeb1ac66757356bbe",
+    "adaptation": "Exact upstream testbench copy."
+  }
+]

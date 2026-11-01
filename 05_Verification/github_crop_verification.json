@@ -1,0 +1,231 @@
+{
+  "status": "PASS",
+  "count": 16,
+  "method": "EXIF orient, exact 4:3 crop, uniform LANCZOS resize",
+  "checks": [
+    {
+      "file": "京剧\\jingju_01.bmp",
+      "old_stretch_x_over_y": 1.01875,
+      "crop_box": [
+        0,
+        9,
+        1280,
+        969
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "bc47f3db17a37b54fd18a8d84a5808101a93c63a74b62556be6bc821d6c09289"
+    },
+    {
+      "file": "京剧\\jingju_02.bmp",
+      "old_stretch_x_over_y": 0.8181818181818182,
+      "crop_box": [
+        120,
+        0,
+        1200,
+        810
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "d3795cfb386029e387099f2ab7e8749f8a4d787f2ffbfdbb5c10d0ac9ecce64f"
+    },
+    {
+      "file": "京剧\\jingju_03.bmp",
+      "old_stretch_x_over_y": 0.8868686868686869,
+      "crop_box": [
+        76,
+        1,
+        1244,
+        877
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "ae2e7ad243a4d5a34185731eaf47d6996967722684ec17df23baed30406f76e7"
+    },
+    {
+      "file": "京剧\\jingju_04.bmp",
+      "old_stretch_x_over_y": 0.891919191919192,
+      "crop_box": [
+        72,
+        0,
+        1248,
+        882
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "63c99af38d747e5bacaf482912d93b6e2aae3e45098c4097993ef1a545102241"
+    },
+    {
+      "file": "醒狮\\xingshi_01.bmp",
+      "old_stretch_x_over_y": 0.8653333333333334,
+      "crop_box": [
+        136,
+        1,
+        1864,
+        1297
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "2b31e811a38c601a534b30c5b950746362b29923c80b70189d4a6543b67dde00"
+    },
+    {
+      "file": "醒狮\\xingshi_02.bmp",
+      "old_stretch_x_over_y": 1.7383838383838386,
+      "crop_box": [
+        0,
+        240,
+        1320,
+        1230
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "15bd1f1e688bb63a977f020a391b2cc3f81d4d23444a003af3d47f26b9f59fa4"
+    },
+    {
+      "file": "醒狮\\xingshi_03.bmp",
+      "old_stretch_x_over_y": 0.8890666666666667,
+      "crop_box": [
+        0,
+        1,
+        2220,
+        1666
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "72f4c9559cd1f42b87cf53305e2278cf4df8db9bce9461db6fbd11bdd76176e8"
+    },
+    {
+      "file": "醒狮\\xingshi_04.bmp",
+      "old_stretch_x_over_y": 0.8888888888888888,
+      "crop_box": [
+        60,
+        0,
+        1020,
+        720
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "37dede2947deb457452dc695a21645a2a2bcb91c92bdf53543654f1182ba03a3"
+    },
+    {
+      "file": "古琴\\guqin_01.bmp",
+      "old_stretch_x_over_y": 0.888888888888889,
+      "crop_box": [
+        43,
+        1,
+        707,
+        499
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "be31ffd90eae5bfcbb92da50a3f8ec070995967fe81fdcd4e3a95c4982cbb1c4"
+    },
+    {
+      "file": "古琴\\guqin_02.bmp",
+      "old_stretch_x_over_y": 0.8888888888888888,
+      "crop_box": [
+        36,
+        0,
+        612,
+        432
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "37aa9971585f4b48f3f1fc8dbafd0c2b92501bee1b7bacd617acd8d488c8df84"
+    },
+    {
+      "file": "古琴\\guqin_03.bmp",
+      "old_stretch_x_over_y": 1.0010172939979656,
+      "crop_box": [
+        1,
+        1,
+        981,
+        736
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "8d5a89346d31ef6e2d170ad71cc75b678c3644d8a3556c1a49993503a85bd581"
+    },
+    {
+      "file": "古琴\\guqin_04.bmp",
+      "old_stretch_x_over_y": 0.8869565217391304,
+      "crop_box": [
+        39,
+        0,
+        651,
+        459
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "fc84e64c146e28bf3671a7881ad9498b0ac2e11ca991a453bdb084a0cc1bb3b9"
+    },
+    {
+      "file": "打铁花\\datiehua_01.bmp",
+      "old_stretch_x_over_y": 0.8888888888888888,
+      "crop_box": [
+        50,
+        0,
+        850,
+        600
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "01732f87dfedb316791e849a1a0b7c5408577252fda24a9354310dfb81e191db"
+    },
+    {
+      "file": "打铁花\\datiehua_02.bmp",
+      "old_stretch_x_over_y": 0.75,
+      "crop_box": [
+        150,
+        0,
+        1050,
+        675
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "3f89259c9dc4343cf942d21ee2061b5857fb8df49abad57c35f63401a2fede11"
+    },
+    {
+      "file": "打铁花\\datiehua_03.bmp",
+      "old_stretch_x_over_y": 0.8875,
+      "crop_box": [
+        36,
+        0,
+        604,
+        426
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "9fa746f55eb91144220e0dd7d3a90f8f1ece66aab8169fc9a6c80a47d116c734"
+    },
+    {
+      "file": "打铁花\\datiehua_04.bmp",
+      "old_stretch_x_over_y": 1.0074074074074073,
+      "crop_box": [
+        0,
+        3,
+        1080,
+        813
+      ],
+      "uniform_scale_verified": true,
+      "header_verified": true,
+      "pixels_match_source_crop": true,
+      "sha256": "d8b111b36c68d316d156302546311252199154f5201203e71cb4c8f6e2e4ea86"
+    }
+  ]
+}

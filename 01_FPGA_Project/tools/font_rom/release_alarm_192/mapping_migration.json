@@ -1,0 +1,882 @@
+[
+  {
+    "old_id": 0,
+    "new_id": 0,
+    "char": " "
+  },
+  {
+    "old_id": 1,
+    "new_id": 1,
+    "char": "%"
+  },
+  {
+    "old_id": 2,
+    "new_id": 2,
+    "char": "+"
+  },
+  {
+    "old_id": 3,
+    "new_id": 3,
+    "char": "-"
+  },
+  {
+    "old_id": 4,
+    "new_id": 4,
+    "char": "/"
+  },
+  {
+    "old_id": 5,
+    "new_id": 5,
+    "char": "0"
+  },
+  {
+    "old_id": 6,
+    "new_id": 6,
+    "char": "1"
+  },
+  {
+    "old_id": 7,
+    "new_id": 7,
+    "char": "2"
+  },
+  {
+    "old_id": 8,
+    "new_id": 8,
+    "char": "3"
+  },
+  {
+    "old_id": 9,
+    "new_id": 9,
+    "char": "4"
+  },
+  {
+    "old_id": 10,
+    "new_id": 10,
+    "char": "5"
+  },
+  {
+    "old_id": 11,
+    "new_id": 11,
+    "char": "6"
+  },
+  {
+    "old_id": 12,
+    "new_id": 12,
+    "char": "7"
+  },
+  {
+    "old_id": 13,
+    "new_id": 13,
+    "char": "8"
+  },
+  {
+    "old_id": 14,
+    "new_id": 14,
+    "char": "9"
+  },
+  {
+    "old_id": 15,
+    "new_id": 15,
+    "char": "N"
+  },
+  {
+    "old_id": 16,
+    "new_id": 16,
+    "char": "O"
+  },
+  {
+    "old_id": 17,
+    "new_id": 17,
+    "char": "S"
+  },
+  {
+    "old_id": 18,
+    "new_id": 18,
+    "char": "W"
+  },
+  {
+    "old_id": 19,
+    "new_id": 19,
+    "char": "·"
+  },
+  {
+    "old_id": 20,
+    "new_id": 20,
+    "char": "。"
+  },
+  {
+    "old_id": 21,
+    "new_id": 21,
+    "char": "七"
+  },
+  {
+    "old_id": 22,
+    "new_id": 22,
+    "char": "万"
+  },
+  {
+    "old_id": 23,
+    "new_id": 23,
+    "char": "上"
+  },
+  {
+    "old_id": 24,
+    "new_id": 24,
+    "char": "下"
+  },
+  {
+    "old_id": 25,
+    "new_id": 25,
+    "char": "与"
+  },
+  {
+    "old_id": 26,
+    "new_id": 26,
+    "char": "中"
+  },
+  {
+    "old_id": 27,
+    "new_id": 27,
+    "char": "之"
+  },
+  {
+    "old_id": 28,
+    "new_id": 28,
+    "char": "京"
+  },
+  {
+    "old_id": 29,
+    "new_id": 29,
+    "char": "亮"
+  },
+  {
+    "old_id": 30,
+    "new_id": 30,
+    "char": "人"
+  },
+  {
+    "old_id": 31,
+    "new_id": 31,
+    "char": "传"
+  },
+  {
+    "old_id": 32,
+    "new_id": 32,
+    "char": "位"
+  },
+  {
+    "old_id": 33,
+    "new_id": 33,
+    "char": "作"
+  },
+  {
+    "old_id": 34,
+    "new_id": 34,
+    "char": "做"
+  },
+  {
+    "old_id": 36,
+    "new_id": 35,
+    "char": "入"
+  },
+  {
+    "old_id": 37,
+    "new_id": 36,
+    "char": "关"
+  },
+  {
+    "old_id": 38,
+    "new_id": 37,
+    "char": "凌"
+  },
+  {
+    "old_id": 39,
+    "new_id": 38,
+    "char": "出"
+  },
+  {
+    "old_id": 40,
+    "new_id": 39,
+    "char": "剧"
+  },
+  {
+    "old_id": 42,
+    "new_id": 40,
+    "char": "动"
+  },
+  {
+    "old_id": 43,
+    "new_id": 41,
+    "char": "化"
+  },
+  {
+    "old_id": 44,
+    "new_id": 42,
+    "char": "千"
+  },
+  {
+    "old_id": 45,
+    "new_id": 43,
+    "char": "华"
+  },
+  {
+    "old_id": 46,
+    "new_id": 44,
+    "char": "单"
+  },
+  {
+    "old_id": 47,
+    "new_id": 45,
+    "char": "原"
+  },
+  {
+    "old_id": 48,
+    "new_id": 46,
+    "char": "取"
+  },
+  {
+    "old_id": 49,
+    "new_id": 47,
+    "char": "受"
+  },
+  {
+    "old_id": 50,
+    "new_id": 48,
+    "char": "古"
+  },
+  {
+    "old_id": 51,
+    "new_id": 49,
+    "char": "吉"
+  },
+  {
+    "old_id": 52,
+    "new_id": 50,
+    "char": "吟"
+  },
+  {
+    "old_id": 53,
+    "new_id": 51,
+    "char": "唱"
+  },
+  {
+    "old_id": 54,
+    "new_id": 52,
+    "char": "回"
+  },
+  {
+    "old_id": 55,
+    "new_id": 53,
+    "char": "图"
+  },
+  {
+    "old_id": 56,
+    "new_id": 54,
+    "char": "在"
+  },
+  {
+    "old_id": 57,
+    "new_id": 55,
+    "char": "场"
+  },
+  {
+    "old_id": 58,
+    "new_id": 56,
+    "char": "垂"
+  },
+  {
+    "old_id": 59,
+    "new_id": 57,
+    "char": "声"
+  },
+  {
+    "old_id": 61,
+    "new_id": 58,
+    "char": "复"
+  },
+  {
+    "old_id": 62,
+    "new_id": 59,
+    "char": "夜"
+  },
+  {
+    "old_id": 64,
+    "new_id": 60,
+    "char": "奏"
+  },
+  {
+    "old_id": 65,
+    "new_id": 61,
+    "char": "威"
+  },
+  {
+    "old_id": 66,
+    "new_id": 62,
+    "char": "字"
+  },
+  {
+    "old_id": 67,
+    "new_id": 63,
+    "char": "宁"
+  },
+  {
+    "old_id": 68,
+    "new_id": 64,
+    "char": "寄"
+  },
+  {
+    "old_id": 69,
+    "new_id": 65,
+    "char": "就"
+  },
+  {
+    "old_id": 70,
+    "new_id": 66,
+    "char": "居"
+  },
+  {
+    "old_id": 71,
+    "new_id": 67,
+    "char": "展"
+  },
+  {
+    "old_id": 72,
+    "new_id": 68,
+    "char": "幕"
+  },
+  {
+    "old_id": 73,
+    "new_id": 69,
+    "char": "平"
+  },
+  {
+    "old_id": 74,
+    "new_id": 70,
+    "char": "度"
+  },
+  {
+    "old_id": 75,
+    "new_id": 71,
+    "char": "开"
+  },
+  {
+    "old_id": 76,
+    "new_id": 72,
+    "char": "弦"
+  },
+  {
+    "old_id": 77,
+    "new_id": 73,
+    "char": "念"
+  },
+  {
+    "old_id": 78,
+    "new_id": 74,
+    "char": "态"
+  },
+  {
+    "old_id": 79,
+    "new_id": 75,
+    "char": "恢"
+  },
+  {
+    "old_id": 80,
+    "new_id": 76,
+    "char": "悠"
+  },
+  {
+    "old_id": 81,
+    "new_id": 77,
+    "char": "感"
+  },
+  {
+    "old_id": 82,
+    "new_id": 78,
+    "char": "愿"
+  },
+  {
+    "old_id": 83,
+    "new_id": 79,
+    "char": "慢"
+  },
+  {
+    "old_id": 84,
+    "new_id": 80,
+    "char": "戏"
+  },
+  {
+    "old_id": 85,
+    "new_id": 81,
+    "char": "打"
+  },
+  {
+    "old_id": 86,
+    "new_id": 82,
+    "char": "托"
+  },
+  {
+    "old_id": 87,
+    "new_id": 83,
+    "char": "技"
+  },
+  {
+    "old_id": 88,
+    "new_id": 84,
+    "char": "择"
+  },
+  {
+    "old_id": 89,
+    "new_id": 85,
+    "char": "按"
+  },
+  {
+    "old_id": 90,
+    "new_id": 86,
+    "char": "播"
+  },
+  {
+    "old_id": 91,
+    "new_id": 87,
+    "char": "放"
+  },
+  {
+    "old_id": 92,
+    "new_id": 88,
+    "char": "效"
+  },
+  {
+    "old_id": 94,
+    "new_id": 89,
+    "char": "整"
+  },
+  {
+    "old_id": 95,
+    "new_id": 90,
+    "char": "旋"
+  },
+  {
+    "old_id": 96,
+    "new_id": 91,
+    "char": "无"
+  },
+  {
+    "old_id": 99,
+    "new_id": 92,
+    "char": "曲"
+  },
+  {
+    "old_id": 100,
+    "new_id": 93,
+    "char": "服"
+  },
+  {
+    "old_id": 101,
+    "new_id": 94,
+    "char": "未"
+  },
+  {
+    "old_id": 102,
+    "new_id": 95,
+    "char": "果"
+  },
+  {
+    "old_id": 103,
+    "new_id": 96,
+    "char": "武"
+  },
+  {
+    "old_id": 104,
+    "new_id": 97,
+    "char": "水"
+  },
+  {
+    "old_id": 105,
+    "new_id": 98,
+    "char": "流"
+  },
+  {
+    "old_id": 106,
+    "new_id": 99,
+    "char": "消"
+  },
+  {
+    "old_id": 107,
+    "new_id": 100,
+    "char": "淌"
+  },
+  {
+    "old_id": 108,
+    "new_id": 101,
+    "char": "淡"
+  },
+  {
+    "old_id": 110,
+    "new_id": 102,
+    "char": "滑"
+  },
+  {
+    "old_id": 111,
+    "new_id": 103,
+    "char": "滤"
+  },
+  {
+    "old_id": 112,
+    "new_id": 104,
+    "char": "演"
+  },
+  {
+    "old_id": 113,
+    "new_id": 105,
+    "char": "灰"
+  },
+  {
+    "old_id": 114,
+    "new_id": 106,
+    "char": "点"
+  },
+  {
+    "old_id": 115,
+    "new_id": 107,
+    "char": "片"
+  },
+  {
+    "old_id": 116,
+    "new_id": 108,
+    "char": "狮"
+  },
+  {
+    "old_id": 117,
+    "new_id": 109,
+    "char": "现"
+  },
+  {
+    "old_id": 119,
+    "new_id": 110,
+    "char": "琴"
+  },
+  {
+    "old_id": 120,
+    "new_id": 111,
+    "char": "生"
+  },
+  {
+    "old_id": 121,
+    "new_id": 112,
+    "char": "画"
+  },
+  {
+    "old_id": 122,
+    "new_id": 113,
+    "char": "百"
+  },
+  {
+    "old_id": 123,
+    "new_id": 114,
+    "char": "直"
+  },
+  {
+    "old_id": 124,
+    "new_id": 115,
+    "char": "确"
+  },
+  {
+    "old_id": 125,
+    "new_id": 116,
+    "char": "祝"
+  },
+  {
+    "old_id": 126,
+    "new_id": 117,
+    "char": "神"
+  },
+  {
+    "old_id": 127,
+    "new_id": 118,
+    "char": "祥"
+  },
+  {
+    "old_id": 128,
+    "new_id": 119,
+    "char": "空"
+  },
+  {
+    "old_id": 129,
+    "new_id": 120,
+    "char": "系"
+  },
+  {
+    "old_id": 130,
+    "new_id": 121,
+    "char": "级"
+  },
+  {
+    "old_id": 131,
+    "new_id": 122,
+    "char": "绎"
+  },
+  {
+    "old_id": 132,
+    "new_id": 123,
+    "char": "统"
+  },
+  {
+    "old_id": 134,
+    "new_id": 124,
+    "char": "绪"
+  },
+  {
+    "old_id": 136,
+    "new_id": 125,
+    "char": "缝"
+  },
+  {
+    "old_id": 137,
+    "new_id": 126,
+    "char": "缩"
+  },
+  {
+    "old_id": 138,
+    "new_id": 127,
+    "char": "置"
+  },
+  {
+    "old_id": 139,
+    "new_id": 128,
+    "char": "美"
+  },
+  {
+    "old_id": 140,
+    "new_id": 129,
+    "char": "脸"
+  },
+  {
+    "old_id": 141,
+    "new_id": 130,
+    "char": "腾"
+  },
+  {
+    "old_id": 142,
+    "new_id": 131,
+    "char": "自"
+  },
+  {
+    "old_id": 143,
+    "new_id": 132,
+    "char": "致"
+  },
+  {
+    "old_id": 144,
+    "new_id": 133,
+    "char": "舞"
+  },
+  {
+    "old_id": 146,
+    "new_id": 134,
+    "char": "艺"
+  },
+  {
+    "old_id": 147,
+    "new_id": 135,
+    "char": "花"
+  },
+  {
+    "old_id": 148,
+    "new_id": 136,
+    "char": "菜"
+  },
+  {
+    "old_id": 149,
+    "new_id": 137,
+    "char": "认"
+  },
+  {
+    "old_id": 150,
+    "new_id": 138,
+    "char": "设"
+  },
+  {
+    "old_id": 153,
+    "new_id": 139,
+    "char": "调"
+  },
+  {
+    "old_id": 154,
+    "new_id": 140,
+    "char": "谱"
+  },
+  {
+    "old_id": 157,
+    "new_id": 141,
+    "char": "跃"
+  },
+  {
+    "old_id": 158,
+    "new_id": 142,
+    "char": "转"
+  },
+  {
+    "old_id": 159,
+    "new_id": 143,
+    "char": "轮"
+  },
+  {
+    "old_id": 160,
+    "new_id": 144,
+    "char": "轻"
+  },
+  {
+    "old_id": 162,
+    "new_id": 145,
+    "char": "返"
+  },
+  {
+    "old_id": 163,
+    "new_id": 146,
+    "char": "进"
+  },
+  {
+    "old_id": 164,
+    "new_id": 147,
+    "char": "远"
+  },
+  {
+    "old_id": 165,
+    "new_id": 148,
+    "char": "选"
+  },
+  {
+    "old_id": 167,
+    "new_id": 149,
+    "char": "醒"
+  },
+  {
+    "old_id": 168,
+    "new_id": 150,
+    "char": "采"
+  },
+  {
+    "old_id": 169,
+    "new_id": 151,
+    "char": "金"
+  },
+  {
+    "old_id": 170,
+    "new_id": 152,
+    "char": "铁"
+  },
+  {
+    "old_id": 172,
+    "new_id": 153,
+    "char": "锣"
+  },
+  {
+    "old_id": 173,
+    "new_id": 154,
+    "char": "镜"
+  },
+  {
+    "old_id": 174,
+    "new_id": 155,
+    "char": "闭"
+  },
+  {
+    "old_id": 175,
+    "new_id": 156,
+    "char": "雅"
+  },
+  {
+    "old_id": 176,
+    "new_id": 157,
+    "char": "青"
+  },
+  {
+    "old_id": 177,
+    "new_id": 158,
+    "char": "静"
+  },
+  {
+    "old_id": 179,
+    "new_id": 159,
+    "char": "音"
+  },
+  {
+    "old_id": 181,
+    "new_id": 160,
+    "char": "默"
+  },
+  {
+    "old_id": 182,
+    "new_id": 161,
+    "char": "鼓"
+  },
+  {
+    "old_id": 183,
+    "new_id": 162,
+    "char": "，"
+  },
+  {
+    "old_id": 184,
+    "new_id": 163,
+    "char": "怀"
+  },
+  {
+    "old_id": 185,
+    "new_id": 164,
+    "char": "旧"
+  },
+  {
+    "old_id": 186,
+    "new_id": 165,
+    "char": "右"
+  },
+  {
+    "old_id": 187,
+    "new_id": 166,
+    "char": "左"
+  },
+  {
+    "old_id": 188,
+    "new_id": 167,
+    "char": "量"
+  },
+  {
+    "old_id": 189,
+    "new_id": 168,
+    "char": "间"
+  },
+  {
+    "old_id": 190,
+    "new_id": 169,
+    "char": "隔"
+  },
+  {
+    "old_id": 191,
+    "new_id": 170,
+    "char": "秒"
+  },
+  {
+    "old_id": 192,
+    "new_id": 171,
+    "char": "对"
+  },
+  {
+    "old_id": 193,
+    "new_id": 172,
+    "char": "比"
+  },
+  {
+    "old_id": 195,
+    "new_id": 173,
+    "char": "品"
+  },
+  {
+    "old_id": 197,
+    "new_id": 174,
+    "char": "离"
+  },
+  {
+    "old_id": 200,
+    "new_id": 175,
+    "char": null
+  }
+]

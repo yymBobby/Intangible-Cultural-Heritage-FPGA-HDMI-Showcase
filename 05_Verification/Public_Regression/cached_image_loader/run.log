@@ -1,0 +1,5 @@
+PASS: joint loader hit=1 background=0 bad_crc=0 slot=5 BMP_words=0 text_glyphs=2
+PASS: joint loader hit=1 background=0 bad_crc=1 slot=5 BMP_words=0 text_glyphs=2
+PASS: joint loader hit=0 background=1 bad_crc=0 slot=4 BMP_words=307200 text_glyphs=0
+PASS: joint loader hit=0 background=0 bad_crc=0 slot=2 BMP_words=307200 text_glyphs=2
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\cache\tb_cached_image_loader.sv:104: $finish called at 60169825000 (1ps)

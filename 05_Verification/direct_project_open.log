@@ -1,0 +1,415 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/programs/TD_6.2.1_Engineer_6.2.168.116/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     CodexSandboxOffline
+   Run Date =   Sun Nov  1 12:20:53 2026
+
+   Run on =     LAPTOP-OEOMG5I8
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project -single_run D:/Anlogic/tmp/Release_Direct_Open_Check_20261101/src/td_project/Media_AV_Visualizer_Ultimate.al"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ip/afifo_16_32_256.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ip/afifo_32_16_256.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ip/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../user_source/hdl_source/ip/sys_pll.v(77)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ip/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../user_source/hdl_source/ip/video_pll.v(70)
+HDL-1007 : analyze verilog file al_ip/AUDIO_SAMPLE_ROM.v
+HDL-1007 : analyze verilog file al_ip/CATALOG_INDEX_RAM.v
+HDL-1007 : analyze verilog file al_ip/CATALOG_RANGE_RAM.v
+HDL-1007 : analyze verilog file al_ip/PLL.v
+HDL-1007 : undeclared symbol 'PLL_open0', assumed default net type 'wire' in al_ip/PLL.v(78)
+HDL-1007 : undeclared symbol 'PLL_open8', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open7', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open6', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open5', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open4', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open3', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open2', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open1', assumed default net type 'wire' in al_ip/PLL.v(84)
+HDL-1007 : undeclared symbol 'PLL_open11', assumed default net type 'wire' in al_ip/PLL.v(86)
+HDL-1007 : undeclared symbol 'PLL_open10', assumed default net type 'wire' in al_ip/PLL.v(86)
+HDL-1007 : undeclared symbol 'PLL_open9', assumed default net type 'wire' in al_ip/PLL.v(86)
+HDL-1007 : analyze verilog file al_ip/PLL_HDMI_AUDIO.v
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open0', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(85)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open8', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open7', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open6', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open5', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open4', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open3', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open2', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open1', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(91)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open10', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(93)
+HDL-1007 : undeclared symbol 'PLL_HDMI_AUDIO_open9', assumed default net type 'wire' in al_ip/PLL_HDMI_AUDIO.v(93)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video_source_test.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/key_remove_shakes.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/I2S_receiver.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/audio_arc_calculate.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2614)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2716)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2724)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(4936)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(5989)
+HDL-1007 : back to file '../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(77)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/test/i2s_test_tone_gen_pll.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/rom/i2s_rom_player_single_pll_fix64_rom_ip.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/top_tf_hdmi_audio.v
+HDL-1007 : undeclared symbol 'knob_click', assumed default net type 'wire' in ../user_source/hdl_source/top_tf_hdmi_audio.v(78)
+HDL-1007 : undeclared symbol 'joy_click', assumed default net type 'wire' in ../user_source/hdl_source/top_tf_hdmi_audio.v(78)
+HDL-7225 CRITICAL-WARNING: 'knob_click' is already implicitly declared on line 78 in ../user_source/hdl_source/top_tf_hdmi_audio.v(112)
+HDL-7225 CRITICAL-WARNING: 'joy_click' is already implicitly declared on line 78 in ../user_source/hdl_source/top_tf_hdmi_audio.v(114)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/ax_debounce.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/bmp_read.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/color_bar.v
+HDL-1007 : analyze included file ../user_source/hdl_source/SD/video_define.v in ../user_source/hdl_source/SD/color_bar.v(2)
+HDL-1007 : back to file '../user_source/hdl_source/SD/color_bar.v' in ../user_source/hdl_source/SD/color_bar.v(2)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/frame_fifo_read.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/frame_fifo_write.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/frame_read_write.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/sd_card_bmp.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/seg_decoder.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/seg_scan.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/video_delay.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/video_timing_data.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/hdmi_audio_tone_i2s_64fs.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/startup_pulse.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video_rgb_to_axis_640x480.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/sd_card_cmd.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/sd_card_top.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/spi_master.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/sdram.v
+HDL-1007 : analyze included file ../user_source/hdl_source/include/global_def.v in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-1007 : back to file '../user_source/hdl_source/SD/sdram.v' in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in ../user_source/hdl_source/SD/sdram.v(89)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/include/sdr_as_ram.enc.v
+HDL-1007 : analyze included file ../user_source/hdl_source/include/global_def.v in ../user_source/hdl_source/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file '../user_source/hdl_source/include/sdr_as_ram.enc.v' in ../user_source/hdl_source/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file '../user_source/hdl_source/include/sdr_as_ram.enc.v' in ../user_source/hdl_source/include/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/include/sdr_init_ref.enc.v
+HDL-1007 : analyze included file ../user_source/hdl_source/include/global_def.v in ../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file '../user_source/hdl_source/include/sdr_init_ref.enc.v' in ../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../user_source/hdl_source/include/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file '../user_source/hdl_source/include/sdr_init_ref.enc.v' in ../user_source/hdl_source/include/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/include/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file '../user_source/hdl_source/include/sdr_wrrd.enc.v' in ../user_source/hdl_source/include/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/hdmi_audio_tone_pcm_scale.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/audio/pcm_async_fifo.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/audio/wav_pcm_parser.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/audio/wav_pcm_player.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/i2s_frame_receiver.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/media_av_pipeline.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/media_sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../user_source/hdl_source/integration/media_sys_pll.v(104)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/media_video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../user_source/hdl_source/integration/media_video_pll.v(80)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/theme_key_control.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/bmp_resource_loader.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/image_read_adapter.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/image_sdram_video_pipeline.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/image_text_loader.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/image_video_axis_640x480.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/osd_dynamic.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/osd_dynamic_with_font_rom.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/osd_text_loader.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/sdram_image_backend.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/text_bank_cdc.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/video_commit_window.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/video_frame_commit.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/av_recovery_manager.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/resource_v3_catalog.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/resource_v3_service.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/sd_sector_adapter.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/resource_v3_runtime.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/audio_fft512.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/audio_visualizer_compact.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/image_line_scaler.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/sidebar_layer_pipelined.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/media_wide_renderer.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/video_brightness.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/console_input_filter.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/rotary_console_input.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/menu_ui_state.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/menu_snapshot_cdc.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/osd_menu_layer.v
+HDL-1007 : analyze included file ../user_source/hdl_source/OSD/menu_text_lut.vh in ../user_source/hdl_source/OSD/osd_menu_layer.v(36)
+HDL-1007 : back to file '../user_source/hdl_source/OSD/osd_menu_layer.v' in ../user_source/hdl_source/OSD/osd_menu_layer.v(36)
+HDL-1007 : analyze included file ../user_source/hdl_source/OSD/alarm_text_lut.vh in ../user_source/hdl_source/OSD/osd_menu_layer.v(203)
+HDL-1007 : back to file '../user_source/hdl_source/OSD/osd_menu_layer.v' in ../user_source/hdl_source/OSD/osd_menu_layer.v(203)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/osd_menu_with_subtitles.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/menu_osd_preview.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/board_menu_input.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/joystick_adc_pair.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/joystick_condition.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/joystick_button.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/joystick_reset.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/joystick_menu_input.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/menu_ui_state_v2.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/resource_v3_backend.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/resource_v3_picture_task.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/SD/image_cache_scheduler.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/image_transition_commit.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/image_crossfade.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/image_filter.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/OSD/caption_typewriter.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/caption_square_tone.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/audio_volume.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/viewport_coordinates.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/image_viewport_scaler.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/visualizer/image_contrast.v
+HDL-1007 : analyze verilog file al_ip/OSD_FONT_ROM.v
+HDL-1007 : analyze verilog file al_ip/OSD_FONT_BITS.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/exhibit_alarm_control.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/control/alarm_buzzer.v
+PRJ-1401 : Successfully analyzed 105 source files.
+RUN-1003 : finish command "open_project -single_run D:/Anlogic/tmp/Release_Direct_Open_Check_20261101/src/td_project/Media_AV_Visualizer_Ultimate.al" in  1.901111s wall, 0.218750s user + 0.125000s system = 0.343750s CPU (18.1%)
+
+RUN-1004 : used memory is 91 MB, reserved memory is 101 MB, peak memory is 91 MB
+RUN-1002 : start command "elaborate -top top"
+HDL-1007 : elaborate module top in ../user_source/hdl_source/top_tf_hdmi_audio.v(2)
+HDL-1007 : elaborate module media_sys_pll in ../user_source/hdl_source/integration/media_sys_pll.v(25)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=20,CLKC2_DIV=20,CLKC3_DIV=25,CLKC4_DIV=100,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=19,CLKC2_CPHASE=7,CLKC3_CPHASE=24,CLKC4_CPHASE=99,GMC_GAIN=4,ICP_CURRENT=29,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-5007 WARNING: actual bit length 5 differs from formal bit length 1 for port 'load_reg' in ../user_source/hdl_source/integration/media_sys_pll.v(99)
+HDL-1007 : elaborate module media_video_pll in ../user_source/hdl_source/integration/media_video_pll.v(25)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,FBCLK_DIV=3,CLKC0_DIV=10,CLKC1_DIV=2,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-5007 WARNING: actual bit length 5 differs from formal bit length 1 for port 'load_reg' in ../user_source/hdl_source/integration/media_video_pll.v(75)
+HDL-1007 : elaborate module PLL_HDMI_AUDIO in al_ip/PLL_HDMI_AUDIO.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,FBCLK_DIV=3,CLKC0_DIV=10,CLKC1_DIV=2,CLKC2_DIV=61,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC1_FPHASE=4,CLKC0_CPHASE=9,CLKC2_CPHASE=60,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module exhibit_alarm_control in ../user_source/hdl_source/control/exhibit_alarm_control.v(3)
+HDL-1007 : elaborate module alarm_buzzer in ../user_source/hdl_source/control/alarm_buzzer.v(3)
+HDL-1007 : elaborate module theme_key_control(DEBOUNCE_CYCLES=800000) in ../user_source/hdl_source/integration/theme_key_control.v(5)
+HDL-1007 : elaborate module sd_card_top(SPI_LOW_SPEED_DIV=98,CMD58_TIMEOUT_CYCLES=40000000) in ../user_source/hdl_source/SD/sd_card_top.v(2)
+HDL-1007 : elaborate module sd_card_sec_read_write(SPI_LOW_SPEED_DIV=98,CMD58_TIMEOUT_CYCLES=40000000) in ../user_source/hdl_source/SD/sd_card_sec_read_write.v(2)
+HDL-1007 : elaborate module sd_card_cmd in ../user_source/hdl_source/SD/sd_card_cmd.v(2)
+HDL-1007 : elaborate module spi_master in ../user_source/hdl_source/SD/spi_master.v(2)
+HDL-1007 : elaborate module joystick_reset in ../user_source/hdl_source/control/joystick_reset.v(2)
+HDL-1007 : elaborate module joystick_menu_input in ../user_source/hdl_source/control/joystick_menu_input.v(4)
+HDL-1007 : elaborate module EG_PHY_ADC(CH1="ENABLE",CH2="ENABLE",VREF="ENABLE") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(1033)
+HDL-1007 : elaborate module joystick_adc_pair in ../user_source/hdl_source/control/joystick_adc_pair.v(4)
+HDL-1007 : elaborate module joystick_pair_cdc in ../user_source/hdl_source/control/joystick_adc_pair.v(72)
+HDL-1007 : elaborate module joystick_condition(INVERT_X=1,INVERT_Y=1) in ../user_source/hdl_source/control/joystick_condition.v(3)
+HDL-1007 : elaborate module joystick_navigation in ../user_source/hdl_source/control/joystick_condition.v(64)
+HDL-1007 : elaborate module joystick_button in ../user_source/hdl_source/control/joystick_button.v(3)
+HDL-1007 : elaborate module board_menu_input(JOYSTICK_MODE=1,ENABLE_ALARM_INPUT=1) in ../user_source/hdl_source/control/board_menu_input.v(5)
+HDL-1007 : elaborate module rotary_console_input(AB_FILTER_CYCLES=12000,BUTTON_FILTER_CYCLES=400000) in ../user_source/hdl_source/control/rotary_console_input.v(7)
+HDL-1007 : elaborate module console_input_filter(WIDTH=2,STABLE_CYCLES=12000) in ../user_source/hdl_source/control/console_input_filter.v(5)
+HDL-1007 : elaborate module console_input_filter in ../user_source/hdl_source/control/console_input_filter.v(5)
+HDL-1007 : elaborate module console_input_filter(RESET_LEVEL=1'b0) in ../user_source/hdl_source/control/console_input_filter.v(5)
+HDL-1007 : elaborate module menu_ui_state_v2(ENABLE_INHIBIT=1) in ../user_source/hdl_source/control/menu_ui_state_v2.v(4)
+HDL-1007 : elaborate module board_browse_control in ../user_source/hdl_source/control/board_menu_input.v(53)
+HDL-1007 : elaborate module media_av_pipeline(MENU_ENABLE=1) in ../user_source/hdl_source/integration/media_av_pipeline.v(4)
+HDL-1007 : elaborate module image_cache_scheduler in ../user_source/hdl_source/SD/image_cache_scheduler.v(5)
+HDL-1007 : elaborate module av_recovery_manager(HOLD_CYCLES=50000) in ../user_source/hdl_source/SD/av_recovery_manager.v(5)
+HDL-1007 : elaborate module av_clock_presence in ../user_source/hdl_source/SD/av_recovery_manager.v(149)
+HDL-1007 : elaborate module av_reset_release in ../user_source/hdl_source/SD/av_recovery_manager.v(138)
+HDL-1007 : elaborate module resource_v3_runtime(ORDERED_BROWSE=1,MENU_DWELL_CONTROL=1) in ../user_source/hdl_source/SD/resource_v3_runtime.v(4)
+HDL-1007 : elaborate module browse_command_queue in ../user_source/hdl_source/SD/resource_v3_runtime.v(267)
+HDL-1007 : elaborate module resource_v3_picture_task(COMMIT_TIMEOUT_CYCLES=80000000) in ../user_source/hdl_source/SD/resource_v3_picture_task.v(5)
+HDL-1007 : elaborate module resource_v3_backend in ../user_source/hdl_source/SD/resource_v3_backend.v(4)
+HDL-1007 : elaborate module resource_v3_catalog in ../user_source/hdl_source/SD/resource_v3_catalog.v(5)
+HDL-1007 : elaborate module resource_v3_catalog_ram in ../user_source/hdl_source/SD/resource_v3_catalog.v(253)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="SP") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module resource_v3_service in ../user_source/hdl_source/SD/resource_v3_service.v(6)
+HDL-1007 : elaborate module resource_v3_metadata_ram in ../user_source/hdl_source/SD/resource_v3_service.v(532)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=18,DATA_WIDTH_B=18,ADDR_WIDTH_A=7,ADDR_WIDTH_B=7,DATA_DEPTH_A=128,DATA_DEPTH_B=128,MODE="SP") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module resource_v3_sector_ram in ../user_source/hdl_source/SD/resource_v3_service.v(510)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024) in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module sd_sector_adapter in ../user_source/hdl_source/SD/sd_sector_adapter.v(6)
+HDL-1007 : elaborate module image_text_loader(RESOURCE_VERSION=3,BANK_BITS=3,IMAGE_BANK_COUNT=6,CACHE_CONTROL=1) in ../user_source/hdl_source/OSD/image_text_loader.v(6)
+HDL-1007 : elaborate module osd_text_loader in ../user_source/hdl_source/OSD/osd_text_loader.v(6)
+HDL-1007 : elaborate module bmp_resource_loader(RESOURCE_VERSION=3,BANK_BITS=3,IMAGE_BANK_COUNT=6) in ../user_source/hdl_source/OSD/bmp_resource_loader.v(10)
+HDL-1007 : elaborate module image_sdram_video_pipeline(IMAGE_WRITE_BOTTOM_UP=1,WIDESCREEN=1,MENU_ENABLE=1,BANK_BITS=3,IMAGE_BANK_COUNT=6) in ../user_source/hdl_source/OSD/image_sdram_video_pipeline.v(7)
+HDL-1007 : elaborate module browse_frame_guard in ../user_source/hdl_source/OSD/image_transition_commit.v(146)
+HDL-1007 : elaborate module image_transition_commit(ADAPTIVE_SPEED=1) in ../user_source/hdl_source/OSD/image_transition_commit.v(5)
+HDL-1007 : elaborate module video_timing_data in ../user_source/hdl_source/SD/video_timing_data.v(1)
+HDL-1007 : elaborate module color_bar in ../user_source/hdl_source/SD/color_bar.v(3)
+HDL-1007 : elaborate module video_commit_window(BLANK_CYCLES=49500,END_GUARD_CYCLES=8192) in ../user_source/hdl_source/OSD/video_commit_window.v(4)
+HDL-1007 : elaborate module sdram_image_backend(IMAGE_BANK_COUNT=6,BANK_BITS=3,DUAL_READ=1,WRITE_BOTTOM_UP=1,REFRESH_CYCLES=781,WATCHDOG_CYCLES=200000000) in ../user_source/hdl_source/OSD/sdram_image_backend.v(6)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../user_source/hdl_source/ip/afifo_16_32_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../user_source/hdl_source/ip/afifo_16_32_256.v(226)
+HDL-1007 : elaborate module wfifo_32_32_512 in ../user_source/hdl_source/ip/afifo_16_32_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_wfifo_32_32_512 in ../user_source/hdl_source/ip/afifo_16_32_256.v(250)
+HDL-1007 : elaborate module ram_infer_wfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../user_source/hdl_source/ip/afifo_16_32_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../user_source/hdl_source/ip/afifo_16_32_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../user_source/hdl_source/ip/afifo_16_32_256.v(231)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b0) in ../user_source/hdl_source/include/sdr_as_ram.enc.v(12)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b0) in ../user_source/hdl_source/include/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/include/sdr_wrrd.enc.v(3)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../user_source/hdl_source/include/sdr_as_ram.enc.v(17)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(683)
+HDL-1007 : elaborate module viewport_frame_lock in ../user_source/hdl_source/visualizer/viewport_coordinates.v(117)
+HDL-1007 : elaborate module image_read_adapter(IMAGE_BANK_COUNT=6,BANK_BITS=3,FINISH_BURST_ON_FENCE=1,VIEWPORT_ENABLE=32'b01) in ../user_source/hdl_source/OSD/image_read_adapter.v(8)
+HDL-1007 : elaborate module viewport_descriptor_geometry in ../user_source/hdl_source/visualizer/viewport_coordinates.v(215)
+HDL-1007 : elaborate module viewport_origin_distances in ../user_source/hdl_source/visualizer/viewport_coordinates.v(197)
+HDL-1007 : elaborate module viewport_pair_div9 in ../user_source/hdl_source/visualizer/viewport_coordinates.v(131)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../user_source/hdl_source/ip/afifo_32_16_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../user_source/hdl_source/ip/afifo_32_16_256.v(226)
+HDL-1007 : elaborate module rfifo_32_32_512 in ../user_source/hdl_source/ip/afifo_32_16_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo_32_32_512 in ../user_source/hdl_source/ip/afifo_32_16_256.v(250)
+HDL-1007 : elaborate module ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../user_source/hdl_source/ip/afifo_32_16_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../user_source/hdl_source/ip/afifo_32_16_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../user_source/hdl_source/ip/afifo_32_16_256.v(231)
+HDL-1007 : elaborate module video_frame_commit(COMMIT_TIMEOUT_CYCLES=80000000,IMAGE_BANK_COUNT=6,BANK_BITS=3,ALLOW_SAME_BANK=32'b01,USE_STAGE_START_GUARD=1) in ../user_source/hdl_source/OSD/video_frame_commit.v(7)
+HDL-1007 : elaborate module text_bank_cdc in ../user_source/hdl_source/OSD/text_bank_cdc.v(8)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=7,ADDR_WIDTH_B=7,DATA_DEPTH_A=128,DATA_DEPTH_B=128,MODE="PDPW") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module caption_typewriter in ../user_source/hdl_source/OSD/caption_typewriter.v(5)
+HDL-1007 : elaborate module media_wide_renderer(ENABLE_MENU=1,ENABLE_CACHE_PROGRESS=1) in ../user_source/hdl_source/visualizer/media_wide_renderer.v(3)
+HDL-1007 : elaborate module video_brightness(ENABLE_ALARM=1) in ../user_source/hdl_source/visualizer/video_brightness.v(5)
+HDL-1007 : elaborate module image_viewport_scaler in ../user_source/hdl_source/visualizer/image_viewport_scaler.v(6)
+HDL-1007 : elaborate module viewport_raster_coordinates in ../user_source/hdl_source/visualizer/viewport_coordinates.v(232)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW",IMPLEMENT="32K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module viewport_bilinear in ../user_source/hdl_source/visualizer/image_viewport_scaler.v(108)
+HDL-1007 : elaborate module image_viewport_scaler(LINE_RAM_IMPLEMENT="9K") in ../user_source/hdl_source/visualizer/image_viewport_scaler.v(6)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=24,DATA_WIDTH_B=24,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module image_contrast in ../user_source/hdl_source/visualizer/image_contrast.v(4)
+HDL-1007 : elaborate module image_crossfade in ../user_source/hdl_source/visualizer/image_crossfade.v(4)
+HDL-1007 : elaborate module EG_LOGIC_MULT in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(208)
+HDL-1007 : elaborate module image_filter in ../user_source/hdl_source/visualizer/image_filter.v(3)
+HDL-1007 : elaborate module menu_snapshot_cdc(WIDTH=68,RESET_SNAPSHOT=68'b01000000000000000000000000000000000000000000000) in ../user_source/hdl_source/control/menu_snapshot_cdc.v(4)
+HDL-1007 : elaborate module osd_menu_with_subtitles(ENABLE_ALARM=1) in ../user_source/hdl_source/OSD/osd_menu_with_subtitles.v(5)
+HDL-1007 : elaborate module OSD_FONT_ROM in al_ip/OSD_FONT_ROM.v(4)
+HDL-1007 : elaborate module OSD_FONT_BITS in al_ip/OSD_FONT_BITS.v(4)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=12288,DATA_DEPTH_B=12288,INIT_FILE="../../../tools/font_rom/release_alarm_192/font_rom_16.mif",IMPLEMENT="32K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module osd_menu_layer(ENABLE_ALARM=1) in ../user_source/hdl_source/OSD/osd_menu_layer.v(4)
+HDL-1007 : elaborate module osd_dynamic(HS_IDLE=0,VS_IDLE=0) in ../user_source/hdl_source/OSD/osd_dynamic.v(7)
+HDL-1007 : elaborate module audio_visualizer_compact(USE_BAND_READ=1) in ../user_source/hdl_source/visualizer/audio_visualizer_compact.v(2)
+HDL-1007 : extracting RAM for identifier 'dots0' in ../user_source/hdl_source/visualizer/audio_visualizer_compact.v(284)
+HDL-1007 : extracting RAM for identifier 'dots1' in ../user_source/hdl_source/visualizer/audio_visualizer_compact.v(285)
+HDL-1007 : elaborate module audio_fft512_ram in ../user_source/hdl_source/visualizer/audio_fft512.v(189)
+HDL-1007 : extracting RAM for identifier 'samples' in ../user_source/hdl_source/visualizer/audio_fft512.v(198)
+HDL-1007 : extracting RAM for identifier 're_mem' in ../user_source/hdl_source/visualizer/audio_fft512.v(199)
+HDL-1007 : extracting RAM for identifier 'im_mem' in ../user_source/hdl_source/visualizer/audio_fft512.v(199)
+HDL-1007 : extracting RAM for identifier 'window_rom' in ../user_source/hdl_source/visualizer/audio_fft512.v(200)
+HDL-1007 : extracting RAM for identifier 'band_rom' in ../user_source/hdl_source/visualizer/audio_fft512.v(201)
+HDL-1007 : readmemh: reading from file 'fft_window.hex' in ../user_source/hdl_source/visualizer/audio_fft512.v(203)
+HDL-1007 : readmemh: reading from file 'fft_band.hex' in ../user_source/hdl_source/visualizer/audio_fft512.v(204)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,INIT_FILE="fft_work_bank.mif",IMPLEMENT="32K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-5314 WARNING: net 'window_rom' does not have a driver in ../user_source/hdl_source/visualizer/audio_fft512.v(200)
+HDL-5314 WARNING: net 'band_rom' does not have a driver in ../user_source/hdl_source/visualizer/audio_fft512.v(201)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=8,ADDR_WIDTH_B=8,DATA_DEPTH_A=256,DATA_DEPTH_B=256,IMPLEMENT="32K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=6,ADDR_WIDTH_B=6,DATA_DEPTH_A=64,DATA_DEPTH_B=64,MODE="PDPW") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-1007 : elaborate module sidebar_layer in ../user_source/hdl_source/visualizer/sidebar_layer_pipelined.v(9)
+HDL-1007 : extracting RAM for identifier 'font' in ../user_source/hdl_source/visualizer/sidebar_layer_pipelined.v(98)
+HDL-1007 : readmemh: reading from file 'sidebar_font.hex' in ../user_source/hdl_source/visualizer/sidebar_layer_pipelined.v(101)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=12,ADDR_WIDTH_B=12,DATA_DEPTH_A=4096,DATA_DEPTH_B=4096,MODE="SP",INIT_FILE="sidebar_ring_geometry.mif",IMPLEMENT="32K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(986)
+HDL-5314 WARNING: net 'font' does not have a driver in ../user_source/hdl_source/visualizer/sidebar_layer_pipelined.v(98)
+HDL-1007 : elaborate module image_video_axis_640x480(HACTIVE=1280) in ../user_source/hdl_source/OSD/image_video_axis_640x480.v(4)
+HDL-1007 : elaborate module wav_pcm_player(RESOURCE_VERSION=3) in ../user_source/hdl_source/audio/wav_pcm_player.v(3)
+HDL-1007 : elaborate module wav_pcm_parser in ../user_source/hdl_source/audio/wav_pcm_parser.v(2)
+HDL-1007 : elaborate module pcm_async_fifo in ../user_source/hdl_source/audio/pcm_async_fifo.v(3)
+HDL-1007 : extracting RAM for identifier 'mem' in ../user_source/hdl_source/audio/pcm_async_fifo.v(13)
+HDL-1007 : elaborate module i2s_frame_receiver in ../user_source/hdl_source/integration/i2s_frame_receiver.v(4)
+HDL-1007 : elaborate module caption_square_tone in ../user_source/hdl_source/visualizer/caption_square_tone.v(5)
+HDL-1007 : elaborate module audio_volume in ../user_source/hdl_source/visualizer/audio_volume.v(4)
+HDL-1007 : elaborate module menu_snapshot_cdc(RESET_SNAPSHOT=48'b011) in ../user_source/hdl_source/control/menu_snapshot_cdc.v(4)
+HDL-1007 : elaborate module audio_arc_calculate in ../user_source/hdl_source/audio_arc_calculate.v(4)
+HDL-1007 : elaborate module seg_decoder in ../user_source/hdl_source/SD/seg_decoder.v(2)
+HDL-1007 : elaborate module seg_scan in ../user_source/hdl_source/SD/seg_scan.v(2)
+HDL-1007 : elaborate module startup_pulse in ../user_source/hdl_source/startup_pulse.v(2)
+HDL-1007 : elaborate module hdmi_1_4b_transmitter_core_wrapper(HTOTAL=1650,HSA=40,HFP=110,HBP=220,HACTIVE=1280,VTOTAL=750,VFP=5,VBP=20,VACTIVE=720,VIDEO_TPG="Disable",VIDEO_VIC=4,IIC_SCL_DIV=750) in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(91)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(137)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(208)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(285)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(396)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(803)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=11,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(1338)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(1480)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=9,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2012)
+HDL-1007 : port '**' remains unconnected for this instance in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2733)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2403)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2842)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(2939)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3138)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3177)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3511)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3666)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3730)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3860)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3949)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(4034)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(4127)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(4285)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(4586)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=96,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(5534)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(5657)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=24,ADDR_WIDTH=10,IMPLEMENT="9K") in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(750)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6273)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6501)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6575)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6924)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module ** in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(6994)
+HDL-1007 : elaborate module hdmi_phy_wrapper in ../user_source/hdl_source/hdmi_phy_warpper.v(3)
+HDL-1007 : elaborate module lane_lvds_10_1 in ../user_source/hdl_source/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:\programs\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(66)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 11 RAMs.
+ARC-1002 : Mark IO location M10 as dedicate.
+ARC-1002 : Mark IO location L10 as dedicate.
+RUN-1003 : finish command "elaborate -top top" in  1.298299s wall, 1.234375s user + 0.046875s system = 1.281250s CPU (98.7%)
+
+RUN-1004 : used memory is 373 MB, reserved memory is 362 MB, peak memory is 373 MB
+RUN-1002 : start command "close_project"
+PASS: direct project open and elaboration from a relocated directory

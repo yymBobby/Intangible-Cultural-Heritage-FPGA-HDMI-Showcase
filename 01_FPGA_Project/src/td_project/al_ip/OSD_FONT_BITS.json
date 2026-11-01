@@ -1,0 +1,10 @@
+{
+  "implementation": "EG_LOGIC_BRAM 32K",
+  "mode": "DP read-only",
+  "width_per_port": 16,
+  "depth": 12288,
+  "clock": "both ports clk_pix",
+  "logical_interface": "6144 x 32, one-cycle read",
+  "physical_mapping": "even low16, odd high16; 6 BRAM32K",
+  "init_file": "../../../tools/font_rom/release_alarm_192/font_rom_16.mif"
+}

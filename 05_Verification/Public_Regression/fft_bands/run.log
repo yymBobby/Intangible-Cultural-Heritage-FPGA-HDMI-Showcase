@@ -1,0 +1,11 @@
+PASS: profile=0 all32bands numerical/cycle exact, nonzero=0 skipped=2840
+PASS: profile=1 all32bands numerical/cycle exact, nonzero=31 skipped=5682
+PASS: profile=2 all32bands numerical/cycle exact, nonzero=32 skipped=8524
+PASS: profile=3 all32bands numerical/cycle exact, nonzero=32 skipped=11338
+PASS: profile=4 all32bands numerical/cycle exact, nonzero=32 skipped=14178
+PASS: profile=5 all32bands numerical/cycle exact, nonzero=32 skipped=17018
+PASS: profile=6 all32bands numerical/cycle exact, nonzero=32 skipped=2840
+PASS: profile=7 all32bands numerical/cycle exact, nonzero=32 skipped=2842
+PASS: profile=8 all32bands numerical/cycle exact, nonzero=32 skipped=2840
+PASS: RAM FFT512 Hann/LRmax exact: 9 published results, 288 band reads, 1294591 identical timing/capture cycles; silence/sine/antiphase/fullscale/stereo/random/clear/reset
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\audio\tb_fft_band_ram.sv:133: $finish called at 32364987501 (1ps)

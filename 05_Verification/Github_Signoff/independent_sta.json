@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "timing_ns": {
+    "SWNS": 0.338,
+    "HWNS": 0.024,
+    "STNS": 0.0,
+    "HTNS": 0.0
+  },
+  "STA_coverage_percent": 99.99,
+  "route_db_sha256": "e0bf40d3973f261d08bf26120abcd1cceeb203a98999bb8bf5ae913c5408e620",
+  "report_sha256": "28102c24df507ac05ea235a55a118e343244d6d585fbca20c32e6cefbad9139b",
+  "production_constraints_unchanged": true
+}

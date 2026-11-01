@@ -1,0 +1,31 @@
+name: Selected RTL regression
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rtl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install simulator
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+      - name: Check source package
+        run: python 05_Verification/check_package.py
+      - name: Run selected production RTL regressions
+        run: python 06_Simulation/run_tests.py
+      - name: Store text and JSON results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rtl-regression-results
+          path: |
+            06_Simulation/output/**/*.log
+            06_Simulation/output/results.json

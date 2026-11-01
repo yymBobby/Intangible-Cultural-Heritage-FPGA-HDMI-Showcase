@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "cases": {
+    "browse_queue": {
+      "status": "PASS",
+      "scope": "Accelerated queue counters; eight slots including active command, full lock and FIFO ordering.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_runtime.v": "0158359ca101c7ec4eebc2c887c77b98cef8f13b3d9ed7b7a1bf86e8211f59a3",
+        "06_Simulation/browse/tb_browse_queue.sv": "61b29e0f79b2f7da38e50fb5e696caf39983d83974bc7be7ecc970c0842f264c"
+      },
+      "messages": [
+        "PASS: eight-entry FIFO model accepted=814 full_locks=64 simultaneous_push_pop=225; no overwrite, drain-unlock, pointer wrap"
+      ]
+    },
+    "browse_rate": {
+      "status": "PASS",
+      "scope": "Production 40 MHz / 6,000,000-cycle (150 ms) admission boundary.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_runtime.v": "0158359ca101c7ec4eebc2c887c77b98cef8f13b3d9ed7b7a1bf86e8211f59a3",
+        "06_Simulation/browse/tb_browse_rate.sv": "ae1c9d2eb3c4322904c4aa62787d3b7c618abdc95e901caca897f4fc5713c282"
+      },
+      "messages": [
+        "PASS: production 40MHz exact 150ms=6000000 clocks; N-1 rejected, N accepted; first immediate, rejected input does not extend timer; checks=7"
+      ]
+    },
+    "browse_transition": {
+      "status": "PASS",
+      "scope": "Two clock domains with accelerated frame events; 32/16 updates and transaction handshakes.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/OSD/image_transition_commit.v": "d36830d120ddaa4d1163139fc882aa9815f15b0d75da359599332c54541ca7ab",
+        "06_Simulation/browse/tb_browse_transition.sv": "a4f2e6b22cff82d9138d4174202b28a0a7cbeae00287b3433f4550ae02ad7d17"
+      },
+      "messages": [
+        "PASS: slide speed=0 direction=0 exact_frames=32 endpoint=960/640, descriptor locked",
+        "PASS: slide speed=1 direction=0 exact_frames=16 endpoint=960/640, descriptor locked",
+        "PASS: slide speed=1 direction=1 exact_frames=16 endpoint=960/640, descriptor locked",
+        "PASS: slide speed=0 direction=1 exact_frames=32 endpoint=960/640, descriptor locked",
+        "PASS: stable-frame guard, two boundaries, asynchronous-domain level sync, activity revokes admission"
+      ]
+    },
+    "browse_controls": {
+      "status": "PASS",
+      "scope": "Release rotary-click theme control, joystick picture/pan and menu routing; accelerated input filters.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/control/console_input_filter.v": "eabb1fa286549eb9772aeb55a97f424da5bb90a4e47e857efc01e7dc3203c0a1",
+        "01_FPGA_Project/src/user_source/hdl_source/control/rotary_console_input.v": "f5c4af38b68f1b157246905793a8e7ecd11456c4602d92286a092206e4dc6280",
+        "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state.v": "3662cb9f245bc6a28b0ea86922053495f59726f65a0dd89f5338168fa19823fc",
+        "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state_v2.v": "ca70629173571cce0522ac14451fc9375fcc7110d32af648ae2619ec0c059bc6",
+        "01_FPGA_Project/src/user_source/hdl_source/control/board_menu_input.v": "97dfc01722ab92a466557c43ad05c0b1c96dd246a4ab01dd3b011206222cf76c",
+        "06_Simulation/browse/tb_browse_controls.sv": "b673bd32ea0c7cd7fd6c3f9cc09888d25dedb52c9c491c305d3ee0d15a3b8091"
+      },
+      "messages": [
+        "PASS: actual filtered encoder/menu UI, no up/down theme misfire, joystick browse vs zoom pan, menu isolation, checks=15"
+      ]
+    },
+    "alarm_control": {
+      "status": "PASS",
+      "scope": "Accelerated alarm/buzzer timing; leave, silence, return, and rearm.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/control/exhibit_alarm_control.v": "fbc1a2160e106b72acc74dcd3dbc6cf24a6d196203da4e0b35386d3e510cc460",
+        "01_FPGA_Project/src/user_source/hdl_source/control/alarm_buzzer.v": "ad27e3094543329af107e1c6791fa41709849b06d2d384488547a7d9e959d76e",
+        "06_Simulation/alarm/tb_alarm_control.sv": "a0b12f0177b06945af52a96ccf34335374e156e44397827c8c1554ce4fb8fc70"
+      },
+      "messages": [
+        "PASS: debounce, startup absence, two mute sources, persistent warning, return hysteresis, rearm, buzzer fail-safe"
+      ]
+    },
+    "alarm_controls": {
+      "status": "PASS",
+      "scope": "First press silences/consumes event; subsequent browsing and menu input resumes.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/control/console_input_filter.v": "eabb1fa286549eb9772aeb55a97f424da5bb90a4e47e857efc01e7dc3203c0a1",
+        "01_FPGA_Project/src/user_source/hdl_source/control/rotary_console_input.v": "f5c4af38b68f1b157246905793a8e7ecd11456c4602d92286a092206e4dc6280",
+        "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state.v": "3662cb9f245bc6a28b0ea86922053495f59726f65a0dd89f5338168fa19823fc",
+        "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state_v2.v": "ca70629173571cce0522ac14451fc9375fcc7110d32af648ae2619ec0c059bc6",
+        "01_FPGA_Project/src/user_source/hdl_source/control/board_menu_input.v": "97dfc01722ab92a466557c43ad05c0b1c96dd246a4ab01dd3b011206222cf76c",
+        "01_FPGA_Project/src/user_source/hdl_source/control/exhibit_alarm_control.v": "fbc1a2160e106b72acc74dcd3dbc6cf24a6d196203da4e0b35386d3e510cc460",
+        "06_Simulation/alarm/tb_alarm_controls.sv": "f53100939e1f8d8e122541a46845ff08a2f11c6eb83ee841b9fd2d91b6d9fe78"
+      },
+      "messages": [
+        "PASS: actual debounced encoder + joystick mute consumed, SW0 not replayed, menu/image/theme controls resume while warning persists"
+      ]
+    },
+    "alarm_osd": {
+      "status": "PASS",
+      "scope": "Actual released font wrapper/MIF with portable BRAM model; warning overlay and brightness.",
+      "sources_sha256": {
+        "06_Simulation/sim_bram.v": "5f420f2bfa1df02456574b84c8b9745115ba3e361015be8190c4cd8f31f035a5",
+        "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_BITS.v": "763b12782f472d15508388404e73ec9f8a6609ec2a748daa4310055b6b36eaa2",
+        "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_ROM.v": "31647a479021a97ceaa4244da4e533c5a17292fdbbbdcd76bea53e936c39a62e",
+        "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_menu_layer.v": "616050394cfc1862498b933ac1e543e65ce5d52f500ac7a04e9f70ea3507b6ac",
+        "01_FPGA_Project/src/user_source/hdl_source/visualizer/video_brightness.v": "e6795d6e5b6a378ba4d62364775c5a86c023f829be8bea24a889a8bdca656884",
+        "06_Simulation/alarm/tb_alarm_osd.sv": "1d3974554c6f7bcdbf3de72d377f2dc7c34b9b8284a06d3bfe02f8652d40fd7e"
+      },
+      "messages": [
+        "PASS: 107520 banner pixels, exact RGB half blend, 32px text, 64px icon, bright foreground at 25 percent gain, sidebar boundary; fg=1943 bg=105577 icon=764"
+      ]
+    },
+    "contrast_math": {
+      "status": "PASS",
+      "scope": "Channel arithmetic, rounding, saturation and synchronous metadata.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_contrast.v": "db1b87796f53837d8cb3b8c9d487c275e595bd4048452d4a477a69435f46e6a5",
+        "06_Simulation/image/tb_contrast_math.sv": "6239c9c74ae5e02311ec71ad7d3df45af0bba52c571643b9d491da2c5007c01f"
+      },
+      "messages": [
+        "PASS: contrast checks=3585, all 256 RGB values x four gains; saturation/rounding/100% identity, sidebar boundaries, sync, bubbles, rapid gain changes/reset"
+      ]
+    },
+    "contrast_ui": {
+      "status": "PASS",
+      "scope": "Four contrast levels, clamped endpoints and defaults.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state_v2.v": "ca70629173571cce0522ac14451fc9375fcc7110d32af648ae2619ec0c059bc6",
+        "06_Simulation/image/tb_contrast_ui.sv": "6c3659bbc65e857f5de03cd8103fe0fe9cfb8f478a05a4a9f5999bb836e8f6b4"
+      },
+      "messages": [
+        "PASS: contrast UI checks=19; four levels, encoder/joystick endpoint saturation and immediate reversal, seven-item wrap, accept and restore"
+      ]
+    },
+    "cache_scheduler": {
+      "status": "PASS",
+      "scope": "Six-slot tag/hit/prefetch/slot protection logic with modeled loader responses.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/SD/image_cache_scheduler.v": "c2d745985e2901c220650b1ee330f85ae2bac294710a71fd57b0704feea8ee68",
+        "06_Simulation/cache/tb_image_cache_scheduler.sv": "d23a759641a79a1a04d9c1e9cfa21f2d09aa8be1f4e89ac42cc20d43468933a2"
+      },
+      "messages": [
+        "PASS: six-frame cache, cold miss/partial-theme HIT forbid animation, all-four HIT permits it, neighbour covers, pinned slots, stable stalled request and cancellation drain"
+      ]
+    },
+    "cached_image_loader": {
+      "status": "PASS",
+      "scope": "Modeled resource/write responders; cache hit skips BMP write and retains text work.",
+      "sources_sha256": {
+        "01_FPGA_Project/src/user_source/hdl_source/OSD/image_text_loader.v": "19c5d2c7a1042bb628118ee0cd03e1b31fd7b9f6e0ac982cf41fa264b3aad018",
+        "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_text_loader.v": "226df08fec4ffa6aa5d04e7421209cf33c0faac08789383b7507d75cb65225c9",
+        "01_FPGA_Project/src/user_source/hdl_source/OSD/bmp_resource_loader.v": "5d69daaa3f2a56403ff6d62a28e478276c210ed289d73fd03d3057e36153805b",
+        "06_Simulation/cache/tb_cached_image_loader.sv": "242b92d03f463a22daa1ac0ef4b18a94eb259351c9dc3a14360181203e1c4f6e"
+      },
+      "messages": [
+        "PASS: joint loader hit=1 background=0 bad_crc=0 slot=5 BMP_words=0 text_glyphs=2",
+        "PASS: joint loader hit=1 background=0 bad_crc=1 slot=5 BMP_words=0 text_glyphs=2",
+        "PASS: joint loader hit=0 background=1 bad_crc=0 slot=4 BMP_words=307200 text_glyphs=0",
+        "PASS: joint loader hit=0 background=0 bad_crc=0 slot=2 BMP_words=307200 text_glyphs=2"
+      ]
+    },
+    "fft_bands": {
+      "status": "PASS",
+      "scope": "RAM FFT against legacy fixed-point RTL reference; nine stimuli and 288 band comparisons.",
+      "sources_sha256": {
+        "06_Simulation/sim_bram.v": "5f420f2bfa1df02456574b84c8b9745115ba3e361015be8190c4cd8f31f035a5",
+        "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_fft512.v": "207766892a78c6869a03f403ad3b604d51e91812432f64eed3960134a6dee2ab",
+        "06_Simulation/audio/tb_fft_band_ram.sv": "cefb1fbd9af1ec4217fea8c69631815ba66270716e0e924ba3dd9222b06dd05e"
+      },
+      "messages": [
+        "PASS: profile=0 all32bands numerical/cycle exact, nonzero=0 skipped=2840",
+        "PASS: profile=1 all32bands numerical/cycle exact, nonzero=31 skipped=5682",
+        "PASS: profile=2 all32bands numerical/cycle exact, nonzero=32 skipped=8524",
+        "PASS: profile=3 all32bands numerical/cycle exact, nonzero=32 skipped=11338",
+        "PASS: profile=4 all32bands numerical/cycle exact, nonzero=32 skipped=14178",
+        "PASS: profile=5 all32bands numerical/cycle exact, nonzero=32 skipped=17018",
+        "PASS: profile=6 all32bands numerical/cycle exact, nonzero=32 skipped=2840",
+        "PASS: profile=7 all32bands numerical/cycle exact, nonzero=32 skipped=2842",
+        "PASS: profile=8 all32bands numerical/cycle exact, nonzero=32 skipped=2840",
+        "PASS: RAM FFT512 Hann/LRmax exact: 9 published results, 288 band reads, 1294591 identical timing/capture cycles; silence/sine/antiphase/fullscale/stereo/random/clear/reset"
+      ]
+    }
+  },
+  "scope": "Twelve selected Icarus RTL regressions, portable BRAM model; production rate test, disclosed accelerated protocol/frame counters."
+}

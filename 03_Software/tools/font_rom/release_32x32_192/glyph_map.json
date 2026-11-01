@@ -1,0 +1,932 @@
+{
+  "width": 32,
+  "height": 32,
+  "capacity": 192,
+  "glyph_count": 184,
+  "row_order": "top_to_bottom",
+  "left_pixel_bit": 31,
+  "glyphs": [
+    {
+      "glyph_id": 0,
+      "char": " ",
+      "unicode": "U+0020"
+    },
+    {
+      "glyph_id": 1,
+      "char": "%",
+      "unicode": "U+0025"
+    },
+    {
+      "glyph_id": 2,
+      "char": "+",
+      "unicode": "U+002B"
+    },
+    {
+      "glyph_id": 3,
+      "char": "-",
+      "unicode": "U+002D"
+    },
+    {
+      "glyph_id": 4,
+      "char": "/",
+      "unicode": "U+002F"
+    },
+    {
+      "glyph_id": 5,
+      "char": "0",
+      "unicode": "U+0030"
+    },
+    {
+      "glyph_id": 6,
+      "char": "1",
+      "unicode": "U+0031"
+    },
+    {
+      "glyph_id": 7,
+      "char": "2",
+      "unicode": "U+0032"
+    },
+    {
+      "glyph_id": 8,
+      "char": "3",
+      "unicode": "U+0033"
+    },
+    {
+      "glyph_id": 9,
+      "char": "4",
+      "unicode": "U+0034"
+    },
+    {
+      "glyph_id": 10,
+      "char": "5",
+      "unicode": "U+0035"
+    },
+    {
+      "glyph_id": 11,
+      "char": "6",
+      "unicode": "U+0036"
+    },
+    {
+      "glyph_id": 12,
+      "char": "7",
+      "unicode": "U+0037"
+    },
+    {
+      "glyph_id": 13,
+      "char": "8",
+      "unicode": "U+0038"
+    },
+    {
+      "glyph_id": 14,
+      "char": "9",
+      "unicode": "U+0039"
+    },
+    {
+      "glyph_id": 15,
+      "char": "N",
+      "unicode": "U+004E"
+    },
+    {
+      "glyph_id": 16,
+      "char": "O",
+      "unicode": "U+004F"
+    },
+    {
+      "glyph_id": 17,
+      "char": "S",
+      "unicode": "U+0053"
+    },
+    {
+      "glyph_id": 18,
+      "char": "W",
+      "unicode": "U+0057"
+    },
+    {
+      "glyph_id": 19,
+      "char": "·",
+      "unicode": "U+00B7"
+    },
+    {
+      "glyph_id": 20,
+      "char": "。",
+      "unicode": "U+3002"
+    },
+    {
+      "glyph_id": 21,
+      "char": "七",
+      "unicode": "U+4E03"
+    },
+    {
+      "glyph_id": 22,
+      "char": "万",
+      "unicode": "U+4E07"
+    },
+    {
+      "glyph_id": 23,
+      "char": "上",
+      "unicode": "U+4E0A"
+    },
+    {
+      "glyph_id": 24,
+      "char": "下",
+      "unicode": "U+4E0B"
+    },
+    {
+      "glyph_id": 25,
+      "char": "与",
+      "unicode": "U+4E0E"
+    },
+    {
+      "glyph_id": 26,
+      "char": "中",
+      "unicode": "U+4E2D"
+    },
+    {
+      "glyph_id": 27,
+      "char": "之",
+      "unicode": "U+4E4B"
+    },
+    {
+      "glyph_id": 28,
+      "char": "京",
+      "unicode": "U+4EAC"
+    },
+    {
+      "glyph_id": 29,
+      "char": "亮",
+      "unicode": "U+4EAE"
+    },
+    {
+      "glyph_id": 30,
+      "char": "人",
+      "unicode": "U+4EBA"
+    },
+    {
+      "glyph_id": 31,
+      "char": "传",
+      "unicode": "U+4F20"
+    },
+    {
+      "glyph_id": 32,
+      "char": "位",
+      "unicode": "U+4F4D"
+    },
+    {
+      "glyph_id": 33,
+      "char": "作",
+      "unicode": "U+4F5C"
+    },
+    {
+      "glyph_id": 34,
+      "char": "做",
+      "unicode": "U+505A"
+    },
+    {
+      "glyph_id": 35,
+      "char": "停",
+      "unicode": "U+505C"
+    },
+    {
+      "glyph_id": 36,
+      "char": "入",
+      "unicode": "U+5165"
+    },
+    {
+      "glyph_id": 37,
+      "char": "关",
+      "unicode": "U+5173"
+    },
+    {
+      "glyph_id": 38,
+      "char": "凌",
+      "unicode": "U+51CC"
+    },
+    {
+      "glyph_id": 39,
+      "char": "出",
+      "unicode": "U+51FA"
+    },
+    {
+      "glyph_id": 40,
+      "char": "剧",
+      "unicode": "U+5267"
+    },
+    {
+      "glyph_id": 41,
+      "char": "加",
+      "unicode": "U+52A0"
+    },
+    {
+      "glyph_id": 42,
+      "char": "动",
+      "unicode": "U+52A8"
+    },
+    {
+      "glyph_id": 43,
+      "char": "化",
+      "unicode": "U+5316"
+    },
+    {
+      "glyph_id": 44,
+      "char": "千",
+      "unicode": "U+5343"
+    },
+    {
+      "glyph_id": 45,
+      "char": "华",
+      "unicode": "U+534E"
+    },
+    {
+      "glyph_id": 46,
+      "char": "单",
+      "unicode": "U+5355"
+    },
+    {
+      "glyph_id": 47,
+      "char": "原",
+      "unicode": "U+539F"
+    },
+    {
+      "glyph_id": 48,
+      "char": "取",
+      "unicode": "U+53D6"
+    },
+    {
+      "glyph_id": 49,
+      "char": "受",
+      "unicode": "U+53D7"
+    },
+    {
+      "glyph_id": 50,
+      "char": "古",
+      "unicode": "U+53E4"
+    },
+    {
+      "glyph_id": 51,
+      "char": "吉",
+      "unicode": "U+5409"
+    },
+    {
+      "glyph_id": 52,
+      "char": "吟",
+      "unicode": "U+541F"
+    },
+    {
+      "glyph_id": 53,
+      "char": "唱",
+      "unicode": "U+5531"
+    },
+    {
+      "glyph_id": 54,
+      "char": "回",
+      "unicode": "U+56DE"
+    },
+    {
+      "glyph_id": 55,
+      "char": "图",
+      "unicode": "U+56FE"
+    },
+    {
+      "glyph_id": 56,
+      "char": "在",
+      "unicode": "U+5728"
+    },
+    {
+      "glyph_id": 57,
+      "char": "场",
+      "unicode": "U+573A"
+    },
+    {
+      "glyph_id": 58,
+      "char": "垂",
+      "unicode": "U+5782"
+    },
+    {
+      "glyph_id": 59,
+      "char": "声",
+      "unicode": "U+58F0"
+    },
+    {
+      "glyph_id": 60,
+      "char": "处",
+      "unicode": "U+5904"
+    },
+    {
+      "glyph_id": 61,
+      "char": "复",
+      "unicode": "U+590D"
+    },
+    {
+      "glyph_id": 62,
+      "char": "夜",
+      "unicode": "U+591C"
+    },
+    {
+      "glyph_id": 63,
+      "char": "失",
+      "unicode": "U+5931"
+    },
+    {
+      "glyph_id": 64,
+      "char": "奏",
+      "unicode": "U+594F"
+    },
+    {
+      "glyph_id": 65,
+      "char": "威",
+      "unicode": "U+5A01"
+    },
+    {
+      "glyph_id": 66,
+      "char": "字",
+      "unicode": "U+5B57"
+    },
+    {
+      "glyph_id": 67,
+      "char": "宁",
+      "unicode": "U+5B81"
+    },
+    {
+      "glyph_id": 68,
+      "char": "寄",
+      "unicode": "U+5BC4"
+    },
+    {
+      "glyph_id": 69,
+      "char": "就",
+      "unicode": "U+5C31"
+    },
+    {
+      "glyph_id": 70,
+      "char": "居",
+      "unicode": "U+5C45"
+    },
+    {
+      "glyph_id": 71,
+      "char": "展",
+      "unicode": "U+5C55"
+    },
+    {
+      "glyph_id": 72,
+      "char": "幕",
+      "unicode": "U+5E55"
+    },
+    {
+      "glyph_id": 73,
+      "char": "平",
+      "unicode": "U+5E73"
+    },
+    {
+      "glyph_id": 74,
+      "char": "度",
+      "unicode": "U+5EA6"
+    },
+    {
+      "glyph_id": 75,
+      "char": "开",
+      "unicode": "U+5F00"
+    },
+    {
+      "glyph_id": 76,
+      "char": "弦",
+      "unicode": "U+5F26"
+    },
+    {
+      "glyph_id": 77,
+      "char": "念",
+      "unicode": "U+5FF5"
+    },
+    {
+      "glyph_id": 78,
+      "char": "态",
+      "unicode": "U+6001"
+    },
+    {
+      "glyph_id": 79,
+      "char": "恢",
+      "unicode": "U+6062"
+    },
+    {
+      "glyph_id": 80,
+      "char": "悠",
+      "unicode": "U+60A0"
+    },
+    {
+      "glyph_id": 81,
+      "char": "感",
+      "unicode": "U+611F"
+    },
+    {
+      "glyph_id": 82,
+      "char": "愿",
+      "unicode": "U+613F"
+    },
+    {
+      "glyph_id": 83,
+      "char": "慢",
+      "unicode": "U+6162"
+    },
+    {
+      "glyph_id": 84,
+      "char": "戏",
+      "unicode": "U+620F"
+    },
+    {
+      "glyph_id": 85,
+      "char": "打",
+      "unicode": "U+6253"
+    },
+    {
+      "glyph_id": 86,
+      "char": "托",
+      "unicode": "U+6258"
+    },
+    {
+      "glyph_id": 87,
+      "char": "技",
+      "unicode": "U+6280"
+    },
+    {
+      "glyph_id": 88,
+      "char": "择",
+      "unicode": "U+62E9"
+    },
+    {
+      "glyph_id": 89,
+      "char": "按",
+      "unicode": "U+6309"
+    },
+    {
+      "glyph_id": 90,
+      "char": "播",
+      "unicode": "U+64AD"
+    },
+    {
+      "glyph_id": 91,
+      "char": "放",
+      "unicode": "U+653E"
+    },
+    {
+      "glyph_id": 92,
+      "char": "效",
+      "unicode": "U+6548"
+    },
+    {
+      "glyph_id": 93,
+      "char": "数",
+      "unicode": "U+6570"
+    },
+    {
+      "glyph_id": 94,
+      "char": "整",
+      "unicode": "U+6574"
+    },
+    {
+      "glyph_id": 95,
+      "char": "旋",
+      "unicode": "U+65CB"
+    },
+    {
+      "glyph_id": 96,
+      "char": "无",
+      "unicode": "U+65E0"
+    },
+    {
+      "glyph_id": 97,
+      "char": "暂",
+      "unicode": "U+6682"
+    },
+    {
+      "glyph_id": 98,
+      "char": "暖",
+      "unicode": "U+6696"
+    },
+    {
+      "glyph_id": 99,
+      "char": "曲",
+      "unicode": "U+66F2"
+    },
+    {
+      "glyph_id": 100,
+      "char": "服",
+      "unicode": "U+670D"
+    },
+    {
+      "glyph_id": 101,
+      "char": "未",
+      "unicode": "U+672A"
+    },
+    {
+      "glyph_id": 102,
+      "char": "果",
+      "unicode": "U+679C"
+    },
+    {
+      "glyph_id": 103,
+      "char": "武",
+      "unicode": "U+6B66"
+    },
+    {
+      "glyph_id": 104,
+      "char": "水",
+      "unicode": "U+6C34"
+    },
+    {
+      "glyph_id": 105,
+      "char": "流",
+      "unicode": "U+6D41"
+    },
+    {
+      "glyph_id": 106,
+      "char": "消",
+      "unicode": "U+6D88"
+    },
+    {
+      "glyph_id": 107,
+      "char": "淌",
+      "unicode": "U+6DCC"
+    },
+    {
+      "glyph_id": 108,
+      "char": "淡",
+      "unicode": "U+6DE1"
+    },
+    {
+      "glyph_id": 109,
+      "char": "源",
+      "unicode": "U+6E90"
+    },
+    {
+      "glyph_id": 110,
+      "char": "滑",
+      "unicode": "U+6ED1"
+    },
+    {
+      "glyph_id": 111,
+      "char": "滤",
+      "unicode": "U+6EE4"
+    },
+    {
+      "glyph_id": 112,
+      "char": "演",
+      "unicode": "U+6F14"
+    },
+    {
+      "glyph_id": 113,
+      "char": "灰",
+      "unicode": "U+7070"
+    },
+    {
+      "glyph_id": 114,
+      "char": "点",
+      "unicode": "U+70B9"
+    },
+    {
+      "glyph_id": 115,
+      "char": "片",
+      "unicode": "U+7247"
+    },
+    {
+      "glyph_id": 116,
+      "char": "狮",
+      "unicode": "U+72EE"
+    },
+    {
+      "glyph_id": 117,
+      "char": "现",
+      "unicode": "U+73B0"
+    },
+    {
+      "glyph_id": 118,
+      "char": "理",
+      "unicode": "U+7406"
+    },
+    {
+      "glyph_id": 119,
+      "char": "琴",
+      "unicode": "U+7434"
+    },
+    {
+      "glyph_id": 120,
+      "char": "生",
+      "unicode": "U+751F"
+    },
+    {
+      "glyph_id": 121,
+      "char": "画",
+      "unicode": "U+753B"
+    },
+    {
+      "glyph_id": 122,
+      "char": "百",
+      "unicode": "U+767E"
+    },
+    {
+      "glyph_id": 123,
+      "char": "直",
+      "unicode": "U+76F4"
+    },
+    {
+      "glyph_id": 124,
+      "char": "确",
+      "unicode": "U+786E"
+    },
+    {
+      "glyph_id": 125,
+      "char": "祝",
+      "unicode": "U+795D"
+    },
+    {
+      "glyph_id": 126,
+      "char": "神",
+      "unicode": "U+795E"
+    },
+    {
+      "glyph_id": 127,
+      "char": "祥",
+      "unicode": "U+7965"
+    },
+    {
+      "glyph_id": 128,
+      "char": "空",
+      "unicode": "U+7A7A"
+    },
+    {
+      "glyph_id": 129,
+      "char": "系",
+      "unicode": "U+7CFB"
+    },
+    {
+      "glyph_id": 130,
+      "char": "级",
+      "unicode": "U+7EA7"
+    },
+    {
+      "glyph_id": 131,
+      "char": "绎",
+      "unicode": "U+7ECE"
+    },
+    {
+      "glyph_id": 132,
+      "char": "统",
+      "unicode": "U+7EDF"
+    },
+    {
+      "glyph_id": 133,
+      "char": "继",
+      "unicode": "U+7EE7"
+    },
+    {
+      "glyph_id": 134,
+      "char": "绪",
+      "unicode": "U+7EEA"
+    },
+    {
+      "glyph_id": 135,
+      "char": "续",
+      "unicode": "U+7EED"
+    },
+    {
+      "glyph_id": 136,
+      "char": "缝",
+      "unicode": "U+7F1D"
+    },
+    {
+      "glyph_id": 137,
+      "char": "缩",
+      "unicode": "U+7F29"
+    },
+    {
+      "glyph_id": 138,
+      "char": "置",
+      "unicode": "U+7F6E"
+    },
+    {
+      "glyph_id": 139,
+      "char": "美",
+      "unicode": "U+7F8E"
+    },
+    {
+      "glyph_id": 140,
+      "char": "脸",
+      "unicode": "U+8138"
+    },
+    {
+      "glyph_id": 141,
+      "char": "腾",
+      "unicode": "U+817E"
+    },
+    {
+      "glyph_id": 142,
+      "char": "自",
+      "unicode": "U+81EA"
+    },
+    {
+      "glyph_id": 143,
+      "char": "致",
+      "unicode": "U+81F4"
+    },
+    {
+      "glyph_id": 144,
+      "char": "舞",
+      "unicode": "U+821E"
+    },
+    {
+      "glyph_id": 145,
+      "char": "色",
+      "unicode": "U+8272"
+    },
+    {
+      "glyph_id": 146,
+      "char": "艺",
+      "unicode": "U+827A"
+    },
+    {
+      "glyph_id": 147,
+      "char": "花",
+      "unicode": "U+82B1"
+    },
+    {
+      "glyph_id": 148,
+      "char": "菜",
+      "unicode": "U+83DC"
+    },
+    {
+      "glyph_id": 149,
+      "char": "认",
+      "unicode": "U+8BA4"
+    },
+    {
+      "glyph_id": 150,
+      "char": "设",
+      "unicode": "U+8BBE"
+    },
+    {
+      "glyph_id": 151,
+      "char": "误",
+      "unicode": "U+8BEF"
+    },
+    {
+      "glyph_id": 152,
+      "char": "读",
+      "unicode": "U+8BFB"
+    },
+    {
+      "glyph_id": 153,
+      "char": "调",
+      "unicode": "U+8C03"
+    },
+    {
+      "glyph_id": 154,
+      "char": "谱",
+      "unicode": "U+8C31"
+    },
+    {
+      "glyph_id": 155,
+      "char": "败",
+      "unicode": "U+8D25"
+    },
+    {
+      "glyph_id": 156,
+      "char": "资",
+      "unicode": "U+8D44"
+    },
+    {
+      "glyph_id": 157,
+      "char": "跃",
+      "unicode": "U+8DC3"
+    },
+    {
+      "glyph_id": 158,
+      "char": "转",
+      "unicode": "U+8F6C"
+    },
+    {
+      "glyph_id": 159,
+      "char": "轮",
+      "unicode": "U+8F6E"
+    },
+    {
+      "glyph_id": 160,
+      "char": "轻",
+      "unicode": "U+8F7B"
+    },
+    {
+      "glyph_id": 161,
+      "char": "载",
+      "unicode": "U+8F7D"
+    },
+    {
+      "glyph_id": 162,
+      "char": "返",
+      "unicode": "U+8FD4"
+    },
+    {
+      "glyph_id": 163,
+      "char": "进",
+      "unicode": "U+8FDB"
+    },
+    {
+      "glyph_id": 164,
+      "char": "远",
+      "unicode": "U+8FDC"
+    },
+    {
+      "glyph_id": 165,
+      "char": "选",
+      "unicode": "U+9009"
+    },
+    {
+      "glyph_id": 166,
+      "char": "遗",
+      "unicode": "U+9057"
+    },
+    {
+      "glyph_id": 167,
+      "char": "醒",
+      "unicode": "U+9192"
+    },
+    {
+      "glyph_id": 168,
+      "char": "采",
+      "unicode": "U+91C7"
+    },
+    {
+      "glyph_id": 169,
+      "char": "金",
+      "unicode": "U+91D1"
+    },
+    {
+      "glyph_id": 170,
+      "char": "铁",
+      "unicode": "U+94C1"
+    },
+    {
+      "glyph_id": 171,
+      "char": "错",
+      "unicode": "U+9519"
+    },
+    {
+      "glyph_id": 172,
+      "char": "锣",
+      "unicode": "U+9523"
+    },
+    {
+      "glyph_id": 173,
+      "char": "镜",
+      "unicode": "U+955C"
+    },
+    {
+      "glyph_id": 174,
+      "char": "闭",
+      "unicode": "U+95ED"
+    },
+    {
+      "glyph_id": 175,
+      "char": "雅",
+      "unicode": "U+96C5"
+    },
+    {
+      "glyph_id": 176,
+      "char": "青",
+      "unicode": "U+9752"
+    },
+    {
+      "glyph_id": 177,
+      "char": "静",
+      "unicode": "U+9759"
+    },
+    {
+      "glyph_id": 178,
+      "char": "非",
+      "unicode": "U+975E"
+    },
+    {
+      "glyph_id": 179,
+      "char": "音",
+      "unicode": "U+97F3"
+    },
+    {
+      "glyph_id": 180,
+      "char": "频",
+      "unicode": "U+9891"
+    },
+    {
+      "glyph_id": 181,
+      "char": "默",
+      "unicode": "U+9ED8"
+    },
+    {
+      "glyph_id": 182,
+      "char": "鼓",
+      "unicode": "U+9F13"
+    },
+    {
+      "glyph_id": 183,
+      "char": "，",
+      "unicode": "U+FF0C"
+    }
+  ],
+  "font_set_id": 2133952544,
+  "sha256": "7f3188204c0ec69e2477ebe35177e3ab6ab21c51041ebede592f9b1d0589a6e6"
+}

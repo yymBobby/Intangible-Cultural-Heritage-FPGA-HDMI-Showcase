@@ -1,0 +1,3 @@
+VCD info: dumpfile alarm_osd.vcd opened for output.
+PASS: 107520 banner pixels, exact RGB half blend, 32px text, 64px icon, bright foreground at 25 percent gain, sidebar boundary; fg=1943 bg=105577 icon=764
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\alarm\tb_alarm_osd.sv:45: $finish called at 11481640720 (1ps)

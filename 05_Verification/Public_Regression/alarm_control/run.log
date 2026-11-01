@@ -1,0 +1,3 @@
+VCD info: dumpfile alarm_control.vcd opened for output.
+PASS: debounce, startup absence, two mute sources, persistent warning, return hysteresis, rearm, buzzer fail-safe
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\alarm\tb_alarm_control.sv:31: $finish called at 57251000 (1ps)

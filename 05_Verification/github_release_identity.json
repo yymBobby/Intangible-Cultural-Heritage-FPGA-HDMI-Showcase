@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "font_set_id": "0xCBE17BCF",
+  "glyph_count": 175,
+  "image": {
+    "file": "showcase_font176.img",
+    "bytes": 51978240,
+    "sha256": "ffad4af1597d69f2003d155b96150c66982ae6298492d255a3be9dca66ece929"
+  },
+  "bit": {
+    "file": "MediaAV_ReedAlarm_Font176_20261026.bit",
+    "bytes": 669200,
+    "sha256": "a9342657b061af4a1010a02f079b9ff10d42aff9f91fd280084f354adccb4ae6",
+    "setup_ns": 0.338,
+    "hold_ns": 0.024
+  },
+  "original_image": {
+    "file": "D:\\Anlogic\\旧镜像待重打包\\MediaAV_4Themes_16Images_ICHSHOW3.img",
+    "sha256": "73d8bb26b44febc621ed009bd70c9ff201b38a6e4cb4f588ee94d35cee5ac8d5",
+    "unchanged": true,
+    "original_manifest_provided": false
+  },
+  "media_identical": {
+    "images": 16,
+    "audio": 4
+  },
+  "subtitle_text_preserved": true,
+  "independent_readback_passed": true,
+  "tf_card_written": false,
+  "board_tested": false
+}

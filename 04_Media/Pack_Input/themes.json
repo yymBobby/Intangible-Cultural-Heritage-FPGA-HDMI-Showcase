@@ -1,0 +1,107 @@
+{
+  "schema": "ICHSHOW3_CONFIG_V1",
+  "font_set_id": "0xCBE17BCF",
+  "glyph_count": 175,
+  "themes": [
+    {
+      "theme_id": 0,
+      "name": "京剧",
+      "image_dwell_ms": 30000,
+      "text": "京剧              唱念做打演绎百态人生，     脸谱与华服展现         传统戏曲之美。",
+      "images": [
+        {
+          "image_index": 0,
+          "image": "assets/theme_0_image_0.bmp"
+        },
+        {
+          "image_index": 1,
+          "image": "assets/theme_0_image_1.bmp"
+        },
+        {
+          "image_index": 2,
+          "image": "assets/theme_0_image_2.bmp"
+        },
+        {
+          "image_index": 3,
+          "image": "assets/theme_0_image_3.bmp"
+        }
+      ],
+      "audio": "assets/theme_0.wav"
+    },
+    {
+      "theme_id": 1,
+      "name": "醒狮",
+      "image_dwell_ms": 30000,
+      "text": "醒狮              锣鼓声中腾跃采青，       舞出威武神采，         寄托吉祥祝愿。",
+      "images": [
+        {
+          "image_index": 0,
+          "image": "assets/theme_1_image_0.bmp"
+        },
+        {
+          "image_index": 1,
+          "image": "assets/theme_1_image_1.bmp"
+        },
+        {
+          "image_index": 2,
+          "image": "assets/theme_1_image_2.bmp"
+        },
+        {
+          "image_index": 3,
+          "image": "assets/theme_1_image_3.bmp"
+        }
+      ],
+      "audio": "assets/theme_1.wav"
+    },
+    {
+      "theme_id": 2,
+      "name": "古琴",
+      "image_dwell_ms": 30000,
+      "text": "古琴              七弦流淌悠远琴音，       在轻吟慢奏中          感受宁静与雅致。",
+      "images": [
+        {
+          "image_index": 0,
+          "image": "assets/theme_2_image_0.bmp"
+        },
+        {
+          "image_index": 1,
+          "image": "assets/theme_2_image_1.bmp"
+        },
+        {
+          "image_index": 2,
+          "image": "assets/theme_2_image_2.bmp"
+        },
+        {
+          "image_index": 3,
+          "image": "assets/theme_2_image_3.bmp"
+        }
+      ],
+      "audio": "assets/theme_2.wav"
+    },
+    {
+      "theme_id": 3,
+      "name": "打铁花",
+      "image_dwell_ms": 30000,
+      "text": "打铁花             铁水凌空化作万千金花，     点亮夜空，展现         传统技艺之美。",
+      "images": [
+        {
+          "image_index": 0,
+          "image": "assets/theme_3_image_0.bmp"
+        },
+        {
+          "image_index": 1,
+          "image": "assets/theme_3_image_1.bmp"
+        },
+        {
+          "image_index": 2,
+          "image": "assets/theme_3_image_2.bmp"
+        },
+        {
+          "image_index": 3,
+          "image": "assets/theme_3_image_3.bmp"
+        }
+      ],
+      "audio": "assets/theme_3.wav"
+    }
+  ]
+}

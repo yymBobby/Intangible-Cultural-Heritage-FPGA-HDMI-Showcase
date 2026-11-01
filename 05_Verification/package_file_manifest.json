@@ -1,0 +1,1719 @@
+{
+  "version": 2,
+  "upstream_commit": "4b0f5f677f5e04a115c8462dd7f8670ccc821645",
+  "files": [
+    {
+      "path": ".github/workflows/rtl-regression.yml",
+      "bytes": 877,
+      "sha256": "f98af217f44047e043252d38b1d88a3a524b8857281d7c16d3138e34fb815d37"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 749,
+      "sha256": "f4f13939682c5011489d885159f48d0c353bc195e810fd2a33e3d0d8f9702047"
+    },
+    {
+      "path": "00_Documentation/Architecture.md",
+      "bytes": 1980,
+      "sha256": "55c7fc10982cdd1a1bc4f08728707fa4d167c9320a2003acb529285deda4a168"
+    },
+    {
+      "path": "00_Documentation/Controls_And_Wiring.md",
+      "bytes": 1273,
+      "sha256": "421771ad5f8c26814d2320b87f40f7896c34bed80d978b50334189c7b37e0f0a"
+    },
+    {
+      "path": "00_Documentation/images/system_architecture.png",
+      "bytes": 1118339,
+      "sha256": "171f51cacc35f58a7c1ee9cceb9f31cca88dafd2d46602834851487970aec809"
+    },
+    {
+      "path": "00_Documentation/images/system_photo.jpg",
+      "bytes": 660072,
+      "sha256": "27ac594a6163f183954e81db72a6e334b0c2e17af8bb298446bf1137e6f2aebc"
+    },
+    {
+      "path": "00_Documentation/Provenance_And_Verification.md",
+      "bytes": 1806,
+      "sha256": "d3aae282608dd5fb90feceaeafdabf6319ce865b34c0e890023516b954f6e873"
+    },
+    {
+      "path": "00_Documentation/Quick_Start.md",
+      "bytes": 1624,
+      "sha256": "bcbe25438297e221809a5d087ff30457bfe45cdd8b50330c370567b4ccde2210"
+    },
+    {
+      "path": "00_Documentation/Resource_Format.md",
+      "bytes": 1700,
+      "sha256": "3ffa6218e92dbaca744546ee14a2251929e9f5bd75f2314357432e17a4cc130e"
+    },
+    {
+      "path": "00_Documentation/Software_Workflow.md",
+      "bytes": 3342,
+      "sha256": "b985fdf2e86c26c6cdf4488686247334c51d3c7a93bfda5af5d503cb81301194"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/AUDIO_SAMPLE_ROM.ipc",
+      "bytes": 1203,
+      "sha256": "6cabddcf137fc2f2844f4a1126bd58c9cb65e861b9a4cee6f8da55f38391cbd5"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/AUDIO_SAMPLE_ROM.v",
+      "bytes": 1455,
+      "sha256": "0bc4a18dfd8d598103faea82e9f02a85beaba5a3e21047a4e6baab063ca005bd"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/AUDIO_SAMPLE_ROM.vhd",
+      "bytes": 1621,
+      "sha256": "4c3d4ea17939b4d07a8d95c006174f94ced027b91daae5fd065e094d1e8071af"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/CATALOG_INDEX_RAM.ipc",
+      "bytes": 1147,
+      "sha256": "56319deea894a31c30c5f93e20413e864de18651efd4b34b62e06c46e01f9c5d"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/CATALOG_INDEX_RAM.v",
+      "bytes": 1846,
+      "sha256": "b0bde6cff9ad3f18953b9173c0d47a1d68956244753ad31fe8722daf37b91074"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/CATALOG_INDEX_RAM.vhd",
+      "bytes": 1720,
+      "sha256": "953f356e8120b066212c48e9d1d5a19bb11566f4b9fce21d0a3b65a9989a8b7f"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/CATALOG_RANGE_RAM.ipc",
+      "bytes": 1146,
+      "sha256": "9950db328eb10388c305864319c1765396f32f6bcf3acc07c2971641c511e26e"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/CATALOG_RANGE_RAM.v",
+      "bytes": 2013,
+      "sha256": "20ee9be96efe6777c11cdd69f8503cc730b7a1dde2af85eeb71ca0fd206f787f"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/CATALOG_RANGE_RAM.vhd",
+      "bytes": 1787,
+      "sha256": "191ddac989b6135ba7879ae6cc6b598d17378dbd5beb07362dfb20b66050c6bf"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_BITS.json",
+      "bytes": 342,
+      "sha256": "714bc15e3611dcc0a09c04134cfb2ba4c44d041efb9e6c1c5d2a5ecfe752c5de"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_BITS.v",
+      "bytes": 930,
+      "sha256": "763b12782f472d15508388404e73ec9f8a6609ec2a748daa4310055b6b36eaa2"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_ROM.v",
+      "bytes": 443,
+      "sha256": "31647a479021a97ceaa4244da4e533c5a17292fdbbbdcd76bea53e936c39a62e"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/OSD_FONT_ROM.vhd",
+      "bytes": 585,
+      "sha256": "e8c8de3a47e8bbbde6d747a5384275f44b0eb82c82e75450a78fdeaebaddd6f4"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/PLL.ipc",
+      "bytes": 1555,
+      "sha256": "6e443706c9f2a6afb894675fd9f5c5968d2c75b67b203aae0713f4286aceba92"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/PLL.v",
+      "bytes": 2438,
+      "sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/PLL.vhd",
+      "bytes": 2688,
+      "sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/PLL_HDMI_AUDIO.ipc",
+      "bytes": 1893,
+      "sha256": "4e023b3fb35af9e8d5d8e672bf302f3c56f51f4b2c31c876a2543fbabbbfe8c2"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/PLL_HDMI_AUDIO.v",
+      "bytes": 2757,
+      "sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/al_ip/PLL_HDMI_AUDIO.vhd",
+      "bytes": 2941,
+      "sha256": "1b5025b3fe29d4428c6aa58ef99e7c5d7c5d697e74dacd8ac8f2d068290e0e2f"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/fft_band.hex",
+      "bytes": 1024,
+      "sha256": "1563a7255a5fed7bb6e76977225f448addc3d820c72126e0b7f7e2bc4f9b843f"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/fft_twiddle.hex",
+      "bytes": 2560,
+      "sha256": "6a96b26d04b0bc63ab5663dd5af0de8d8972be643e97af81c1043c9419b21748"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/fft_window.hex",
+      "bytes": 3072,
+      "sha256": "2afebd92063be44b6e4c41e3fc9dbf5a269a03e0e4aed66bcdae7d4edc7c40a9"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/fft_work_bank.mif",
+      "bytes": 13394,
+      "sha256": "9820a698ddc809114d8af55450ba0219943e03fb03a144f54a68768b5023c491"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/gate.qor",
+      "bytes": 7512,
+      "sha256": "af47e3fce5855490461aa15ab86d9fed9f4ac2153719e72a754d6893e8eb167d"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/Media_AV_Visualizer_Ultimate.al",
+      "bytes": 45703,
+      "sha256": "7388c630a398483a8b581e616f2de349a058c8936e401b25a0b30d890cb3133f",
+      "project_semantic_sha256": "b7e54498cfe651edc23c8fe62d9209623ff07ad2cc659233bc7c8dcd62bde290"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/sidebar_font.hex",
+      "bytes": 2560,
+      "sha256": "e0999a96e1f347215afeca8e255e5dc8b1912d5581d97a3ce1f30e307b5fe91b"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/sidebar_ring_geometry.hex",
+      "bytes": 12288,
+      "sha256": "63fbaf7cc19a9e15a1c0730911710df24a123e16408adf370818e4ab80afa6c4"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/sidebar_ring_geometry.mif",
+      "bytes": 41043,
+      "sha256": "3e4588a3c6dcfcd4cbd42b463db9b93f3dca3fbcbccaa8a2d218c0b481266408"
+    },
+    {
+      "path": "01_FPGA_Project/src/td_project/timing_overlay.sdc",
+      "bytes": 10909,
+      "sha256": "dbfda72501023d55d7e0cc03661bb1c44186d0208aaf99c60b3e713a000351a1"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/constraints_source/edid_debug.cwc",
+      "bytes": 59256,
+      "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/constraints_source/pin.adc",
+      "bytes": 6942,
+      "sha256": "56d8561d53c05a9d9fcd16674627fde142ba48c72f202439e55313d8709cb075"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/constraints_source/timing.sdc",
+      "bytes": 4319,
+      "sha256": "464c889cb608a00ae0ee982634cdb82104cfed0506fb7ad0168e77ca99c59900"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/audio/pcm_async_fifo.v",
+      "bytes": 2516,
+      "sha256": "210b4ea789e1c7f7a53d3af367df2e4934645b64ef44c2c1030b9a48f4cf3ee4"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/audio/wav_pcm_parser.v",
+      "bytes": 8216,
+      "sha256": "a573b336a430a4454e80bae758901b3e9016a21aed6bd302a29945f56ff814b8"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/audio/wav_pcm_player.v",
+      "bytes": 15743,
+      "sha256": "6b66509c7d09b15b9a27e6a5439cb4db735e66ff016bec792f4a3e1cb5828bbf"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/audio_arc_calculate.v",
+      "bytes": 1702,
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/alarm_buzzer.v",
+      "bytes": 1230,
+      "sha256": "ad27e3094543329af107e1c6791fa41709849b06d2d384488547a7d9e959d76e"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/board_menu_input.v",
+      "bytes": 4036,
+      "sha256": "97dfc01722ab92a466557c43ad05c0b1c96dd246a4ab01dd3b011206222cf76c"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/console_input_filter.v",
+      "bytes": 1959,
+      "sha256": "eabb1fa286549eb9772aeb55a97f424da5bb90a4e47e857efc01e7dc3203c0a1"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/exhibit_alarm_control.v",
+      "bytes": 2611,
+      "sha256": "fbc1a2160e106b72acc74dcd3dbc6cf24a6d196203da4e0b35386d3e510cc460"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_adc_pair.v",
+      "bytes": 4232,
+      "sha256": "7f109cd5e12aac0bf923cb1a3a9b5a026c57d26804f7e1fce1d6fb61d3ee3414"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_button.v",
+      "bytes": 1137,
+      "sha256": "bd8994d56f96f461236b5c4365ca2ef39c73a6924319788b737cbec476bae04f"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_condition.v",
+      "bytes": 5653,
+      "sha256": "f61842c1b9e0ad4e2027a7fa52ed1b0a2803e24c965ad31349eb2008df07ee05"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_menu_input.v",
+      "bytes": 3954,
+      "sha256": "8d7edc657292ae490ee83a64c12600a2b58eec82ae0d380e9923edbcd9776931"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/joystick_reset.v",
+      "bytes": 379,
+      "sha256": "f6e6a297a7e36d4aa91a80159c26466fdc14565b9c38df5266daf7a9b8aab0af"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/menu_snapshot_cdc.v",
+      "bytes": 2007,
+      "sha256": "f583e836905102ba4506017dd11806d8143a2f7ae82b20e2ff3a7b85c83dd740"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state.v",
+      "bytes": 5056,
+      "sha256": "3662cb9f245bc6a28b0ea86922053495f59726f65a0dd89f5338168fa19823fc"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/menu_ui_state_v2.v",
+      "bytes": 11139,
+      "sha256": "ca70629173571cce0522ac14451fc9375fcc7110d32af648ae2619ec0c059bc6"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/control/rotary_console_input.v",
+      "bytes": 6296,
+      "sha256": "f5c4af38b68f1b157246905793a8e7ecd11456c4602d92286a092206e4dc6280"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "bytes": 328975,
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/hdmi_audio_tone_i2s_64fs.v",
+      "bytes": 3589,
+      "sha256": "729cb1635091b7630e5b68306e9f51fff4e3e06bae8ce08cc3d7323b3fb9d5cf"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/hdmi_audio_tone_pcm_scale.v",
+      "bytes": 2988,
+      "sha256": "38a58d55836467c4c449f195f4235d57da9cb02b2d0ea27171871e65398df1da"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "bytes": 4017,
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/I2S_receiver.v",
+      "bytes": 4205,
+      "sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/include/global_def.v",
+      "bytes": 742,
+      "sha256": "e97985170de496192535a86ba370abf78364eb2784b509a34ae215f463b64bb8"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "bytes": 7538,
+      "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "bytes": 9059,
+      "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "bytes": 15637,
+      "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/integration/i2s_frame_receiver.v",
+      "bytes": 2697,
+      "sha256": "ee4d054cdd038848636573bb9a76fb593c00eb0f35ed2733d14288ef5ef317d4"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/integration/media_av_pipeline.v",
+      "bytes": 31036,
+      "sha256": "8c12c051dbeedbfe08b88708513d71bac2c1ad308897febf9d22abdcf155049f"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/integration/media_sys_pll.v",
+      "bytes": 3334,
+      "sha256": "fa1cd6a29524c9d097b42f0735d3c161a9d6fd70dbde60a5a4522a80eea9e807"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/integration/media_video_pll.v",
+      "bytes": 2490,
+      "sha256": "8b91fa023ce73216a0bf52806571560551d23a91dbefc24ee39d4b986e38daf7"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/integration/theme_key_control.v",
+      "bytes": 3102,
+      "sha256": "6a5bf45deb0b8e1d29d7abe3b05f4abd5bcd6dc269a2b48495bb5d4c24243007"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "bytes": 554,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "bytes": 34857,
+      "sha256": "c489408d2748d99c00a2e408ba8e1deff6f1fd8c43aa70a889466d57a20b0f70"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "bytes": 1405,
+      "sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "bytes": 64027,
+      "sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "bytes": 883,
+      "sha256": "171b1a75793a800fbf25af75df300ad3aa53d923fe5b04fc91c266e0748d82dc"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "bytes": 554,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "bytes": 34859,
+      "sha256": "32c86a05d74f05c19e38ad87d73040530f6430fee6acbf9b4d4df8900152b4ed"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "bytes": 884,
+      "sha256": "30fcb348fd88914538e7398979dabeb0c9f5d2d950afdd298c73d95fbee3cc28"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "bytes": 554,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "bytes": 34859,
+      "sha256": "3f0119e1b1bcecd5af05cdfdb3a56dc336efcbc2eea9f9dd3af8b98a205ded75"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/sdram.ipc",
+      "bytes": 398,
+      "sha256": "b2156db94ab4b9dc81ced661b99544f2a2192c1f510c380d3ae201f9bbd1ad1a"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/sdram.v",
+      "bytes": 1108,
+      "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/sdram.vhd",
+      "bytes": 1336,
+      "sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "bytes": 1768,
+      "sha256": "6499fa9f5997894027183217cfc81123615262de3e59f6b3c8fe9551f6259719"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/sys_pll.v",
+      "bytes": 2493,
+      "sha256": "ea4ed09b2ff026b7b31eb76f51ef5afa388aa552e538e02d013cc8e7464ba563"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "bytes": 2820,
+      "sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/video_pll.ipc",
+      "bytes": 1492,
+      "sha256": "822b266d3f43591828466bbd74f2bc18d6264e396258d7f0698747dba6c0b37d"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/video_pll.v",
+      "bytes": 2315,
+      "sha256": "d5a2b3d3d0618d19619c36af0143f8bf9338415eef2eadd22456510ade9c6092"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/IP/video_pll.vhd",
+      "bytes": 2619,
+      "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/key_remove_shakes.v",
+      "bytes": 1762,
+      "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "bytes": 4421,
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/alarm_text_lut.vh",
+      "bytes": 174,
+      "sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/bmp_resource_loader.v",
+      "bytes": 11998,
+      "sha256": "5d69daaa3f2a56403ff6d62a28e478276c210ed289d73fd03d3057e36153805b"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/caption_typewriter.v",
+      "bytes": 5046,
+      "sha256": "2e12f4ddaab1a37bd656cc333c084a8507b451992702351ff49e40ebd61d1e4d"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_read_adapter.v",
+      "bytes": 23994,
+      "sha256": "a2dc4a255135ea47b5450598bf195e3cff7488ee1dd8cb7455e15824ffa37278"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_sdram_video_pipeline.v",
+      "bytes": 27272,
+      "sha256": "1e593efa2259803563de59c17d18fc68b547b11330df19c5a79c66d2c40cb957"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_text_loader.v",
+      "bytes": 16274,
+      "sha256": "19c5d2c7a1042bb628118ee0cd03e1b31fd7b9f6e0ac982cf41fa264b3aad018"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_transition_commit.v",
+      "bytes": 9084,
+      "sha256": "d36830d120ddaa4d1163139fc882aa9815f15b0d75da359599332c54541ca7ab"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/image_video_axis_640x480.v",
+      "bytes": 1145,
+      "sha256": "6422236484de0458c581dfd41c6e4755f26aa0aa6cacdbadd7e34828826f0dd4"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/menu_osd_preview.v",
+      "bytes": 2645,
+      "sha256": "eb9d81cee0a9fddfe4258e4be665538df27e56c21e4fefd709a8a9babbf1f502"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/menu_text_lut.vh",
+      "bytes": 5218,
+      "sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_dynamic.v",
+      "bytes": 5271,
+      "sha256": "76900376a0b34d0e9aa78c9923cd92a4da28ef7b0f0420ab688ee4a09dbefdcd"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_dynamic_with_font_rom.v",
+      "bytes": 1799,
+      "sha256": "736f473ff572945ad8129b7bd773c84249be22fb7b9b6d7099cd2d9990b95619"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_menu_layer.v",
+      "bytes": 23560,
+      "sha256": "616050394cfc1862498b933ac1e543e65ce5d52f500ac7a04e9f70ea3507b6ac"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_menu_with_subtitles.v",
+      "bytes": 3879,
+      "sha256": "fa9c0d5beac0cea904edac0ef0db5ec505af06f380ca09a02dc326dd0895e569"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/osd_text_loader.v",
+      "bytes": 13022,
+      "sha256": "226df08fec4ffa6aa5d04e7421209cf33c0faac08789383b7507d75cb65225c9"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/sdram_image_backend.v",
+      "bytes": 19507,
+      "sha256": "330e6cc64df3ae8028ba3a34e26bec0c2b420cc2aeef549c540471e6f41a7799"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/text_bank_cdc.v",
+      "bytes": 9594,
+      "sha256": "19e3b475a5d13b9e8415401c32ed1c019cad564b132b1ec39f3296263b253a7c"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/video_commit_window.v",
+      "bytes": 2289,
+      "sha256": "72aa600f90289ebca4017d59bb0725171a02f9066086acee419b06c851252d20"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/OSD/video_frame_commit.v",
+      "bytes": 13204,
+      "sha256": "13a6e29b83ccc3e9dcdb5330bf620e525047bb20ad59d9454c570392e3be1601"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif",
+      "bytes": 746,
+      "sha256": "693ac02526dd2d2abe9ed04b7e0076551694e63d213d6aa509f530247c374c76"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif.dath",
+      "bytes": 384,
+      "sha256": "e0f242a837b58f810813e1d6da5495473c4fa16dd6b283c30ec91b608b05ab85"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif",
+      "bytes": 756,
+      "sha256": "8582752f38c4727a46d9f70ca2f730f4f1210a7529646726b9710fba51d957af"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif.dath",
+      "bytes": 384,
+      "sha256": "04a6ea5a31be7ffebfdef11a6afb06de17ef367b4b6600ec29c248246d639f02"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/song_48k.mif",
+      "bytes": 133,
+      "sha256": "bfde965d14ca6ab9a907b92fe7ff6d7f23c8ff1aacb59add0bef1504a32ca1c1"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/song_48k.mif.dath",
+      "bytes": 132,
+      "sha256": "062b281fafdf9e8682dd0df17447738b2f5a65cab930d090a07d072415297003"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/python/wav_to_mif.py",
+      "bytes": 2327,
+      "sha256": "70c06ae300bdaaa840f009af002805558fc4f309136db1d46e68285d2bcbd750"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/rom/i2s_rom_player_single_pll_fix64_rom_ip.v",
+      "bytes": 8375,
+      "sha256": "f8e7c9c56c6a21154580e030dada604572d89a1e75e8945125b2ea0dd4b3094b"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/av_recovery_manager.v",
+      "bytes": 9430,
+      "sha256": "abace8973f87197c030a309d831c2e6124bb86aacbcbc1be20eba18f33b61890"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/ax_debounce.v",
+      "bytes": 2201,
+      "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/bmp_read.v",
+      "bytes": 11339,
+      "sha256": "8b81edee7e1ac61e02652c9416c05f6a32768acd5a9639365bc7bf87fa4febaa"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/color_bar.v",
+      "bytes": 11525,
+      "sha256": "eb795d2e41e356a35d0fc223c1c597803c0b4b12c72847d1078279f8763f709c"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "bytes": 10172,
+      "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "bytes": 11551,
+      "sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/frame_read_write.v",
+      "bytes": 11057,
+      "sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/image_cache_scheduler.v",
+      "bytes": 8061,
+      "sha256": "c2d745985e2901c220650b1ee330f85ae2bac294710a71fd57b0704feea8ee68"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_catalog_loader.v",
+      "bytes": 26250,
+      "sha256": "400d74863e4e1737f277f374c590508e2c4a604cab5fd5ff1c81c5c40c21222d"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_sd_service.v",
+      "bytes": 25332,
+      "sha256": "b39a681c1f1aa9db6fcce31f7567949386ad6d0caba449c98a007e82ef2fa1b1"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_sd_system.v",
+      "bytes": 8994,
+      "sha256": "46d687face82c4dfb85b32cbe53a5577aa49dc6a1ae53c12b1b93133e227d655"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_backend.v",
+      "bytes": 7159,
+      "sha256": "e3a829017d6640bbe09d6c4208f84fcb1bf0b2a5a81e0b2c39c4e89661f9ac29"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_catalog.v",
+      "bytes": 14804,
+      "sha256": "4e507ac1d5c4decc39cdd6a67fb59e538b0119d4a918a564da1412d147951d7f"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_picture_task.v",
+      "bytes": 13697,
+      "sha256": "cf6ad8edf783e9b6a3a8e4d7e98f14937d610d40aebcffd7fcba0fd0291962f7"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_runtime.v",
+      "bytes": 18248,
+      "sha256": "0158359ca101c7ec4eebc2c887c77b98cef8f13b3d9ed7b7a1bf86e8211f59a3"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/resource_v3_service.v",
+      "bytes": 27836,
+      "sha256": "7a00460df804346f858ac18cd669cb718b82f2fd3b831a53678dd0a1f3c84a2f"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "bytes": 14969,
+      "sha256": "5319465074e1eb7da1f29d8454b81054bf7e633dd5cc6d7b40f232eeb9c1dadc"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "bytes": 10783,
+      "sha256": "d27e9501d407e47e446d7cd4b2b11e51730150dea04e586eac817ab978a7f1aa"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "bytes": 7581,
+      "sha256": "aff50b33c0b88ab46b49ec877bcd7543fc8eef6aa37f0446a757e157bbe6e4a3"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_card_top.v",
+      "bytes": 8290,
+      "sha256": "efdb61e868dea094301dde2e9b12b2ee4c10ee871712808dfbd82385f2f64a71"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/sd_sector_adapter.v",
+      "bytes": 3677,
+      "sha256": "21a9c773a372e6307e0f25acae6295dd42f136e7bba8a08a9d0456162c0d26e0"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/sdram.v",
+      "bytes": 2412,
+      "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/seg_decoder.v",
+      "bytes": 766,
+      "sha256": "4592b6e4d2e9e8b7e4ab5266d850d30e43537ab9c4157d4221e3f8dfd342decd"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/seg_scan.v",
+      "bytes": 1847,
+      "sha256": "08759c329c33cdb7a6070e0b46773f0a6c9c8052b51652dec29406b9a9dac1e3"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/spi_master.v",
+      "bytes": 3791,
+      "sha256": "a8c1cce7d22a6bd32d2cf08d441723858085eb05424e462487844c571ec102f2"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/theme_controller.v",
+      "bytes": 13917,
+      "sha256": "35622f6043ff15e2b84d40dfccec36882355eba3768a33be754983de63b718c6"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/theme_controller_prefetch.v",
+      "bytes": 16766,
+      "sha256": "a363328abe5cfffb3d4cb58dc7aa41af2cc55b87172364c7df3615bd9ea371c0"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/video_define.v",
+      "bytes": 55,
+      "sha256": "b3423c7512c4989af5b82ce12868e147df626cd08dac8ab186bd489d565b1523"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/video_delay.v",
+      "bytes": 1595,
+      "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/SD/video_timing_data.v",
+      "bytes": 3272,
+      "sha256": "db80da6e3c4eb9797ee97f942d11ac79a443b3bc933ea95ec8c666a7dabd4710"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/startup_pulse.v",
+      "bytes": 713,
+      "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/test/design_top_i2s_test_pll.v",
+      "bytes": 6443,
+      "sha256": "b6396c3e90c67d7e8aad8c83bfa8a1aa0b826db8f74a26936549cae57e86668c"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/test/i2s_test_tone_gen_pll.v",
+      "bytes": 3645,
+      "sha256": "7614d4ca84c007a568e798b7c8cbc31eadd8a064bee53101194df13edb71e02f"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "bytes": 15489,
+      "sha256": "e2ced044285590eae4c65f14bc5ed984089f22a54d9c816240bb1c98ad8fa128"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "bytes": 1749,
+      "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/video_source_test.v",
+      "bytes": 2983,
+      "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_fft512.v",
+      "bytes": 19406,
+      "sha256": "207766892a78c6869a03f403ad3b604d51e91812432f64eed3960134a6dee2ab"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_visualizer.v",
+      "bytes": 10398,
+      "sha256": "16d81710ac4fc95c84316a9efe81f25a465eadb4fc0642ff6f8af2f047e4b81a"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_visualizer_compact.v",
+      "bytes": 18721,
+      "sha256": "2ef590ad1a56fa39b1bdc24ea2246d31940cb855fb70dac5789dc6d226d9e464"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/audio_volume.v",
+      "bytes": 1492,
+      "sha256": "2dcfa28a77753965f7963afe412acf772cff87fb96d815ee47d9e9c9ec1c6955"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/caption_square_tone.v",
+      "bytes": 2336,
+      "sha256": "6a2e3dad296d1f4bd8961f9ef79c8170a81a9eec380b74f676568ec10d165e28"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_band.hex",
+      "bytes": 1024,
+      "sha256": "1563a7255a5fed7bb6e76977225f448addc3d820c72126e0b7f7e2bc4f9b843f"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_twiddle.hex",
+      "bytes": 2560,
+      "sha256": "6a96b26d04b0bc63ab5663dd5af0de8d8972be643e97af81c1043c9419b21748"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_window.hex",
+      "bytes": 3072,
+      "sha256": "2afebd92063be44b6e4c41e3fc9dbf5a269a03e0e4aed66bcdae7d4edc7c40a9"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/fft_work_bank.mif",
+      "bytes": 13394,
+      "sha256": "9820a698ddc809114d8af55450ba0219943e03fb03a144f54a68768b5023c491"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_contrast.v",
+      "bytes": 2040,
+      "sha256": "db1b87796f53837d8cb3b8c9d487c275e595bd4048452d4a477a69435f46e6a5"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_crossfade.v",
+      "bytes": 2300,
+      "sha256": "8b77fd2fbb47e6db597adaf78e7087a31b71aeacedf56853cfda6218353348a8"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_filter.v",
+      "bytes": 973,
+      "sha256": "2c0f8cea0ac34d854b8224f3182a40a07eb9e001b351b3c4fa685956ba33bd2e"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_line_scaler.v",
+      "bytes": 5239,
+      "sha256": "7b47976f9a89a370742ac3f8faa4cbb73f34f85bd857dc1b770205a1f784aa90"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/image_viewport_scaler.v",
+      "bytes": 9208,
+      "sha256": "9fd36ddaa146761ba0cb405bb0dd9499fe636404eddfd604e3a43a1dd44b20a7"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/media_wide_renderer.v",
+      "bytes": 23866,
+      "sha256": "46a95e06ec89a11e2194ae921ad0c5b275f4a97e8d8af8a4e259d4f9ed7f253d"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_font.hex",
+      "bytes": 2560,
+      "sha256": "e0999a96e1f347215afeca8e255e5dc8b1912d5581d97a3ce1f30e307b5fe91b"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_layer.v",
+      "bytes": 4796,
+      "sha256": "0e44b01e1006a9cf7e65994327915eab83fc9744453a014b9db07730f931a3be"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_layer_pipelined.v",
+      "bytes": 19028,
+      "sha256": "d87d893f6f1cb60db7a4a348538d6f98ba63ab9bfa3c6a14b34f28c0518735dd"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_ring_geometry.hex",
+      "bytes": 12288,
+      "sha256": "63fbaf7cc19a9e15a1c0730911710df24a123e16408adf370818e4ab80afa6c4"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/sidebar_ring_geometry.mif",
+      "bytes": 41043,
+      "sha256": "3e4588a3c6dcfcd4cbd42b463db9b93f3dca3fbcbccaa8a2d218c0b481266408"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/video_brightness.v",
+      "bytes": 3794,
+      "sha256": "e6795d6e5b6a378ba4d62364775c5a86c023f829be8bea24a889a8bdca656884"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/hdl_source/visualizer/viewport_coordinates.v",
+      "bytes": 13078,
+      "sha256": "bec5a8cca96ddda488de4fc791b7433211b1213d49f721ad9af84ded843b401e"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/ip_source/pll.ipc",
+      "bytes": 2182,
+      "sha256": "85ba92c312254bf19f5349e899d09df04e76348cf0060a45589e829d57cc1ecb"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/ip_source/pll.v",
+      "bytes": 3333,
+      "sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c"
+    },
+    {
+      "path": "01_FPGA_Project/src/user_source/ip_source/pll.vhd",
+      "bytes": 3559,
+      "sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4"
+    },
+    {
+      "path": "01_FPGA_Project/tools/alarm/build_td.tcl",
+      "bytes": 5849,
+      "sha256": "f819fbd7fda5358b6afa5038a3a94db0233dad1cbba9284a13b176be9ff1cc9d"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/alarm_text_lut.vh",
+      "bytes": 174,
+      "sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_contract.json",
+      "bytes": 487,
+      "sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.bin",
+      "bytes": 24576,
+      "sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.hex",
+      "bytes": 61440,
+      "sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.mem",
+      "bytes": 208896,
+      "sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom.mif",
+      "bytes": 110674,
+      "sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/font_rom_16.mif",
+      "bytes": 172115,
+      "sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/glyph_map.json",
+      "bytes": 15613,
+      "sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/manifest.json",
+      "bytes": 759,
+      "sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/mapping_migration.json",
+      "bytes": 12072,
+      "sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/menu_extension.json",
+      "bytes": 152,
+      "sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f"
+    },
+    {
+      "path": "01_FPGA_Project/tools/font_rom/release_alarm_192/menu_text_lut.vh",
+      "bytes": 5218,
+      "sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    },
+    {
+      "path": "01_FPGA_Project/tools/timing_closure/bitgen.tcl",
+      "bytes": 1011,
+      "sha256": "c107c654bbde1371f59820e6aa46636c4543482d53e82418aec5e79ff1c235aa"
+    },
+    {
+      "path": "01_FPGA_Project/tools/timing_closure/build_td.tcl",
+      "bytes": 5133,
+      "sha256": "ff037b7ba0a30bc7f623f35317818d12caf9fa124726ab67ce3525a4ace06ceb"
+    },
+    {
+      "path": "01_FPGA_Project/tools/timing_closure/certify_td.tcl",
+      "bytes": 1143,
+      "sha256": "dd3064f99b1bbb24f6ce4c3bc79d088a55a4015149888fd35bd82ad13fe62e66"
+    },
+    {
+      "path": "02_Bitstream/MediaAV_ReedAlarm_Font176_20261026.bit",
+      "bytes": 669200,
+      "sha256": "a9342657b061af4a1010a02f079b9ff10d42aff9f91fd280084f354adccb4ae6"
+    },
+    {
+      "path": "02_Bitstream/MediaAV_ReedAlarm_Font176_20261026.bit.sha256",
+      "bytes": 106,
+      "sha256": "35e3d54fe38cd199732459aa4f6690282dc696b139983640975c1ae8fb7e9fc0"
+    },
+    {
+      "path": "03_Software/inputs/font176/glyph_selection.json",
+      "bytes": 14245,
+      "sha256": "9ba88e2688a5c623a5bfbc1f61e225928095139c288d1f33e086df3f843ac790"
+    },
+    {
+      "path": "03_Software/inputs/font176/menu_template.zip",
+      "bytes": 1579,
+      "sha256": "ee2f5e1b4199b91c78516ea03ab87d672c5f3bdee83648fc5d66da0e99ed9c16"
+    },
+    {
+      "path": "03_Software/README.md",
+      "bytes": 1088,
+      "sha256": "736d8911036d8123fb84a609acafd8139cff1e0eea6bf39cc4b87258df099df3"
+    },
+    {
+      "path": "03_Software/rebuild_image.py",
+      "bytes": 1862,
+      "sha256": "fa6cc43f3279382cfb86ea4ff22486b0f5591f18d1fa8630129508005d357fac"
+    },
+    {
+      "path": "03_Software/requirements.txt",
+      "bytes": 35,
+      "sha256": "fab0185021be89ed952d98618281608a9d9805c322c97e08a957d851a28d098f"
+    },
+    {
+      "path": "03_Software/tools/c_phase2/multi_image.py",
+      "bytes": 23785,
+      "sha256": "546933a949506cc3f1a43fafc73d4fe315f371e0b7b51f9daf3ad738b3b78632"
+    },
+    {
+      "path": "03_Software/tools/font_compact/build_assets.py",
+      "bytes": 4244,
+      "sha256": "db079898ddb917e6ee6fabe0aca14b36c6eb363a71612ad5d1707b04cc555ed0"
+    },
+    {
+      "path": "03_Software/tools/font_rom/characters.txt",
+      "bytes": 1085,
+      "sha256": "c0254264a51eea238eb8f4ea7595ab20798142516762dada5f9518cdd1ec12af"
+    },
+    {
+      "path": "03_Software/tools/font_rom/generate_font_rom.py",
+      "bytes": 9441,
+      "sha256": "a9473585ef69caab7a436ea9ca147302854d664b850a64d9f462f4f952521a8e"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_32x32_192/font_rom.hex",
+      "bytes": 71680,
+      "sha256": "2a1b0544dc43c2182c15a0a1ede14581bc9f49ce27c671f1f539787cdfdb3d7d"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_32x32_192/glyph_map.json",
+      "bytes": 16313,
+      "sha256": "163c02ec4ae1da2256677113394f193a95ee288c3d111e459d4f512199f266f1"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/alarm_text_lut.vh",
+      "bytes": 174,
+      "sha256": "cff742dfeac9b026f967e71b4cf87e748b988e91f57f3e529befdc5f024a2357"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/font_contract.json",
+      "bytes": 487,
+      "sha256": "43e04016a12ba475aa6285e107fe26835cd98ecf66f48c888788771a4e188084"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/font_rom.bin",
+      "bytes": 24576,
+      "sha256": "86f47ca8918452414f375793e9eb2cc33d8699493544dfd3f6db50abdf749e83"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/font_rom.hex",
+      "bytes": 61440,
+      "sha256": "0aea43e6d0b0352a10ac90fb9de980062974a62a78aacfbdeac698e8853bcc62"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/font_rom.mem",
+      "bytes": 208896,
+      "sha256": "f8e14a3b4055b998f181ff7f614eda1ec348b34f9da92bf7ee954130e112a7b3"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/font_rom.mif",
+      "bytes": 110674,
+      "sha256": "e2f57cf5438057c7e52522ba07ace4abcbbab7be88cd93fe759cfe9bcd1560c7"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/font_rom_16.mif",
+      "bytes": 172115,
+      "sha256": "979939e2024d0beeb3c2e56d7779a0ded249d7652370ebaa381cecf0cc0fc711"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/glyph_map.json",
+      "bytes": 15613,
+      "sha256": "dce22c4f15db8eb580e8b8c52cdb91d580905f33e25ef81769e68a71ad22d8de"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/manifest.json",
+      "bytes": 759,
+      "sha256": "b59b700cf003b702f7a89953aee04efea3d3d46fa1a356bd09543ea839fe48a7"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/mapping_migration.json",
+      "bytes": 12072,
+      "sha256": "45af54eab8285cb125fd74961ab8c0ee3f46619b3d22749f9cb3c3024cf9fa39"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/menu_extension.json",
+      "bytes": 152,
+      "sha256": "3699471b38736ef9b6041f817ede77acb2981bbb7c611bfff3ce73d3bb7b913f"
+    },
+    {
+      "path": "03_Software/tools/font_rom/release_alarm_192/menu_text_lut.vh",
+      "bytes": 5218,
+      "sha256": "c198960a1fb7d584bd7d2362d42ad356ee458dfd69c637c93c3165fbcf5e6f7b"
+    },
+    {
+      "path": "03_Software/tools/font_rom/requirements.txt",
+      "bytes": 30,
+      "sha256": "9900bc6d68fcb6d39d0f384319f6f7fc82c0e25e82310ee2804bb8fe96f29e14"
+    },
+    {
+      "path": "03_Software/tools/image_processing/batch_crop.py",
+      "bytes": 1777,
+      "sha256": "f41be0aba7fc4a543f2aca84faac99592d1bb9d0b158fb3408e94243b21a784c"
+    },
+    {
+      "path": "03_Software/tools/image_processing/convert_images_to_bmp.py",
+      "bytes": 6707,
+      "sha256": "99b56e2bf63b1e24e3253b742f57be72af4dbdf35249d1f2d833cf31357250b1"
+    },
+    {
+      "path": "03_Software/tools/media_pack/build_media_image.py",
+      "bytes": 37531,
+      "sha256": "fe4a69c9145d4b99d75ab060e23e47271c713c32c009224c81257752d24ab7a4"
+    },
+    {
+      "path": "04_Media/crop_recipe.json",
+      "bytes": 6352,
+      "sha256": "237a767c7680981f5aa26a39b600c952717e423f7cd259545098f79bcad7b9fa"
+    },
+    {
+      "path": "04_Media/Pack_Input/themes.json",
+      "bytes": 2877,
+      "sha256": "99e5b15972975a5b1cea33fd8f1aefff7a2fcc1b47fb038157ecfe9750a84c2e"
+    },
+    {
+      "path": "04_Media/README.md",
+      "bytes": 518,
+      "sha256": "453789d7a9b087f3ec83db7c444a91654410e0937966821cc432a7b85ffb6efe"
+    },
+    {
+      "path": "04_Media/Ready_To_Flash/showcase_font176.img.sha256",
+      "bytes": 88,
+      "sha256": "9aee35f509d7bfbe14eca2032e689f804f7fee3fb9b5a3497e117853ecf2b626"
+    },
+    {
+      "path": "04_Media/Ready_To_Flash/showcase_font176.manifest.json",
+      "bytes": 19341,
+      "sha256": "dec79aececac56041e39feb7f9787d22b24c30add9095db45e8f4a287bde8795"
+    },
+    {
+      "path": "05_Verification/check_package.py",
+      "bytes": 2726,
+      "sha256": "1dc1f7a2520a3d24a09f5da612040e57dd90ce299ee6ef3c28fa7f0bd50a6e2d"
+    },
+    {
+      "path": "05_Verification/crop_overview.png",
+      "bytes": 3245885,
+      "sha256": "3f316f90c509500d281260a52f0e0799cb1a439e2c48d5c957a4a0c03bbeabdc"
+    },
+    {
+      "path": "05_Verification/crop_reproduction.json",
+      "bytes": 3214,
+      "sha256": "34d422c9d705f46f21defeebc79db1fbd4e0f555ea463d67ce952a68c8c11e07"
+    },
+    {
+      "path": "05_Verification/direct_project_open.log",
+      "bytes": 45641,
+      "sha256": "462964c12b4b71b1fe8449b0881dbd40b22b6674aaf80499a6f4b2e050e73a75"
+    },
+    {
+      "path": "05_Verification/font_generation.log",
+      "bytes": 442,
+      "sha256": "148d85f8dd5760742ca8635f74cb174d47e57ee7dcd81facc4947864c63ddadb"
+    },
+    {
+      "path": "05_Verification/font_reproduction.json",
+      "bytes": 1704,
+      "sha256": "4fc6b0799478c8df1f01bae6165bd919dd172372ac598dfd88f8bf28a61bfdeb"
+    },
+    {
+      "path": "05_Verification/generic_font_generation.log",
+      "bytes": 161,
+      "sha256": "f7ebb9d1ad9f70181558073b60a731b3365945742b2ab704a8c514b9fad8dbc6"
+    },
+    {
+      "path": "05_Verification/github_crop_verification.json",
+      "bytes": 6284,
+      "sha256": "8006bf8d59e47f1da9057bb6bf1ee6aa9abe3230672b055823501876f89eeff0"
+    },
+    {
+      "path": "05_Verification/github_font176_qualification.json",
+      "bytes": 21107,
+      "sha256": "7e4c45b1cd52e287a0675a080f07a6e0a5a1bcc3520acf5f3a3078ce0b14f7df"
+    },
+    {
+      "path": "05_Verification/github_image_readback.json",
+      "bytes": 15076,
+      "sha256": "c1d96fd4a87af6e289d7897c83873ac88a302ca204f5a633c5323bfe286d0122"
+    },
+    {
+      "path": "05_Verification/github_release_identity.json",
+      "bytes": 931,
+      "sha256": "57f2f6e0b0c5208485e57257357d74e94f3f105fadf75c00467742530bc619b5"
+    },
+    {
+      "path": "05_Verification/Github_Signoff/build_inputs_sha256.json",
+      "bytes": 18036,
+      "sha256": "ada5d483b655d50673100a2d8a91d6b33407ef3378dc16244db1f109e168ad9a"
+    },
+    {
+      "path": "05_Verification/Github_Signoff/independent_sta.json",
+      "bytes": 380,
+      "sha256": "c1c2514e1e5cf895902bc526af0d2a16ffc249f7c642c4fb0c8c966e8be172bd"
+    },
+    {
+      "path": "05_Verification/Github_Signoff/independent_timing.rpt",
+      "bytes": 4447880,
+      "sha256": "28102c24df507ac05ea235a55a118e343244d6d585fbca20c32e6cefbad9139b"
+    },
+    {
+      "path": "05_Verification/Github_Signoff/physical_parameters.txt",
+      "bytes": 693,
+      "sha256": "c16bf0ed77782a05dc4f3f56f7ebe08684c678586c0905c7b4f2be971b649b03"
+    },
+    {
+      "path": "05_Verification/Github_Signoff/route.area",
+      "bytes": 27784,
+      "sha256": "f8a8644192483634a60f6731199e7e5798220b111c98acb6145333d31ab6fe91"
+    },
+    {
+      "path": "05_Verification/Github_Signoff/route_parameters.txt",
+      "bytes": 328,
+      "sha256": "7f9e65831da86ec69616965ac476bf71fd1a450957a43722a004b08beb9a577a"
+    },
+    {
+      "path": "05_Verification/image_rebuild.json",
+      "bytes": 297,
+      "sha256": "c2b6b11acc69bf389d4dc153e7a710946264e6ff11821a3b96142024569ae4cb"
+    },
+    {
+      "path": "05_Verification/Package_Synthesis/mapped_area.rpt",
+      "bytes": 23288,
+      "sha256": "0cb980d5f93b733ac864b4f543760de48951d2f8a192e309bdbb17697d781099"
+    },
+    {
+      "path": "05_Verification/Package_Synthesis/synthesis.log",
+      "bytes": 123895,
+      "sha256": "80cd33958f68f4e13a6285a61e7e606527c2eca9287de79ad34add5ce027e1d6"
+    },
+    {
+      "path": "05_Verification/Package_Synthesis/validation_recipe.tcl",
+      "bytes": 3452,
+      "sha256": "980561e017a5378490eb52c11ce42b15e590eac2e91797e1a26da7ff4eb3228d"
+    },
+    {
+      "path": "05_Verification/package_validation.json",
+      "bytes": 1872,
+      "sha256": "99e7cefac4d34f749c2769b4305c640f87397a52d0055dc8473a4691289eaa83"
+    },
+    {
+      "path": "05_Verification/Public_Regression/alarm_control/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/alarm_control/run.log",
+      "bytes": 309,
+      "sha256": "d730245e8817506b90546cc5f81b4991e035e6fad27c338e49c383c7ac2202aa"
+    },
+    {
+      "path": "05_Verification/Public_Regression/alarm_controls/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/alarm_controls/run.log",
+      "bytes": 328,
+      "sha256": "10aa1ecc2ca6b6be034341c51fe01ae798d849cf548e6ef9b8f17043e88da738"
+    },
+    {
+      "path": "05_Verification/Public_Regression/alarm_osd/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/alarm_osd/run.log",
+      "bytes": 345,
+      "sha256": "c2ac17690f4256835d184d4397f46539233bba198fec59a7413aa30c4b9a7f43"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_controls/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_controls/run.log",
+      "bytes": 320,
+      "sha256": "5f39d87b461e26786834d04504ed85427a39cf6bd10402aa77e9a6d0cec5a68c"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_queue/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_queue/run.log",
+      "bytes": 318,
+      "sha256": "7e7b2cfa502beb410b163cd0c23183a58975d2b7b38a0499bafb02eb05202aa8"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_rate/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_rate/run.log",
+      "bytes": 337,
+      "sha256": "483e4781ab66223eac319cd63331cffd184914a069cda31145a1d6a511f94267"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_transition/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/browse_transition/run.log",
+      "bytes": 646,
+      "sha256": "778aba7bb02c0aef88cabc4f5ce3e440d219838e6c7a94a2cf444d32364d33db"
+    },
+    {
+      "path": "05_Verification/Public_Regression/cache_scheduler/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/cache_scheduler/run.log",
+      "bytes": 318,
+      "sha256": "d5f61a58c05c0ae27bfa9d621e549bcc815227cf23515bab31aa1f547ce3106d"
+    },
+    {
+      "path": "05_Verification/Public_Regression/cached_image_loader/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/cached_image_loader/run.log",
+      "bytes": 485,
+      "sha256": "7a70f60e3454d83021b06db92236db30e61e4586e269bf0747b655c98255ed28"
+    },
+    {
+      "path": "05_Verification/Public_Regression/contrast_math/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/contrast_math/run.log",
+      "bytes": 351,
+      "sha256": "9d7a00fac6b7d80f7088ee45fb25414fe5bf766de1abd15b697e5c343ba19cbd"
+    },
+    {
+      "path": "05_Verification/Public_Regression/contrast_ui/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/contrast_ui/run.log",
+      "bytes": 329,
+      "sha256": "9f055747898a1ca67ed75e34c0b5c250f33529f40dff703d48db8a7338848ef9"
+    },
+    {
+      "path": "05_Verification/Public_Regression/fft_bands/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "05_Verification/Public_Regression/fft_bands/run.log",
+      "bytes": 990,
+      "sha256": "9e5b591c32c4410b4cb173cbefa5ac3350d686c18b9df92cd8c827d4f4305eb5"
+    },
+    {
+      "path": "05_Verification/Public_Regression/results.json",
+      "bytes": 11561,
+      "sha256": "fa790ca27e346d68f90823b04c4360bfed37d3df1b703e74eb883c0cebd0e1a8"
+    },
+    {
+      "path": "05_Verification/public_repository_validation.json",
+      "bytes": 752,
+      "sha256": "eb9833710d45909181c8bad29bf9dd838237fc95141101ced04da56a3070a574"
+    },
+    {
+      "path": "05_Verification/Public_Validation.md",
+      "bytes": 1642,
+      "sha256": "41f04030b45ce0a30290bd4c5d22da201778053d5b3cf8244c82a3a9040090a2"
+    },
+    {
+      "path": "05_Verification/simulation_sources.json",
+      "bytes": 6124,
+      "sha256": "b9eaa1dcb1493ded08256e43cf3d8264667145253040f82c2e7ec75245ab6b64"
+    },
+    {
+      "path": "05_Verification/software_environment.json",
+      "bytes": 228,
+      "sha256": "cac444cf8503aba3ed661261e472b7727e23216530470fa045bea2cf3d864020"
+    },
+    {
+      "path": "05_Verification/source_file_map.csv",
+      "bytes": 69839,
+      "sha256": "ebe62ed7032b9d7291f2788e063caaacf7295c58810d07c8f1ec7b37f3c2e920"
+    },
+    {
+      "path": "05_Verification/source_provenance.json",
+      "bytes": 101745,
+      "sha256": "5981d018e96627407813a31bdeb089fd14e41d99d28f64c9bb6e0b93259f3c9f"
+    },
+    {
+      "path": "06_Simulation/alarm/tb_alarm_control.sv",
+      "bytes": 2344,
+      "sha256": "a0b12f0177b06945af52a96ccf34335374e156e44397827c8c1554ce4fb8fc70"
+    },
+    {
+      "path": "06_Simulation/alarm/tb_alarm_controls.sv",
+      "bytes": 3326,
+      "sha256": "f53100939e1f8d8e122541a46845ff08a2f11c6eb83ee841b9fd2d91b6d9fe78"
+    },
+    {
+      "path": "06_Simulation/alarm/tb_alarm_osd.sv",
+      "bytes": 3538,
+      "sha256": "1d3974554c6f7bcdbf3de72d377f2dc7c34b9b8284a06d3bfe02f8652d40fd7e"
+    },
+    {
+      "path": "06_Simulation/audio/tb_fft_band_ram.sv",
+      "bytes": 7123,
+      "sha256": "cefb1fbd9af1ec4217fea8c69631815ba66270716e0e924ba3dd9222b06dd05e"
+    },
+    {
+      "path": "06_Simulation/browse/tb_browse_controls.sv",
+      "bytes": 3785,
+      "sha256": "b673bd32ea0c7cd7fd6c3f9cc09888d25dedb52c9c491c305d3ee0d15a3b8091"
+    },
+    {
+      "path": "06_Simulation/browse/tb_browse_queue.sv",
+      "bytes": 2217,
+      "sha256": "61b29e0f79b2f7da38e50fb5e696caf39983d83974bc7be7ecc970c0842f264c"
+    },
+    {
+      "path": "06_Simulation/browse/tb_browse_rate.sv",
+      "bytes": 1630,
+      "sha256": "ae1c9d2eb3c4322904c4aa62787d3b7c618abdc95e901caca897f4fc5713c282"
+    },
+    {
+      "path": "06_Simulation/browse/tb_browse_transition.sv",
+      "bytes": 5143,
+      "sha256": "a4f2e6b22cff82d9138d4174202b28a0a7cbeae00287b3433f4550ae02ad7d17"
+    },
+    {
+      "path": "06_Simulation/cache/bmp_fixture.svh",
+      "bytes": 2535,
+      "sha256": "a27a58ad8523d9bf6a21c56ef6aeac605350a7a4bde387beeb1ac66757356bbe"
+    },
+    {
+      "path": "06_Simulation/cache/tb_cached_image_loader.sv",
+      "bytes": 7096,
+      "sha256": "242b92d03f463a22daa1ac0ef4b18a94eb259351c9dc3a14360181203e1c4f6e"
+    },
+    {
+      "path": "06_Simulation/cache/tb_image_cache_scheduler.sv",
+      "bytes": 6496,
+      "sha256": "d23a759641a79a1a04d9c1e9cfa21f2d09aa8be1f4e89ac42cc20d43468933a2"
+    },
+    {
+      "path": "06_Simulation/image/tb_contrast_math.sv",
+      "bytes": 2903,
+      "sha256": "6239c9c74ae5e02311ec71ad7d3df45af0bba52c571643b9d491da2c5007c01f"
+    },
+    {
+      "path": "06_Simulation/image/tb_contrast_ui.sv",
+      "bytes": 3006,
+      "sha256": "6c3659bbc65e857f5de03cd8103fe0fe9cfb8f478a05a4a9f5999bb836e8f6b4"
+    },
+    {
+      "path": "06_Simulation/README.md",
+      "bytes": 2685,
+      "sha256": "85c92c7e21febc11565f6d1ebef9c09910a6ee2222c035d3b2e7a40ee69d8f33"
+    },
+    {
+      "path": "06_Simulation/run_tests.py",
+      "bytes": 7207,
+      "sha256": "49a1daa6d3e02da5c14048a22ce1cd0583e46088d3a631d7cb5c8ca487fd18d4"
+    },
+    {
+      "path": "06_Simulation/sim_bram.v",
+      "bytes": 2385,
+      "sha256": "5f420f2bfa1df02456574b84c8b9745115ba3e361015be8190c4cd8f31f035a5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 628,
+      "sha256": "0467c67046338538e257574789b38e64a0ad8269e19e1b06a868539178cea24c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5344,
+      "sha256": "1ccb666f8b7ef277536d400d886d1d834727da1cd65141a9cc08b86a8a24b347"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1478,
+      "sha256": "d2d9da92f63b979402b1e0c62a9f6d69122d4318d78751b188f421b6772c6747"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1641,
+      "sha256": "d4e796d944fb26b4e74d5ccbf8c55fe980eeeb9670e418adf94721c87ae31da4"
+    }
+  ],
+  "optional_media": [
+    {
+      "path": "04_Media/Image_Sources/theme_0_image_0.jpg",
+      "bytes": 132329,
+      "sha256": "6fc672b8cf437ce98a78cb2c26fd9240ee25f92b380fdb85983116bbdc519f4e"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_0_image_1.jpg",
+      "bytes": 113460,
+      "sha256": "18885dc9168a2a547dd64b3d82864624a29f45af8dabd383153b434cc359b83a"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_0_image_2.jpg",
+      "bytes": 191939,
+      "sha256": "6b7e1671ed358fa6a6950fabe419eb8b863b8d054463aabc7202e58d7e9a576a"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_0_image_3.jpg",
+      "bytes": 140350,
+      "sha256": "f1bab0ef1c7c42c8a6d1c2865067f94249d911506fae5f8a4e4fb3415d4b08f4"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_1_image_0.jpg",
+      "bytes": 678313,
+      "sha256": "3a4d6e0ca7c3ff07e9c738b7765a62b5aefbfac307c12421ca830d61bf24a639"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_1_image_1.jpg",
+      "bytes": 528999,
+      "sha256": "ee01ac1c5e22902e65b0006a276717e7e208617b44984ab1e163d92f0a313249"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_1_image_2.jpg",
+      "bytes": 377875,
+      "sha256": "fcaea27ae75918669898e49a9285babc4b333d60fb33f389fa471629020a20a4"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_1_image_3.jpg",
+      "bytes": 177868,
+      "sha256": "8056ca3531f403bd84262d7311033849accd3f01b81604efaa079fcb223c0c24"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_2_image_0.jpg",
+      "bytes": 75284,
+      "sha256": "5e402fe8ef91f6ee2b689a68cc8e571da4a0c5b90cfa5458415acec505bd9e92"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_2_image_1.jpg",
+      "bytes": 53074,
+      "sha256": "6fc9c452cc5134ea1a776b87ee1f2fc13363a0190682a3cfeeb8df1186c8d4f8"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_2_image_2.jpg",
+      "bytes": 143324,
+      "sha256": "0562331964170e739e733a55d2039941ae82d2ecbeaf54f6005d0f87d5000df2"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_2_image_3.jpg",
+      "bytes": 84345,
+      "sha256": "840cc0ea42098f91d4b9b557f9e0b5a5d10f445e4c90ba6f7dc9f6871ae214e3"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_3_image_0.jpg",
+      "bytes": 108073,
+      "sha256": "725a91eeb492c3a26788b1fe4556e33de84e9d13fd0557ce9e317256342bbbdb"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_3_image_1.jpg",
+      "bytes": 390127,
+      "sha256": "ca6bec256774e9d35a41ac98b09066aff8cb426e0418d9d8b0b73243a1769309"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_3_image_2.jpg",
+      "bytes": 191226,
+      "sha256": "4cefd0f39fd88f9ab35fa7e6d9a62090270a156719444a7248f3e596b4de384a"
+    },
+    {
+      "path": "04_Media/Image_Sources/theme_3_image_3.jpg",
+      "bytes": 287318,
+      "sha256": "206f35f6e951aef1460c6569306cf576e024885d9b04aadfcaa6fc21af602bfe"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_0.wav",
+      "bytes": 9043086,
+      "sha256": "083dbcdd3388713ed7b4bc37e32ea3a533f7a421683006c978579fd5f5229c5c"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_0_image_0.bmp",
+      "bytes": 921654,
+      "sha256": "bc47f3db17a37b54fd18a8d84a5808101a93c63a74b62556be6bc821d6c09289"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_0_image_1.bmp",
+      "bytes": 921654,
+      "sha256": "d3795cfb386029e387099f2ab7e8749f8a4d787f2ffbfdbb5c10d0ac9ecce64f"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_0_image_2.bmp",
+      "bytes": 921654,
+      "sha256": "ae2e7ad243a4d5a34185731eaf47d6996967722684ec17df23baed30406f76e7"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_0_image_3.bmp",
+      "bytes": 921654,
+      "sha256": "63c99af38d747e5bacaf482912d93b6e2aae3e45098c4097993ef1a545102241"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_1.wav",
+      "bytes": 9043086,
+      "sha256": "baa373da28b7105fe914dcb460de8c673560100b741f34b6797ebbcd8149394d"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_1_image_0.bmp",
+      "bytes": 921654,
+      "sha256": "2b31e811a38c601a534b30c5b950746362b29923c80b70189d4a6543b67dde00"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_1_image_1.bmp",
+      "bytes": 921654,
+      "sha256": "15bd1f1e688bb63a977f020a391b2cc3f81d4d23444a003af3d47f26b9f59fa4"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_1_image_2.bmp",
+      "bytes": 921654,
+      "sha256": "72f4c9559cd1f42b87cf53305e2278cf4df8db9bce9461db6fbd11bdd76176e8"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_1_image_3.bmp",
+      "bytes": 921654,
+      "sha256": "37dede2947deb457452dc695a21645a2a2bcb91c92bdf53543654f1182ba03a3"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_2.wav",
+      "bytes": 9043086,
+      "sha256": "1f763bbd6c8cdbee314f7633c92ae164f8528b3b700bb682f0d1d0beb853f5f1"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_2_image_0.bmp",
+      "bytes": 921654,
+      "sha256": "be31ffd90eae5bfcbb92da50a3f8ec070995967fe81fdcd4e3a95c4982cbb1c4"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_2_image_1.bmp",
+      "bytes": 921654,
+      "sha256": "37aa9971585f4b48f3f1fc8dbafd0c2b92501bee1b7bacd617acd8d488c8df84"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_2_image_2.bmp",
+      "bytes": 921654,
+      "sha256": "8d5a89346d31ef6e2d170ad71cc75b678c3644d8a3556c1a49993503a85bd581"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_2_image_3.bmp",
+      "bytes": 921654,
+      "sha256": "fc84e64c146e28bf3671a7881ad9498b0ac2e11ca991a453bdb084a0cc1bb3b9"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_3.wav",
+      "bytes": 9043086,
+      "sha256": "db7a742b391705c0035cd47239d8b119a5c5639895cb5d8641df6e021c551f0d"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_3_image_0.bmp",
+      "bytes": 921654,
+      "sha256": "01732f87dfedb316791e849a1a0b7c5408577252fda24a9354310dfb81e191db"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_3_image_1.bmp",
+      "bytes": 921654,
+      "sha256": "3f89259c9dc4343cf942d21ee2061b5857fb8df49abad57c35f63401a2fede11"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_3_image_2.bmp",
+      "bytes": 921654,
+      "sha256": "9fa746f55eb91144220e0dd7d3a90f8f1ece66aab8169fc9a6c80a47d116c734"
+    },
+    {
+      "path": "04_Media/Pack_Input/assets/theme_3_image_3.bmp",
+      "bytes": 921654,
+      "sha256": "d8b111b36c68d316d156302546311252199154f5201203e71cb4c8f6e2e4ea86"
+    },
+    {
+      "path": "04_Media/Ready_To_Flash/showcase_font176.img",
+      "bytes": 51978240,
+      "sha256": "ffad4af1597d69f2003d155b96150c66982ae6298492d255a3be9dca66ece929"
+    }
+  ]
+}

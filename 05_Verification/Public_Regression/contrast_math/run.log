@@ -1,0 +1,3 @@
+VCD info: dumpfile contrast_math.vcd opened for output.
+PASS: contrast checks=3585, all 256 RGB values x four gains; saturation/rounding/100% identity, sidebar boundaries, sync, bubbles, rapid gain changes/reset
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\image\tb_contrast_math.sv:53: $finish called at 47870060 (1ps)

@@ -1,0 +1,3 @@
+VCD info: dumpfile browse_rate.vcd opened for output.
+PASS: production 40MHz exact 150ms=6000000 clocks; N-1 rejected, N accepted; first immediate, rejected input does not extend timer; checks=7
+D:\Anlogic\Intangible_Cultural_Heritage_FPGA_HDMI_Showcase\06_Simulation\browse\tb_browse_rate.sv:29: $finish called at 300000100000 (1ps)

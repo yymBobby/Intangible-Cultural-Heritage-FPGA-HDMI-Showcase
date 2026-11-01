@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "themes": 4,
+  "resources": 24,
+  "image": "D:\\Anlogic\\tmp\\ReleasePackage_QA_20261101\\Image_Rebuild\\showcase_font176.img",
+  "bytes": 51978240,
+  "sha256": "ffad4af1597d69f2003d155b96150c66982ae6298492d255a3be9dca66ece929",
+  "matches_github_reference": true
+}

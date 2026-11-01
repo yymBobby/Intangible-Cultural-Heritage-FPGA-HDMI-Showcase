@@ -1,0 +1,12 @@
+Print Place Property
+-----------------------------------------------------------
+    Parameters    |  Settings  |  Default Values  |  Note  
+-----------------------------------------------------------
+      effort      |    high    |      medium      |   *    
+  hfn_opt_effort  |   medium   |      medium      |        
+    max_fanout    |   999999   |      999999      |        
+    opt_timing    |   ultra    |      medium      |   *    
+  post_place_opt  |    high    |       auto       |   *    
+   pr_strategy    |     2      |        1         |   *    
+    relaxation    |    1.00    |       1.00       |        
+-----------------------------------------------------------
