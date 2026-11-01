@@ -38,7 +38,7 @@ def modelsim(name,out):
     lib=(out/'work').as_posix()
     q=lambda p:'{'+Path(p).as_posix()+'}'
     lines=['# '+scope,'onerror {quit -code 1}',f'cd {q(PROJ)}',f'if {{![file exists {q(lib)}]}} {{vlib {q(lib)}}}',f'vmap public_showcase_work {q(lib)}',
-       'vlog -sv -work public_showcase_work +define+SIMULATION '+ ' '.join('+incdir+'+q(p) for p in [H/'OSD',H/'visualizer',SIM/'cache'])+' '+' '.join(q(f) for f in files),
+       'vlog -sv -work public_showcase_work +define+SIMULATION '+ ' '.join('{+incdir+'+p.as_posix()+'}' for p in [H/'OSD',H/'visualizer',SIM/'cache'])+' '+' '.join(q(f) for f in files),
        f'vsim -voptargs=+acc -wlf {q(out/(name+".wlf"))} public_showcase_work.{top}',
        'add wave -r /*','run -all','# Inspect waveform in the GUI; use quit -sim when finished.']
     script=out/'run_modelsim.do';script.write_text('\n'.join(lines)+'\n',encoding='utf8')

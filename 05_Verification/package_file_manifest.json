@@ -1400,8 +1400,8 @@
     },
     {
       "path": "05_Verification/public_repository_validation.json",
-      "bytes": 910,
-      "sha256": "ff53aba7052c9effa80747b23817ae2b1b65d13486cf4e05411089065b55145b"
+      "bytes": 1077,
+      "sha256": "4e8fd0a51b52143f7011fad57af853ffd3f0bfa1f5975acb33b08ce05a4d0744"
     },
     {
       "path": "05_Verification/Public_Validation.md",
@@ -1500,8 +1500,8 @@
     },
     {
       "path": "06_Simulation/run_tests.py",
-      "bytes": 7207,
-      "sha256": "49a1daa6d3e02da5c14048a22ce1cd0583e46088d3a631d7cb5c8ca487fd18d4"
+      "bytes": 7220,
+      "sha256": "898050fd101e7ab558791bd0b23789486535107bbf015dabfe1c3a7e52390fb6"
     },
     {
       "path": "06_Simulation/sim_bram.v",
@@ -1510,8 +1510,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 891,
-      "sha256": "f06369b8a9edbab2dae8e852147090252ed4a439787abc84adfe317ead85eed5"
+      "bytes": 991,
+      "sha256": "9d99a074821c0d2e73f043fdaffcf118a30215bef3fab7a188e8245d39d35d61"
     },
     {
       "path": "README.md",

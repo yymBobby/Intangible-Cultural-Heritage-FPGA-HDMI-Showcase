@@ -4,6 +4,7 @@
 
 - 校验器按TD的Windows大小写规则解析工程路径，修复Linux CI对4处ip/IP引用的误报。
 - 更新GitHub Actions至已核实的Node 24工具版本。
+- 修正ModelSim脚本包含路径的Tcl引号，12份脚本通过原生Tcl语法与路径解析。
 - 正式工程、RTL、BIT、IMG和媒体内容保持v1.0.0原值。
 
 ## v1.0.0 — 2026-11-01
